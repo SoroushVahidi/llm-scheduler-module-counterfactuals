@@ -11,4 +11,17 @@ No third-party source code, publisher assets or raw traces are bundled. NumPy an
 
 Changes from source workloads: research simulations generated new outcomes after deterministic workload selection and synthetic priority/SLO/intervention assignment. This package then selects only aggregate outcomes or grouped diagnostics, removes source record ranges, request/session IDs, timestamps, token lengths, cache/hash sequences and private paths, and preserves statistical grouping. Frozen numbers and new outcome projections are clearly separated. No raw upstream data is licensed by `LICENSE-DATA`.
 
-The Mooncake-derived rows are project-generated outcomes/counts/ratios only; their inclusion is not a legal determination that the upstream trace can be redistributed. The author approved publication of these selected project-generated outcomes and stated that he is not aware of restrictions preventing their sharing. No Mooncake trace permission is presumed. Any future exclusion of a source must be documented and revalidated; silently dropping its strata would no longer reconstruct the reported seven-source estimands.
+The Mooncake-derived rows are project-generated outcomes/counts/ratios only; their inclusion is not a legal determination that the upstream trace can be redistributed. For v0.1.0, the author approved publication of its selected project-generated outcomes and stated that he is not aware of restrictions preventing their sharing. No Mooncake trace permission is presumed. Any future exclusion of a source must be documented and revalidated; silently dropping its strata would no longer reconstruct the reported seven-source estimands.
+
+## Stage4C redistribution review (2026-10-30)
+
+Current upstream BurstGPT and Azure license files state CC BY4.0. That does not
+recover the historical filtered BurstGPT bytes or establish a complete source
+version attestation. Mooncake supplies repository Apache2.0 terms but the trace
+release README inspected here does not resolve an explicit data-specific grant.
+No upstream raw rows, reconstructive state/length/timing/cache records, private
+paths or trace payloads are added. The new CSVs contain only project-generated
+counts or latency summaries; the seven pilot fixtures are original synthetic
+inputs. Rights to project code/data follow LICENSE and LICENSE-DATA, with source
+attribution preserved. This is a scoped redistribution assessment, not an
+assertion of permission to release upstream traces. The author authorized publication of the audited eligible v0.2.0 subset. This authorization does not grant rights in third-party trace payloads.

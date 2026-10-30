@@ -2,7 +2,7 @@
 
 | Level | Meaning | This package |
 |---|---|---|
-| 1 | Numerical reconstruction from included project outcome/count/ratio projections | Supported for controlled comparisons, four-arm interactions, local erasure, corrected replay conditional ranges, metric labels, exploratory KV and selected figure anchors. The 13 portable tests plus full reconstruction/artist checks define the supported suite. |
+| 1 | Numerical reconstruction from included project outcome/count/ratio projections | Supported for controlled comparisons, four-arm interactions, local erasure, corrected replay conditional ranges, metric labels, exploratory KV and selected figures calculated from observations (frozen anchors alone do not receive coverage credit). The 28 portable tests plus full reconstruction/artist checks define the supported suite. Additional held-out, prospective and Stage4C arithmetic is described in claim_coverage.md. |
 | 2 | Reproduction requiring public upstream datasets | Not promised. Upstream acquisition links are attribution, not a complete simulation pipeline. Private simulator dependencies, exact filtered files and licensing/provenance gaps remain. |
 | 3 | Historical outputs with incompletely reconstructable execution environments | Frozen diagnostic generation, prospective/held-out extensions, benchmark predictive tests, some opportunity anchors and implementation-state lineage. Their supported summaries/limitations are retained, but no claim of independent raw execution reproduction. |
 | 4 | External real-system validation | Not established. No valid real-vLLM confirmatory treatment-effect estimate. |

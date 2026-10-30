@@ -1,0 +1,6381 @@
+{
+  "cost": {
+    "local_branch_evaluations": 112,
+    "trajectory_executions": 28,
+    "wall_seconds_excluding_imports": 0.021861902438104153
+  },
+  "provenance": {
+    "execution_commit": "c3d6bf06b5774dbb2e5ca6c9e0b844de857b0dd7",
+    "freeze_commit": "0bc8e6124d302c6f42a54d1dd08bccb0039cfd8d",
+    "input_hashes": {
+      "artifacts/computing_stage3e/fixtures.json": "2ff16b474d20cbd0faeef4fab0ff6ef34e989c7b030d6ce356e5b714649b7cf6",
+      "artifacts/computing_stage3e/snapshot_manifest.json": "61283d3c835b8d152b740b64449b51ad391332ae0086cd9401a4e4c00d39a080",
+      "scripts/stage3e/analyses.py": "62f7df34de4e72e5e2516222094a1fbfa7ec70e38bf98d08d7a8cedd2524de4e",
+      "scripts/stage3e/prepare_snapshot.py": "c61d4f1a13da41848c7f1265aada4086f4701b2301906d0d4aa1056762ea1c3c",
+      "scripts/stage3e/run_pilot.py": "3fa8b53ebe0d1478eabfa8c2a6077c37330f52345b908e2ca272893cc2b6d66b",
+      "scripts/stage3e/test_contracts.py": "277ccde6b10c5792a044978fd9648cd9f4d0abef0f5eb54866fd23f744b945cb",
+      "scripts/stage3e/verify_pilot.py": "45dcc44dd039316ea096d07ea8d8f67f70843dfe7d7620a7ea702ed197b84eed",
+      "src/module_intervention_benchmark/gate1/intervention_policy.py": "de34859dc8eacd34e72c8a38a209e0657a7a81f11248fa63f6073e5b06b5ad26"
+    },
+    "python_hash_seed": "1",
+    "seed": 0,
+    "simulator_commit": "94f4621bb6610c2b426e365f659636b1a48a89f5"
+  },
+  "records": [
+    {
+      "A": {
+        "aggregate_changed": false,
+        "base_metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 2.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 2.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 0.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 1.0,
+          "median_latency": 2.0,
+          "num_completed": 1,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 1,
+          "p95_latency": 2.0,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 0.0,
+          "p95_tpot": 1.0,
+          "p95_ttft": 1.0,
+          "p99_latency": 2.0,
+          "p99_ttft": 1.0,
+          "policy_name": "stage3e",
+          "request_throughput": 1.0,
+          "seed": 0,
+          "sim_duration": 1.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 2.0,
+          "total_gpu_busy_steps": 1,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k01"
+        },
+        "delta_anwg": 0.0,
+        "donor_metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 2.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 2.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 0.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 1.0,
+          "median_latency": 2.0,
+          "num_completed": 1,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 1,
+          "p95_latency": 2.0,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 0.0,
+          "p95_tpot": 1.0,
+          "p95_ttft": 1.0,
+          "p99_latency": 2.0,
+          "p99_ttft": 1.0,
+          "policy_name": "stage3e",
+          "request_throughput": 1.0,
+          "seed": 0,
+          "sim_duration": 1.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 2.0,
+          "total_gpu_busy_steps": 1,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k01"
+        },
+        "mechanism": "not identifiable from primary aggregate contrast alone"
+      },
+      "B": {
+        "changed_requests": [],
+        "decisions": 2,
+        "delta_anwg": 0.0,
+        "disagreement": 0,
+        "erased": 0,
+        "erasure_fraction": null,
+        "local_action_differences": 0,
+        "opportunity": 0,
+        "request_denominator": 1,
+        "unmatched_requests": []
+      },
+      "C": {
+        "changed_requests": [],
+        "decisions": 2,
+        "delta_anwg": 0.0,
+        "disagreement": 0,
+        "erased": 0,
+        "erasure_fraction": null,
+        "local_action_differences": 0,
+        "opportunity": 0,
+        "request_denominator": 1,
+        "unmatched_requests": []
+      },
+      "base": {
+        "applied": [
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              10
+            ],
+            "time": 0.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 1.0
+          }
+        ],
+        "completed": [
+          {
+            "admission": 0.0,
+            "completion": 2.0,
+            "id": 10,
+            "met": true
+          }
+        ],
+        "events": [
+          {
+            "base_action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              10
+            ],
+            "donor_action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              10
+            ],
+            "snapshot": {
+              "completed_count": 0,
+              "gpu_states": [
+                {
+                  "active_request_ids": [],
+                  "active_requests_info": [],
+                  "current_kv_tokens": 0,
+                  "decoding_count": 0,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {}
+                }
+              ],
+              "migrating_queue": [],
+              "step": 0,
+              "time": 0.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 10,
+                  "slo_deadline": 20
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [],
+            "donor_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [],
+            "snapshot": {
+              "completed_count": 0,
+              "gpu_states": [
+                {
+                  "active_request_ids": [
+                    10
+                  ],
+                  "active_requests_info": [
+                    {
+                      "arrival_time": 0,
+                      "class_id": "synthetic_contract",
+                      "predicted_output_tokens": 2,
+                      "priority": 1.0,
+                      "prompt_tokens": 1,
+                      "request_id": 10,
+                      "slo_deadline": 20
+                    }
+                  ],
+                  "current_kv_tokens": 2,
+                  "decoding_count": 1,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {
+                    "10": 1
+                  }
+                }
+              ],
+              "migrating_queue": [],
+              "step": 1,
+              "time": 1.0,
+              "waiting_queue": []
+            }
+          }
+        ],
+        "metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 2.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 2.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 0.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 1.0,
+          "median_latency": 2.0,
+          "num_completed": 1,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 1,
+          "p95_latency": 2.0,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 0.0,
+          "p95_tpot": 1.0,
+          "p95_ttft": 1.0,
+          "p99_latency": 2.0,
+          "p99_ttft": 1.0,
+          "policy_name": "stage3e",
+          "request_throughput": 1.0,
+          "seed": 0,
+          "sim_duration": 1.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 2.0,
+          "total_gpu_busy_steps": 1,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k01"
+        }
+      },
+      "case_id": "k01",
+      "donor": {
+        "applied": [
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              10
+            ],
+            "time": 0.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 1.0
+          }
+        ],
+        "completed": [
+          {
+            "admission": 0.0,
+            "completion": 2.0,
+            "id": 10,
+            "met": true
+          }
+        ],
+        "events": [],
+        "metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 2.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 2.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 0.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 1.0,
+          "median_latency": 2.0,
+          "num_completed": 1,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 1,
+          "p95_latency": 2.0,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 0.0,
+          "p95_tpot": 1.0,
+          "p95_ttft": 1.0,
+          "p99_latency": 2.0,
+          "p99_ttft": 1.0,
+          "policy_name": "stage3e",
+          "request_throughput": 1.0,
+          "seed": 0,
+          "sim_duration": 1.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 2.0,
+          "total_gpu_busy_steps": 1,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k01"
+        }
+      },
+      "donor_neutrality_events": [
+        {
+          "base_action": {
+            "admit": {
+              "0": [
+                10
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            10
+          ],
+          "donor_action": {
+            "admit": {
+              "0": [
+                10
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            10
+          ],
+          "snapshot": {
+            "completed_count": 0,
+            "gpu_states": [
+              {
+                "active_request_ids": [],
+                "active_requests_info": [],
+                "current_kv_tokens": 0,
+                "decoding_count": 0,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {}
+              }
+            ],
+            "migrating_queue": [],
+            "step": 0,
+            "time": 0.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 10,
+                "slo_deadline": 20
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [],
+          "donor_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [],
+          "snapshot": {
+            "completed_count": 0,
+            "gpu_states": [
+              {
+                "active_request_ids": [
+                  10
+                ],
+                "active_requests_info": [
+                  {
+                    "arrival_time": 0,
+                    "class_id": "synthetic_contract",
+                    "predicted_output_tokens": 2,
+                    "priority": 1.0,
+                    "prompt_tokens": 1,
+                    "request_id": 10,
+                    "slo_deadline": 20
+                  }
+                ],
+                "current_kv_tokens": 2,
+                "decoding_count": 1,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {
+                  "10": 1
+                }
+              }
+            ],
+            "migrating_queue": [],
+            "step": 1,
+            "time": 1.0,
+            "waiting_queue": []
+          }
+        }
+      ],
+      "observer_neutrality": true,
+      "request_count": 1
+    },
+    {
+      "A": {
+        "aggregate_changed": false,
+        "base_metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 4.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 3.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 1.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 2.0,
+          "median_latency": 3.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 3.9,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 1.9,
+          "p95_tpot": 1.0,
+          "p95_ttft": 2.9,
+          "p99_latency": 3.98,
+          "p99_ttft": 2.98,
+          "policy_name": "stage3e",
+          "request_throughput": 0.6666666666666666,
+          "seed": 0,
+          "sim_duration": 3.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 1.3333333333333333,
+          "total_gpu_busy_steps": 2,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k02"
+        },
+        "delta_anwg": 0.0,
+        "donor_metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 4.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 3.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 1.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 2.0,
+          "median_latency": 3.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 3.9,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 1.9,
+          "p95_tpot": 1.0,
+          "p95_ttft": 2.9,
+          "p99_latency": 3.98,
+          "p99_ttft": 2.98,
+          "policy_name": "stage3e",
+          "request_throughput": 0.6666666666666666,
+          "seed": 0,
+          "sim_duration": 3.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 1.3333333333333333,
+          "total_gpu_busy_steps": 2,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k02"
+        },
+        "mechanism": "not identifiable from primary aggregate contrast alone"
+      },
+      "B": {
+        "changed_requests": [],
+        "decisions": 4,
+        "delta_anwg": 0.0,
+        "disagreement": 0,
+        "erased": 0,
+        "erasure_fraction": null,
+        "local_action_differences": 0,
+        "opportunity": 1,
+        "request_denominator": 2,
+        "unmatched_requests": []
+      },
+      "C": {
+        "changed_requests": [],
+        "decisions": 4,
+        "delta_anwg": 0.0,
+        "disagreement": 0,
+        "erased": 0,
+        "erasure_fraction": null,
+        "local_action_differences": 0,
+        "opportunity": 1,
+        "request_denominator": 2,
+        "unmatched_requests": []
+      },
+      "base": {
+        "applied": [
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              10
+            ],
+            "time": 0.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 1.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              20
+            ],
+            "time": 2.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 3.0
+          }
+        ],
+        "completed": [
+          {
+            "admission": 0.0,
+            "completion": 2.0,
+            "id": 10,
+            "met": true
+          },
+          {
+            "admission": 2.0,
+            "completion": 4.0,
+            "id": 20,
+            "met": true
+          }
+        ],
+        "events": [
+          {
+            "base_action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              10,
+              20
+            ],
+            "donor_action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              10,
+              20
+            ],
+            "snapshot": {
+              "completed_count": 0,
+              "gpu_states": [
+                {
+                  "active_request_ids": [],
+                  "active_requests_info": [],
+                  "current_kv_tokens": 0,
+                  "decoding_count": 0,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {}
+                }
+              ],
+              "migrating_queue": [],
+              "step": 0,
+              "time": 0.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 10,
+                  "slo_deadline": 10
+                },
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 20
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              20
+            ],
+            "donor_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              20
+            ],
+            "snapshot": {
+              "completed_count": 0,
+              "gpu_states": [
+                {
+                  "active_request_ids": [
+                    10
+                  ],
+                  "active_requests_info": [
+                    {
+                      "arrival_time": 0,
+                      "class_id": "synthetic_contract",
+                      "predicted_output_tokens": 2,
+                      "priority": 1.0,
+                      "prompt_tokens": 1,
+                      "request_id": 10,
+                      "slo_deadline": 10
+                    }
+                  ],
+                  "current_kv_tokens": 2,
+                  "decoding_count": 1,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {
+                    "10": 1
+                  }
+                }
+              ],
+              "migrating_queue": [],
+              "step": 1,
+              "time": 1.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 20
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              20
+            ],
+            "donor_action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              20
+            ],
+            "snapshot": {
+              "completed_count": 1,
+              "gpu_states": [
+                {
+                  "active_request_ids": [],
+                  "active_requests_info": [],
+                  "current_kv_tokens": 0,
+                  "decoding_count": 0,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {}
+                }
+              ],
+              "migrating_queue": [],
+              "step": 2,
+              "time": 2.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 20
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [],
+            "donor_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [],
+            "snapshot": {
+              "completed_count": 1,
+              "gpu_states": [
+                {
+                  "active_request_ids": [
+                    20
+                  ],
+                  "active_requests_info": [
+                    {
+                      "arrival_time": 0,
+                      "class_id": "synthetic_contract",
+                      "predicted_output_tokens": 2,
+                      "priority": 1.0,
+                      "prompt_tokens": 1,
+                      "request_id": 20,
+                      "slo_deadline": 20
+                    }
+                  ],
+                  "current_kv_tokens": 2,
+                  "decoding_count": 1,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {
+                    "20": 1
+                  }
+                }
+              ],
+              "migrating_queue": [],
+              "step": 3,
+              "time": 3.0,
+              "waiting_queue": []
+            }
+          }
+        ],
+        "metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 4.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 3.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 1.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 2.0,
+          "median_latency": 3.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 3.9,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 1.9,
+          "p95_tpot": 1.0,
+          "p95_ttft": 2.9,
+          "p99_latency": 3.98,
+          "p99_ttft": 2.98,
+          "policy_name": "stage3e",
+          "request_throughput": 0.6666666666666666,
+          "seed": 0,
+          "sim_duration": 3.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 1.3333333333333333,
+          "total_gpu_busy_steps": 2,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k02"
+        }
+      },
+      "case_id": "k02",
+      "donor": {
+        "applied": [
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              10
+            ],
+            "time": 0.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 1.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              20
+            ],
+            "time": 2.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 3.0
+          }
+        ],
+        "completed": [
+          {
+            "admission": 0.0,
+            "completion": 2.0,
+            "id": 10,
+            "met": true
+          },
+          {
+            "admission": 2.0,
+            "completion": 4.0,
+            "id": 20,
+            "met": true
+          }
+        ],
+        "events": [],
+        "metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 4.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 3.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 1.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 2.0,
+          "median_latency": 3.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 3.9,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 1.9,
+          "p95_tpot": 1.0,
+          "p95_ttft": 2.9,
+          "p99_latency": 3.98,
+          "p99_ttft": 2.98,
+          "policy_name": "stage3e",
+          "request_throughput": 0.6666666666666666,
+          "seed": 0,
+          "sim_duration": 3.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 1.3333333333333333,
+          "total_gpu_busy_steps": 2,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k02"
+        }
+      },
+      "donor_neutrality_events": [
+        {
+          "base_action": {
+            "admit": {
+              "0": [
+                10
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            10,
+            20
+          ],
+          "donor_action": {
+            "admit": {
+              "0": [
+                10
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            10,
+            20
+          ],
+          "snapshot": {
+            "completed_count": 0,
+            "gpu_states": [
+              {
+                "active_request_ids": [],
+                "active_requests_info": [],
+                "current_kv_tokens": 0,
+                "decoding_count": 0,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {}
+              }
+            ],
+            "migrating_queue": [],
+            "step": 0,
+            "time": 0.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 10,
+                "slo_deadline": 10
+              },
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 20,
+                "slo_deadline": 20
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            20
+          ],
+          "donor_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            20
+          ],
+          "snapshot": {
+            "completed_count": 0,
+            "gpu_states": [
+              {
+                "active_request_ids": [
+                  10
+                ],
+                "active_requests_info": [
+                  {
+                    "arrival_time": 0,
+                    "class_id": "synthetic_contract",
+                    "predicted_output_tokens": 2,
+                    "priority": 1.0,
+                    "prompt_tokens": 1,
+                    "request_id": 10,
+                    "slo_deadline": 10
+                  }
+                ],
+                "current_kv_tokens": 2,
+                "decoding_count": 1,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {
+                  "10": 1
+                }
+              }
+            ],
+            "migrating_queue": [],
+            "step": 1,
+            "time": 1.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 20,
+                "slo_deadline": 20
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": [
+                20
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            20
+          ],
+          "donor_action": {
+            "admit": {
+              "0": [
+                20
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            20
+          ],
+          "snapshot": {
+            "completed_count": 1,
+            "gpu_states": [
+              {
+                "active_request_ids": [],
+                "active_requests_info": [],
+                "current_kv_tokens": 0,
+                "decoding_count": 0,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {}
+              }
+            ],
+            "migrating_queue": [],
+            "step": 2,
+            "time": 2.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 20,
+                "slo_deadline": 20
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [],
+          "donor_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [],
+          "snapshot": {
+            "completed_count": 1,
+            "gpu_states": [
+              {
+                "active_request_ids": [
+                  20
+                ],
+                "active_requests_info": [
+                  {
+                    "arrival_time": 0,
+                    "class_id": "synthetic_contract",
+                    "predicted_output_tokens": 2,
+                    "priority": 1.0,
+                    "prompt_tokens": 1,
+                    "request_id": 20,
+                    "slo_deadline": 20
+                  }
+                ],
+                "current_kv_tokens": 2,
+                "decoding_count": 1,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {
+                  "20": 1
+                }
+              }
+            ],
+            "migrating_queue": [],
+            "step": 3,
+            "time": 3.0,
+            "waiting_queue": []
+          }
+        }
+      ],
+      "observer_neutrality": true,
+      "request_count": 2
+    },
+    {
+      "A": {
+        "aggregate_changed": false,
+        "base_metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 2.0,
+          "mean_active_batch_size": 1.0,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 2.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 0.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 1.0,
+          "median_latency": 2.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 2.0,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 0.0,
+          "p95_tpot": 1.0,
+          "p95_ttft": 1.0,
+          "p99_latency": 2.0,
+          "p99_ttft": 1.0,
+          "policy_name": "stage3e",
+          "request_throughput": 2.0,
+          "seed": 0,
+          "sim_duration": 1.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 4.0,
+          "total_gpu_busy_steps": 1,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k03"
+        },
+        "delta_anwg": 0.0,
+        "donor_metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 2.0,
+          "mean_active_batch_size": 1.0,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 2.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 0.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 1.0,
+          "median_latency": 2.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 2.0,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 0.0,
+          "p95_tpot": 1.0,
+          "p95_ttft": 1.0,
+          "p99_latency": 2.0,
+          "p99_ttft": 1.0,
+          "policy_name": "stage3e",
+          "request_throughput": 2.0,
+          "seed": 0,
+          "sim_duration": 1.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 4.0,
+          "total_gpu_busy_steps": 1,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k03"
+        },
+        "mechanism": "not identifiable from primary aggregate contrast alone"
+      },
+      "B": {
+        "changed_requests": [],
+        "decisions": 2,
+        "delta_anwg": 0.0,
+        "disagreement": 1,
+        "erased": 1,
+        "erasure_fraction": 1.0,
+        "local_action_differences": 0,
+        "opportunity": 1,
+        "request_denominator": 2,
+        "unmatched_requests": []
+      },
+      "C": {
+        "changed_requests": [],
+        "decisions": 2,
+        "delta_anwg": 0.0,
+        "disagreement": 1,
+        "erased": 1,
+        "erasure_fraction": 1.0,
+        "local_action_differences": 0,
+        "opportunity": 1,
+        "request_denominator": 2,
+        "unmatched_requests": []
+      },
+      "base": {
+        "applied": [
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  10,
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              10,
+              20
+            ],
+            "time": 0.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 1.0
+          }
+        ],
+        "completed": [
+          {
+            "admission": 0.0,
+            "completion": 2.0,
+            "id": 10,
+            "met": true
+          },
+          {
+            "admission": 0.0,
+            "completion": 2.0,
+            "id": 20,
+            "met": true
+          }
+        ],
+        "events": [
+          {
+            "base_action": {
+              "admit": {
+                "0": [
+                  10,
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              10,
+              20
+            ],
+            "donor_action": {
+              "admit": {
+                "0": [
+                  20,
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              20,
+              10
+            ],
+            "snapshot": {
+              "completed_count": 0,
+              "gpu_states": [
+                {
+                  "active_request_ids": [],
+                  "active_requests_info": [],
+                  "current_kv_tokens": 0,
+                  "decoding_count": 0,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 2,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {}
+                }
+              ],
+              "migrating_queue": [],
+              "step": 0,
+              "time": 0.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 10,
+                  "slo_deadline": 20
+                },
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 10
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [],
+            "donor_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [],
+            "snapshot": {
+              "completed_count": 0,
+              "gpu_states": [
+                {
+                  "active_request_ids": [
+                    10,
+                    20
+                  ],
+                  "active_requests_info": [
+                    {
+                      "arrival_time": 0,
+                      "class_id": "synthetic_contract",
+                      "predicted_output_tokens": 2,
+                      "priority": 1.0,
+                      "prompt_tokens": 1,
+                      "request_id": 10,
+                      "slo_deadline": 20
+                    },
+                    {
+                      "arrival_time": 0,
+                      "class_id": "synthetic_contract",
+                      "predicted_output_tokens": 2,
+                      "priority": 1.0,
+                      "prompt_tokens": 1,
+                      "request_id": 20,
+                      "slo_deadline": 10
+                    }
+                  ],
+                  "current_kv_tokens": 4,
+                  "decoding_count": 2,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 2,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {
+                    "10": 1,
+                    "20": 1
+                  }
+                }
+              ],
+              "migrating_queue": [],
+              "step": 1,
+              "time": 1.0,
+              "waiting_queue": []
+            }
+          }
+        ],
+        "metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 2.0,
+          "mean_active_batch_size": 1.0,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 2.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 0.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 1.0,
+          "median_latency": 2.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 2.0,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 0.0,
+          "p95_tpot": 1.0,
+          "p95_ttft": 1.0,
+          "p99_latency": 2.0,
+          "p99_ttft": 1.0,
+          "policy_name": "stage3e",
+          "request_throughput": 2.0,
+          "seed": 0,
+          "sim_duration": 1.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 4.0,
+          "total_gpu_busy_steps": 1,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k03"
+        }
+      },
+      "case_id": "k03",
+      "donor": {
+        "applied": [
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  20,
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              10,
+              20
+            ],
+            "time": 0.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 1.0
+          }
+        ],
+        "completed": [
+          {
+            "admission": 0.0,
+            "completion": 2.0,
+            "id": 10,
+            "met": true
+          },
+          {
+            "admission": 0.0,
+            "completion": 2.0,
+            "id": 20,
+            "met": true
+          }
+        ],
+        "events": [],
+        "metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 2.0,
+          "mean_active_batch_size": 1.0,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 2.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 0.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 1.0,
+          "median_latency": 2.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 2.0,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 0.0,
+          "p95_tpot": 1.0,
+          "p95_ttft": 1.0,
+          "p99_latency": 2.0,
+          "p99_ttft": 1.0,
+          "policy_name": "stage3e",
+          "request_throughput": 2.0,
+          "seed": 0,
+          "sim_duration": 1.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 4.0,
+          "total_gpu_busy_steps": 1,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k03"
+        }
+      },
+      "donor_neutrality_events": [
+        {
+          "base_action": {
+            "admit": {
+              "0": [
+                20,
+                10
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            20,
+            10
+          ],
+          "donor_action": {
+            "admit": {
+              "0": [
+                20,
+                10
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            20,
+            10
+          ],
+          "snapshot": {
+            "completed_count": 0,
+            "gpu_states": [
+              {
+                "active_request_ids": [],
+                "active_requests_info": [],
+                "current_kv_tokens": 0,
+                "decoding_count": 0,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 2,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {}
+              }
+            ],
+            "migrating_queue": [],
+            "step": 0,
+            "time": 0.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 10,
+                "slo_deadline": 20
+              },
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 20,
+                "slo_deadline": 10
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [],
+          "donor_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [],
+          "snapshot": {
+            "completed_count": 0,
+            "gpu_states": [
+              {
+                "active_request_ids": [
+                  20,
+                  10
+                ],
+                "active_requests_info": [
+                  {
+                    "arrival_time": 0,
+                    "class_id": "synthetic_contract",
+                    "predicted_output_tokens": 2,
+                    "priority": 1.0,
+                    "prompt_tokens": 1,
+                    "request_id": 20,
+                    "slo_deadline": 10
+                  },
+                  {
+                    "arrival_time": 0,
+                    "class_id": "synthetic_contract",
+                    "predicted_output_tokens": 2,
+                    "priority": 1.0,
+                    "prompt_tokens": 1,
+                    "request_id": 10,
+                    "slo_deadline": 20
+                  }
+                ],
+                "current_kv_tokens": 4,
+                "decoding_count": 2,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 2,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {
+                  "10": 1,
+                  "20": 1
+                }
+              }
+            ],
+            "migrating_queue": [],
+            "step": 1,
+            "time": 1.0,
+            "waiting_queue": []
+          }
+        }
+      ],
+      "observer_neutrality": true,
+      "request_count": 2
+    },
+    {
+      "A": {
+        "aggregate_changed": false,
+        "base_metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 4.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 3.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 1.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 2.0,
+          "median_latency": 3.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 3.9,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 1.9,
+          "p95_tpot": 1.0,
+          "p95_ttft": 2.9,
+          "p99_latency": 3.98,
+          "p99_ttft": 2.98,
+          "policy_name": "stage3e",
+          "request_throughput": 0.6666666666666666,
+          "seed": 0,
+          "sim_duration": 3.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 1.3333333333333333,
+          "total_gpu_busy_steps": 2,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k04"
+        },
+        "delta_anwg": 0.0,
+        "donor_metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 4.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 3.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 1.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 2.0,
+          "median_latency": 3.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 3.9,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 1.9,
+          "p95_tpot": 1.0,
+          "p95_ttft": 2.9,
+          "p99_latency": 3.98,
+          "p99_ttft": 2.98,
+          "policy_name": "stage3e",
+          "request_throughput": 0.6666666666666666,
+          "seed": 0,
+          "sim_duration": 3.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 1.3333333333333333,
+          "total_gpu_busy_steps": 2,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k04"
+        },
+        "mechanism": "not identifiable from primary aggregate contrast alone"
+      },
+      "B": {
+        "changed_requests": [
+          10,
+          20
+        ],
+        "decisions": 4,
+        "delta_anwg": 0.0,
+        "disagreement": 1,
+        "erased": 0,
+        "erasure_fraction": 0.0,
+        "local_action_differences": 1,
+        "opportunity": 1,
+        "request_denominator": 2,
+        "unmatched_requests": []
+      },
+      "C": {
+        "changed_requests": [
+          10,
+          20
+        ],
+        "decisions": 4,
+        "delta_anwg": 0.0,
+        "disagreement": 1,
+        "erased": 0,
+        "erasure_fraction": 0.0,
+        "local_action_differences": 1,
+        "opportunity": 1,
+        "request_denominator": 2,
+        "unmatched_requests": []
+      },
+      "base": {
+        "applied": [
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              10
+            ],
+            "time": 0.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 1.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              20
+            ],
+            "time": 2.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 3.0
+          }
+        ],
+        "completed": [
+          {
+            "admission": 0.0,
+            "completion": 2.0,
+            "id": 10,
+            "met": true
+          },
+          {
+            "admission": 2.0,
+            "completion": 4.0,
+            "id": 20,
+            "met": true
+          }
+        ],
+        "events": [
+          {
+            "base_action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              10,
+              20
+            ],
+            "donor_action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              20,
+              10
+            ],
+            "snapshot": {
+              "completed_count": 0,
+              "gpu_states": [
+                {
+                  "active_request_ids": [],
+                  "active_requests_info": [],
+                  "current_kv_tokens": 0,
+                  "decoding_count": 0,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {}
+                }
+              ],
+              "migrating_queue": [],
+              "step": 0,
+              "time": 0.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 10,
+                  "slo_deadline": 20
+                },
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 10
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              20
+            ],
+            "donor_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              20
+            ],
+            "snapshot": {
+              "completed_count": 0,
+              "gpu_states": [
+                {
+                  "active_request_ids": [
+                    10
+                  ],
+                  "active_requests_info": [
+                    {
+                      "arrival_time": 0,
+                      "class_id": "synthetic_contract",
+                      "predicted_output_tokens": 2,
+                      "priority": 1.0,
+                      "prompt_tokens": 1,
+                      "request_id": 10,
+                      "slo_deadline": 20
+                    }
+                  ],
+                  "current_kv_tokens": 2,
+                  "decoding_count": 1,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {
+                    "10": 1
+                  }
+                }
+              ],
+              "migrating_queue": [],
+              "step": 1,
+              "time": 1.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 10
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              20
+            ],
+            "donor_action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              20
+            ],
+            "snapshot": {
+              "completed_count": 1,
+              "gpu_states": [
+                {
+                  "active_request_ids": [],
+                  "active_requests_info": [],
+                  "current_kv_tokens": 0,
+                  "decoding_count": 0,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {}
+                }
+              ],
+              "migrating_queue": [],
+              "step": 2,
+              "time": 2.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 10
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [],
+            "donor_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [],
+            "snapshot": {
+              "completed_count": 1,
+              "gpu_states": [
+                {
+                  "active_request_ids": [
+                    20
+                  ],
+                  "active_requests_info": [
+                    {
+                      "arrival_time": 0,
+                      "class_id": "synthetic_contract",
+                      "predicted_output_tokens": 2,
+                      "priority": 1.0,
+                      "prompt_tokens": 1,
+                      "request_id": 20,
+                      "slo_deadline": 10
+                    }
+                  ],
+                  "current_kv_tokens": 2,
+                  "decoding_count": 1,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {
+                    "20": 1
+                  }
+                }
+              ],
+              "migrating_queue": [],
+              "step": 3,
+              "time": 3.0,
+              "waiting_queue": []
+            }
+          }
+        ],
+        "metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 4.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 3.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 1.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 2.0,
+          "median_latency": 3.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 3.9,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 1.9,
+          "p95_tpot": 1.0,
+          "p95_ttft": 2.9,
+          "p99_latency": 3.98,
+          "p99_ttft": 2.98,
+          "policy_name": "stage3e",
+          "request_throughput": 0.6666666666666666,
+          "seed": 0,
+          "sim_duration": 3.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 1.3333333333333333,
+          "total_gpu_busy_steps": 2,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k04"
+        }
+      },
+      "case_id": "k04",
+      "donor": {
+        "applied": [
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              20
+            ],
+            "time": 0.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 1.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              10
+            ],
+            "time": 2.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 3.0
+          }
+        ],
+        "completed": [
+          {
+            "admission": 2.0,
+            "completion": 4.0,
+            "id": 10,
+            "met": true
+          },
+          {
+            "admission": 0.0,
+            "completion": 2.0,
+            "id": 20,
+            "met": true
+          }
+        ],
+        "events": [],
+        "metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 4.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 3.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 1.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 2.0,
+          "median_latency": 3.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 3.9,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 1.9,
+          "p95_tpot": 1.0,
+          "p95_ttft": 2.9,
+          "p99_latency": 3.98,
+          "p99_ttft": 2.98,
+          "policy_name": "stage3e",
+          "request_throughput": 0.6666666666666666,
+          "seed": 0,
+          "sim_duration": 3.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 1.3333333333333333,
+          "total_gpu_busy_steps": 2,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k04"
+        }
+      },
+      "donor_neutrality_events": [
+        {
+          "base_action": {
+            "admit": {
+              "0": [
+                20
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            20,
+            10
+          ],
+          "donor_action": {
+            "admit": {
+              "0": [
+                20
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            20,
+            10
+          ],
+          "snapshot": {
+            "completed_count": 0,
+            "gpu_states": [
+              {
+                "active_request_ids": [],
+                "active_requests_info": [],
+                "current_kv_tokens": 0,
+                "decoding_count": 0,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {}
+              }
+            ],
+            "migrating_queue": [],
+            "step": 0,
+            "time": 0.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 10,
+                "slo_deadline": 20
+              },
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 20,
+                "slo_deadline": 10
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            10
+          ],
+          "donor_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            10
+          ],
+          "snapshot": {
+            "completed_count": 0,
+            "gpu_states": [
+              {
+                "active_request_ids": [
+                  20
+                ],
+                "active_requests_info": [
+                  {
+                    "arrival_time": 0,
+                    "class_id": "synthetic_contract",
+                    "predicted_output_tokens": 2,
+                    "priority": 1.0,
+                    "prompt_tokens": 1,
+                    "request_id": 20,
+                    "slo_deadline": 10
+                  }
+                ],
+                "current_kv_tokens": 2,
+                "decoding_count": 1,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {
+                  "20": 1
+                }
+              }
+            ],
+            "migrating_queue": [],
+            "step": 1,
+            "time": 1.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 10,
+                "slo_deadline": 20
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": [
+                10
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            10
+          ],
+          "donor_action": {
+            "admit": {
+              "0": [
+                10
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            10
+          ],
+          "snapshot": {
+            "completed_count": 1,
+            "gpu_states": [
+              {
+                "active_request_ids": [],
+                "active_requests_info": [],
+                "current_kv_tokens": 0,
+                "decoding_count": 0,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {}
+              }
+            ],
+            "migrating_queue": [],
+            "step": 2,
+            "time": 2.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 10,
+                "slo_deadline": 20
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [],
+          "donor_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [],
+          "snapshot": {
+            "completed_count": 1,
+            "gpu_states": [
+              {
+                "active_request_ids": [
+                  10
+                ],
+                "active_requests_info": [
+                  {
+                    "arrival_time": 0,
+                    "class_id": "synthetic_contract",
+                    "predicted_output_tokens": 2,
+                    "priority": 1.0,
+                    "prompt_tokens": 1,
+                    "request_id": 10,
+                    "slo_deadline": 20
+                  }
+                ],
+                "current_kv_tokens": 2,
+                "decoding_count": 1,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {
+                  "10": 1
+                }
+              }
+            ],
+            "migrating_queue": [],
+            "step": 3,
+            "time": 3.0,
+            "waiting_queue": []
+          }
+        }
+      ],
+      "observer_neutrality": true,
+      "request_count": 2
+    },
+    {
+      "A": {
+        "aggregate_changed": true,
+        "base_metrics": {
+          "arrival_normalized_weighted_goodput": 0.5,
+          "completion_fraction": 1.0,
+          "max_latency": 4.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 3.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 1.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 2.0,
+          "median_latency": 3.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 1,
+          "num_total": 2,
+          "p95_latency": 3.9,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 1.9,
+          "p95_tpot": 1.0,
+          "p95_ttft": 2.9,
+          "p99_latency": 3.98,
+          "p99_ttft": 2.98,
+          "policy_name": "stage3e",
+          "request_throughput": 0.6666666666666666,
+          "seed": 0,
+          "sim_duration": 3.0,
+          "slo_violation_rate": 0.5,
+          "token_throughput": 1.3333333333333333,
+          "total_gpu_busy_steps": 2,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 0.5,
+          "workload_tag": "k05"
+        },
+        "delta_anwg": 0.5,
+        "donor_metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 4.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 3.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 1.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 2.0,
+          "median_latency": 3.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 3.9,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 1.9,
+          "p95_tpot": 1.0,
+          "p95_ttft": 2.9,
+          "p99_latency": 3.98,
+          "p99_ttft": 2.98,
+          "policy_name": "stage3e",
+          "request_throughput": 0.6666666666666666,
+          "seed": 0,
+          "sim_duration": 3.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 1.3333333333333333,
+          "total_gpu_busy_steps": 2,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k05"
+        },
+        "mechanism": "not identifiable from primary aggregate contrast alone"
+      },
+      "B": {
+        "changed_requests": [
+          10,
+          20
+        ],
+        "decisions": 4,
+        "delta_anwg": 0.5,
+        "disagreement": 1,
+        "erased": 0,
+        "erasure_fraction": 0.0,
+        "local_action_differences": 1,
+        "opportunity": 1,
+        "request_denominator": 2,
+        "unmatched_requests": []
+      },
+      "C": {
+        "changed_requests": [
+          10,
+          20
+        ],
+        "decisions": 4,
+        "delta_anwg": 0.5,
+        "disagreement": 1,
+        "erased": 0,
+        "erasure_fraction": 0.0,
+        "local_action_differences": 1,
+        "opportunity": 1,
+        "request_denominator": 2,
+        "unmatched_requests": []
+      },
+      "base": {
+        "applied": [
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              10
+            ],
+            "time": 0.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 1.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              20
+            ],
+            "time": 2.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 3.0
+          }
+        ],
+        "completed": [
+          {
+            "admission": 0.0,
+            "completion": 2.0,
+            "id": 10,
+            "met": true
+          },
+          {
+            "admission": 2.0,
+            "completion": 4.0,
+            "id": 20,
+            "met": false
+          }
+        ],
+        "events": [
+          {
+            "base_action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              10,
+              20
+            ],
+            "donor_action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              20,
+              10
+            ],
+            "snapshot": {
+              "completed_count": 0,
+              "gpu_states": [
+                {
+                  "active_request_ids": [],
+                  "active_requests_info": [],
+                  "current_kv_tokens": 0,
+                  "decoding_count": 0,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {}
+                }
+              ],
+              "migrating_queue": [],
+              "step": 0,
+              "time": 0.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 10,
+                  "slo_deadline": 20
+                },
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 2
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              20
+            ],
+            "donor_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              20
+            ],
+            "snapshot": {
+              "completed_count": 0,
+              "gpu_states": [
+                {
+                  "active_request_ids": [
+                    10
+                  ],
+                  "active_requests_info": [
+                    {
+                      "arrival_time": 0,
+                      "class_id": "synthetic_contract",
+                      "predicted_output_tokens": 2,
+                      "priority": 1.0,
+                      "prompt_tokens": 1,
+                      "request_id": 10,
+                      "slo_deadline": 20
+                    }
+                  ],
+                  "current_kv_tokens": 2,
+                  "decoding_count": 1,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {
+                    "10": 1
+                  }
+                }
+              ],
+              "migrating_queue": [],
+              "step": 1,
+              "time": 1.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 2
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              20
+            ],
+            "donor_action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              20
+            ],
+            "snapshot": {
+              "completed_count": 1,
+              "gpu_states": [
+                {
+                  "active_request_ids": [],
+                  "active_requests_info": [],
+                  "current_kv_tokens": 0,
+                  "decoding_count": 0,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {}
+                }
+              ],
+              "migrating_queue": [],
+              "step": 2,
+              "time": 2.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 2
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [],
+            "donor_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [],
+            "snapshot": {
+              "completed_count": 1,
+              "gpu_states": [
+                {
+                  "active_request_ids": [
+                    20
+                  ],
+                  "active_requests_info": [
+                    {
+                      "arrival_time": 0,
+                      "class_id": "synthetic_contract",
+                      "predicted_output_tokens": 2,
+                      "priority": 1.0,
+                      "prompt_tokens": 1,
+                      "request_id": 20,
+                      "slo_deadline": 2
+                    }
+                  ],
+                  "current_kv_tokens": 2,
+                  "decoding_count": 1,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {
+                    "20": 1
+                  }
+                }
+              ],
+              "migrating_queue": [],
+              "step": 3,
+              "time": 3.0,
+              "waiting_queue": []
+            }
+          }
+        ],
+        "metrics": {
+          "arrival_normalized_weighted_goodput": 0.5,
+          "completion_fraction": 1.0,
+          "max_latency": 4.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 3.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 1.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 2.0,
+          "median_latency": 3.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 1,
+          "num_total": 2,
+          "p95_latency": 3.9,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 1.9,
+          "p95_tpot": 1.0,
+          "p95_ttft": 2.9,
+          "p99_latency": 3.98,
+          "p99_ttft": 2.98,
+          "policy_name": "stage3e",
+          "request_throughput": 0.6666666666666666,
+          "seed": 0,
+          "sim_duration": 3.0,
+          "slo_violation_rate": 0.5,
+          "token_throughput": 1.3333333333333333,
+          "total_gpu_busy_steps": 2,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 0.5,
+          "workload_tag": "k05"
+        }
+      },
+      "case_id": "k05",
+      "donor": {
+        "applied": [
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              20
+            ],
+            "time": 0.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 1.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              10
+            ],
+            "time": 2.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 3.0
+          }
+        ],
+        "completed": [
+          {
+            "admission": 2.0,
+            "completion": 4.0,
+            "id": 10,
+            "met": true
+          },
+          {
+            "admission": 0.0,
+            "completion": 2.0,
+            "id": 20,
+            "met": true
+          }
+        ],
+        "events": [],
+        "metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 4.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 3.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 1.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 2.0,
+          "median_latency": 3.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 3.9,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 1.9,
+          "p95_tpot": 1.0,
+          "p95_ttft": 2.9,
+          "p99_latency": 3.98,
+          "p99_ttft": 2.98,
+          "policy_name": "stage3e",
+          "request_throughput": 0.6666666666666666,
+          "seed": 0,
+          "sim_duration": 3.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 1.3333333333333333,
+          "total_gpu_busy_steps": 2,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k05"
+        }
+      },
+      "donor_neutrality_events": [
+        {
+          "base_action": {
+            "admit": {
+              "0": [
+                20
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            20,
+            10
+          ],
+          "donor_action": {
+            "admit": {
+              "0": [
+                20
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            20,
+            10
+          ],
+          "snapshot": {
+            "completed_count": 0,
+            "gpu_states": [
+              {
+                "active_request_ids": [],
+                "active_requests_info": [],
+                "current_kv_tokens": 0,
+                "decoding_count": 0,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {}
+              }
+            ],
+            "migrating_queue": [],
+            "step": 0,
+            "time": 0.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 10,
+                "slo_deadline": 20
+              },
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 20,
+                "slo_deadline": 2
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            10
+          ],
+          "donor_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            10
+          ],
+          "snapshot": {
+            "completed_count": 0,
+            "gpu_states": [
+              {
+                "active_request_ids": [
+                  20
+                ],
+                "active_requests_info": [
+                  {
+                    "arrival_time": 0,
+                    "class_id": "synthetic_contract",
+                    "predicted_output_tokens": 2,
+                    "priority": 1.0,
+                    "prompt_tokens": 1,
+                    "request_id": 20,
+                    "slo_deadline": 2
+                  }
+                ],
+                "current_kv_tokens": 2,
+                "decoding_count": 1,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {
+                  "20": 1
+                }
+              }
+            ],
+            "migrating_queue": [],
+            "step": 1,
+            "time": 1.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 10,
+                "slo_deadline": 20
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": [
+                10
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            10
+          ],
+          "donor_action": {
+            "admit": {
+              "0": [
+                10
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            10
+          ],
+          "snapshot": {
+            "completed_count": 1,
+            "gpu_states": [
+              {
+                "active_request_ids": [],
+                "active_requests_info": [],
+                "current_kv_tokens": 0,
+                "decoding_count": 0,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {}
+              }
+            ],
+            "migrating_queue": [],
+            "step": 2,
+            "time": 2.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 10,
+                "slo_deadline": 20
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [],
+          "donor_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [],
+          "snapshot": {
+            "completed_count": 1,
+            "gpu_states": [
+              {
+                "active_request_ids": [
+                  10
+                ],
+                "active_requests_info": [
+                  {
+                    "arrival_time": 0,
+                    "class_id": "synthetic_contract",
+                    "predicted_output_tokens": 2,
+                    "priority": 1.0,
+                    "prompt_tokens": 1,
+                    "request_id": 10,
+                    "slo_deadline": 20
+                  }
+                ],
+                "current_kv_tokens": 2,
+                "decoding_count": 1,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {
+                  "10": 1
+                }
+              }
+            ],
+            "migrating_queue": [],
+            "step": 3,
+            "time": 3.0,
+            "waiting_queue": []
+          }
+        }
+      ],
+      "observer_neutrality": true,
+      "request_count": 2
+    },
+    {
+      "A": {
+        "aggregate_changed": true,
+        "base_metrics": {
+          "arrival_normalized_weighted_goodput": 0.6666666666666666,
+          "completion_fraction": 1.0,
+          "max_latency": 7.0,
+          "mean_active_batch_size": 0.625,
+          "mean_gpu_utilization": 0.625,
+          "mean_latency": 5.333333333333333,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 2.6666666666666665,
+          "mean_tpot": 1.0,
+          "mean_ttft": 3.6666666666666665,
+          "median_latency": 5.0,
+          "num_completed": 3,
+          "num_dropped": 0,
+          "num_slo_violated": 1,
+          "num_total": 3,
+          "p95_latency": 6.8,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 4.8,
+          "p95_tpot": 1.0,
+          "p95_ttft": 5.8,
+          "p99_latency": 6.96,
+          "p99_ttft": 5.96,
+          "policy_name": "stage3e",
+          "request_throughput": 0.42857142857142855,
+          "seed": 0,
+          "sim_duration": 7.0,
+          "slo_violation_rate": 0.3333333333333333,
+          "token_throughput": 1.1428571428571428,
+          "total_gpu_busy_steps": 5,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 0.6666666666666666,
+          "workload_tag": "k06"
+        },
+        "delta_anwg": 0.33333333333333337,
+        "donor_metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 7.0,
+          "mean_active_batch_size": 0.625,
+          "mean_gpu_utilization": 0.625,
+          "mean_latency": 5.333333333333333,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 2.6666666666666665,
+          "mean_tpot": 1.0,
+          "mean_ttft": 3.6666666666666665,
+          "median_latency": 5.0,
+          "num_completed": 3,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 3,
+          "p95_latency": 6.8,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 4.8,
+          "p95_tpot": 1.0,
+          "p95_ttft": 5.8,
+          "p99_latency": 6.96,
+          "p99_ttft": 5.96,
+          "policy_name": "stage3e",
+          "request_throughput": 0.42857142857142855,
+          "seed": 0,
+          "sim_duration": 7.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 1.1428571428571428,
+          "total_gpu_busy_steps": 5,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k06"
+        },
+        "mechanism": "not identifiable from primary aggregate contrast alone"
+      },
+      "B": {
+        "changed_requests": [
+          20,
+          30
+        ],
+        "decisions": 8,
+        "delta_anwg": 0.33333333333333337,
+        "disagreement": 4,
+        "erased": 3,
+        "erasure_fraction": 0.75,
+        "local_action_differences": 1,
+        "opportunity": 4,
+        "request_denominator": 3,
+        "unmatched_requests": []
+      },
+      "C": {
+        "changed_requests": [
+          20,
+          30
+        ],
+        "decisions": 8,
+        "delta_anwg": 0.33333333333333337,
+        "disagreement": 4,
+        "erased": 3,
+        "erasure_fraction": 0.75,
+        "local_action_differences": 1,
+        "opportunity": 4,
+        "request_denominator": 3,
+        "unmatched_requests": []
+      },
+      "base": {
+        "applied": [
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              10
+            ],
+            "time": 0.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 1.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 2.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 3.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              20
+            ],
+            "time": 4.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 5.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  30
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              30
+            ],
+            "time": 6.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 7.0
+          }
+        ],
+        "completed": [
+          {
+            "admission": 0.0,
+            "completion": 4.0,
+            "id": 10,
+            "met": true
+          },
+          {
+            "admission": 4.0,
+            "completion": 6.0,
+            "id": 20,
+            "met": true
+          },
+          {
+            "admission": 6.0,
+            "completion": 8.0,
+            "id": 30,
+            "met": false
+          }
+        ],
+        "events": [
+          {
+            "base_action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              10
+            ],
+            "donor_action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              10
+            ],
+            "snapshot": {
+              "completed_count": 0,
+              "gpu_states": [
+                {
+                  "active_request_ids": [],
+                  "active_requests_info": [],
+                  "current_kv_tokens": 0,
+                  "decoding_count": 0,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {}
+                }
+              ],
+              "migrating_queue": [],
+              "step": 0,
+              "time": 0.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 4,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 10,
+                  "slo_deadline": 20
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              20,
+              30
+            ],
+            "donor_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              30,
+              20
+            ],
+            "snapshot": {
+              "completed_count": 0,
+              "gpu_states": [
+                {
+                  "active_request_ids": [
+                    10
+                  ],
+                  "active_requests_info": [
+                    {
+                      "arrival_time": 0,
+                      "class_id": "synthetic_contract",
+                      "predicted_output_tokens": 4,
+                      "priority": 1.0,
+                      "prompt_tokens": 1,
+                      "request_id": 10,
+                      "slo_deadline": 20
+                    }
+                  ],
+                  "current_kv_tokens": 2,
+                  "decoding_count": 1,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {
+                    "10": 1
+                  }
+                }
+              ],
+              "migrating_queue": [],
+              "step": 1,
+              "time": 1.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 1,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 20
+                },
+                {
+                  "arrival_time": 1,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 30,
+                  "slo_deadline": 6
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              20,
+              30
+            ],
+            "donor_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              30,
+              20
+            ],
+            "snapshot": {
+              "completed_count": 0,
+              "gpu_states": [
+                {
+                  "active_request_ids": [
+                    10
+                  ],
+                  "active_requests_info": [
+                    {
+                      "arrival_time": 0,
+                      "class_id": "synthetic_contract",
+                      "predicted_output_tokens": 4,
+                      "priority": 1.0,
+                      "prompt_tokens": 1,
+                      "request_id": 10,
+                      "slo_deadline": 20
+                    }
+                  ],
+                  "current_kv_tokens": 3,
+                  "decoding_count": 1,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {
+                    "10": 2
+                  }
+                }
+              ],
+              "migrating_queue": [],
+              "step": 2,
+              "time": 2.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 1,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 20
+                },
+                {
+                  "arrival_time": 1,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 30,
+                  "slo_deadline": 6
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              20,
+              30
+            ],
+            "donor_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              30,
+              20
+            ],
+            "snapshot": {
+              "completed_count": 0,
+              "gpu_states": [
+                {
+                  "active_request_ids": [
+                    10
+                  ],
+                  "active_requests_info": [
+                    {
+                      "arrival_time": 0,
+                      "class_id": "synthetic_contract",
+                      "predicted_output_tokens": 4,
+                      "priority": 1.0,
+                      "prompt_tokens": 1,
+                      "request_id": 10,
+                      "slo_deadline": 20
+                    }
+                  ],
+                  "current_kv_tokens": 4,
+                  "decoding_count": 1,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {
+                    "10": 3
+                  }
+                }
+              ],
+              "migrating_queue": [],
+              "step": 3,
+              "time": 3.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 1,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 20
+                },
+                {
+                  "arrival_time": 1,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 30,
+                  "slo_deadline": 6
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              20,
+              30
+            ],
+            "donor_action": {
+              "admit": {
+                "0": [
+                  30
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              30,
+              20
+            ],
+            "snapshot": {
+              "completed_count": 1,
+              "gpu_states": [
+                {
+                  "active_request_ids": [],
+                  "active_requests_info": [],
+                  "current_kv_tokens": 0,
+                  "decoding_count": 0,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {}
+                }
+              ],
+              "migrating_queue": [],
+              "step": 4,
+              "time": 4.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 1,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 20
+                },
+                {
+                  "arrival_time": 1,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 30,
+                  "slo_deadline": 6
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              30
+            ],
+            "donor_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              30
+            ],
+            "snapshot": {
+              "completed_count": 1,
+              "gpu_states": [
+                {
+                  "active_request_ids": [
+                    20
+                  ],
+                  "active_requests_info": [
+                    {
+                      "arrival_time": 1,
+                      "class_id": "synthetic_contract",
+                      "predicted_output_tokens": 2,
+                      "priority": 1.0,
+                      "prompt_tokens": 1,
+                      "request_id": 20,
+                      "slo_deadline": 20
+                    }
+                  ],
+                  "current_kv_tokens": 2,
+                  "decoding_count": 1,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {
+                    "20": 1
+                  }
+                }
+              ],
+              "migrating_queue": [],
+              "step": 5,
+              "time": 5.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 1,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 30,
+                  "slo_deadline": 6
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": [
+                  30
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              30
+            ],
+            "donor_action": {
+              "admit": {
+                "0": [
+                  30
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              30
+            ],
+            "snapshot": {
+              "completed_count": 2,
+              "gpu_states": [
+                {
+                  "active_request_ids": [],
+                  "active_requests_info": [],
+                  "current_kv_tokens": 0,
+                  "decoding_count": 0,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {}
+                }
+              ],
+              "migrating_queue": [],
+              "step": 6,
+              "time": 6.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 1,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 30,
+                  "slo_deadline": 6
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [],
+            "donor_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [],
+            "snapshot": {
+              "completed_count": 2,
+              "gpu_states": [
+                {
+                  "active_request_ids": [
+                    30
+                  ],
+                  "active_requests_info": [
+                    {
+                      "arrival_time": 1,
+                      "class_id": "synthetic_contract",
+                      "predicted_output_tokens": 2,
+                      "priority": 1.0,
+                      "prompt_tokens": 1,
+                      "request_id": 30,
+                      "slo_deadline": 6
+                    }
+                  ],
+                  "current_kv_tokens": 2,
+                  "decoding_count": 1,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {
+                    "30": 1
+                  }
+                }
+              ],
+              "migrating_queue": [],
+              "step": 7,
+              "time": 7.0,
+              "waiting_queue": []
+            }
+          }
+        ],
+        "metrics": {
+          "arrival_normalized_weighted_goodput": 0.6666666666666666,
+          "completion_fraction": 1.0,
+          "max_latency": 7.0,
+          "mean_active_batch_size": 0.625,
+          "mean_gpu_utilization": 0.625,
+          "mean_latency": 5.333333333333333,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 2.6666666666666665,
+          "mean_tpot": 1.0,
+          "mean_ttft": 3.6666666666666665,
+          "median_latency": 5.0,
+          "num_completed": 3,
+          "num_dropped": 0,
+          "num_slo_violated": 1,
+          "num_total": 3,
+          "p95_latency": 6.8,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 4.8,
+          "p95_tpot": 1.0,
+          "p95_ttft": 5.8,
+          "p99_latency": 6.96,
+          "p99_ttft": 5.96,
+          "policy_name": "stage3e",
+          "request_throughput": 0.42857142857142855,
+          "seed": 0,
+          "sim_duration": 7.0,
+          "slo_violation_rate": 0.3333333333333333,
+          "token_throughput": 1.1428571428571428,
+          "total_gpu_busy_steps": 5,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 0.6666666666666666,
+          "workload_tag": "k06"
+        }
+      },
+      "case_id": "k06",
+      "donor": {
+        "applied": [
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              10
+            ],
+            "time": 0.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 1.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 2.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 3.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  30
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              30
+            ],
+            "time": 4.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 5.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              20
+            ],
+            "time": 6.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 7.0
+          }
+        ],
+        "completed": [
+          {
+            "admission": 0.0,
+            "completion": 4.0,
+            "id": 10,
+            "met": true
+          },
+          {
+            "admission": 6.0,
+            "completion": 8.0,
+            "id": 20,
+            "met": true
+          },
+          {
+            "admission": 4.0,
+            "completion": 6.0,
+            "id": 30,
+            "met": true
+          }
+        ],
+        "events": [],
+        "metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 7.0,
+          "mean_active_batch_size": 0.625,
+          "mean_gpu_utilization": 0.625,
+          "mean_latency": 5.333333333333333,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 2.6666666666666665,
+          "mean_tpot": 1.0,
+          "mean_ttft": 3.6666666666666665,
+          "median_latency": 5.0,
+          "num_completed": 3,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 3,
+          "p95_latency": 6.8,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 4.8,
+          "p95_tpot": 1.0,
+          "p95_ttft": 5.8,
+          "p99_latency": 6.96,
+          "p99_ttft": 5.96,
+          "policy_name": "stage3e",
+          "request_throughput": 0.42857142857142855,
+          "seed": 0,
+          "sim_duration": 7.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 1.1428571428571428,
+          "total_gpu_busy_steps": 5,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k06"
+        }
+      },
+      "donor_neutrality_events": [
+        {
+          "base_action": {
+            "admit": {
+              "0": [
+                10
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            10
+          ],
+          "donor_action": {
+            "admit": {
+              "0": [
+                10
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            10
+          ],
+          "snapshot": {
+            "completed_count": 0,
+            "gpu_states": [
+              {
+                "active_request_ids": [],
+                "active_requests_info": [],
+                "current_kv_tokens": 0,
+                "decoding_count": 0,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {}
+              }
+            ],
+            "migrating_queue": [],
+            "step": 0,
+            "time": 0.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 4,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 10,
+                "slo_deadline": 20
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            30,
+            20
+          ],
+          "donor_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            30,
+            20
+          ],
+          "snapshot": {
+            "completed_count": 0,
+            "gpu_states": [
+              {
+                "active_request_ids": [
+                  10
+                ],
+                "active_requests_info": [
+                  {
+                    "arrival_time": 0,
+                    "class_id": "synthetic_contract",
+                    "predicted_output_tokens": 4,
+                    "priority": 1.0,
+                    "prompt_tokens": 1,
+                    "request_id": 10,
+                    "slo_deadline": 20
+                  }
+                ],
+                "current_kv_tokens": 2,
+                "decoding_count": 1,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {
+                  "10": 1
+                }
+              }
+            ],
+            "migrating_queue": [],
+            "step": 1,
+            "time": 1.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 1,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 20,
+                "slo_deadline": 20
+              },
+              {
+                "arrival_time": 1,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 30,
+                "slo_deadline": 6
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            30,
+            20
+          ],
+          "donor_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            30,
+            20
+          ],
+          "snapshot": {
+            "completed_count": 0,
+            "gpu_states": [
+              {
+                "active_request_ids": [
+                  10
+                ],
+                "active_requests_info": [
+                  {
+                    "arrival_time": 0,
+                    "class_id": "synthetic_contract",
+                    "predicted_output_tokens": 4,
+                    "priority": 1.0,
+                    "prompt_tokens": 1,
+                    "request_id": 10,
+                    "slo_deadline": 20
+                  }
+                ],
+                "current_kv_tokens": 3,
+                "decoding_count": 1,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {
+                  "10": 2
+                }
+              }
+            ],
+            "migrating_queue": [],
+            "step": 2,
+            "time": 2.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 1,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 20,
+                "slo_deadline": 20
+              },
+              {
+                "arrival_time": 1,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 30,
+                "slo_deadline": 6
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            30,
+            20
+          ],
+          "donor_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            30,
+            20
+          ],
+          "snapshot": {
+            "completed_count": 0,
+            "gpu_states": [
+              {
+                "active_request_ids": [
+                  10
+                ],
+                "active_requests_info": [
+                  {
+                    "arrival_time": 0,
+                    "class_id": "synthetic_contract",
+                    "predicted_output_tokens": 4,
+                    "priority": 1.0,
+                    "prompt_tokens": 1,
+                    "request_id": 10,
+                    "slo_deadline": 20
+                  }
+                ],
+                "current_kv_tokens": 4,
+                "decoding_count": 1,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {
+                  "10": 3
+                }
+              }
+            ],
+            "migrating_queue": [],
+            "step": 3,
+            "time": 3.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 1,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 20,
+                "slo_deadline": 20
+              },
+              {
+                "arrival_time": 1,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 30,
+                "slo_deadline": 6
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": [
+                30
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            30,
+            20
+          ],
+          "donor_action": {
+            "admit": {
+              "0": [
+                30
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            30,
+            20
+          ],
+          "snapshot": {
+            "completed_count": 1,
+            "gpu_states": [
+              {
+                "active_request_ids": [],
+                "active_requests_info": [],
+                "current_kv_tokens": 0,
+                "decoding_count": 0,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {}
+              }
+            ],
+            "migrating_queue": [],
+            "step": 4,
+            "time": 4.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 1,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 20,
+                "slo_deadline": 20
+              },
+              {
+                "arrival_time": 1,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 30,
+                "slo_deadline": 6
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            20
+          ],
+          "donor_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            20
+          ],
+          "snapshot": {
+            "completed_count": 1,
+            "gpu_states": [
+              {
+                "active_request_ids": [
+                  30
+                ],
+                "active_requests_info": [
+                  {
+                    "arrival_time": 1,
+                    "class_id": "synthetic_contract",
+                    "predicted_output_tokens": 2,
+                    "priority": 1.0,
+                    "prompt_tokens": 1,
+                    "request_id": 30,
+                    "slo_deadline": 6
+                  }
+                ],
+                "current_kv_tokens": 2,
+                "decoding_count": 1,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {
+                  "30": 1
+                }
+              }
+            ],
+            "migrating_queue": [],
+            "step": 5,
+            "time": 5.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 1,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 20,
+                "slo_deadline": 20
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": [
+                20
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            20
+          ],
+          "donor_action": {
+            "admit": {
+              "0": [
+                20
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            20
+          ],
+          "snapshot": {
+            "completed_count": 2,
+            "gpu_states": [
+              {
+                "active_request_ids": [],
+                "active_requests_info": [],
+                "current_kv_tokens": 0,
+                "decoding_count": 0,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {}
+              }
+            ],
+            "migrating_queue": [],
+            "step": 6,
+            "time": 6.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 1,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 20,
+                "slo_deadline": 20
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [],
+          "donor_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [],
+          "snapshot": {
+            "completed_count": 2,
+            "gpu_states": [
+              {
+                "active_request_ids": [
+                  20
+                ],
+                "active_requests_info": [
+                  {
+                    "arrival_time": 1,
+                    "class_id": "synthetic_contract",
+                    "predicted_output_tokens": 2,
+                    "priority": 1.0,
+                    "prompt_tokens": 1,
+                    "request_id": 20,
+                    "slo_deadline": 20
+                  }
+                ],
+                "current_kv_tokens": 2,
+                "decoding_count": 1,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {
+                  "20": 1
+                }
+              }
+            ],
+            "migrating_queue": [],
+            "step": 7,
+            "time": 7.0,
+            "waiting_queue": []
+          }
+        }
+      ],
+      "observer_neutrality": true,
+      "request_count": 3
+    },
+    {
+      "A": {
+        "aggregate_changed": false,
+        "base_metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 4.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 3.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 1.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 2.0,
+          "median_latency": 3.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 3.9,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 1.9,
+          "p95_tpot": 1.0,
+          "p95_ttft": 2.9,
+          "p99_latency": 3.98,
+          "p99_ttft": 2.98,
+          "policy_name": "stage3e",
+          "request_throughput": 0.6666666666666666,
+          "seed": 0,
+          "sim_duration": 3.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 1.3333333333333333,
+          "total_gpu_busy_steps": 2,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k07"
+        },
+        "delta_anwg": 0.0,
+        "donor_metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 4.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 3.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 1.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 2.0,
+          "median_latency": 3.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 3.9,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 1.9,
+          "p95_tpot": 1.0,
+          "p95_ttft": 2.9,
+          "p99_latency": 3.98,
+          "p99_ttft": 2.98,
+          "policy_name": "stage3e",
+          "request_throughput": 0.6666666666666666,
+          "seed": 0,
+          "sim_duration": 3.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 1.3333333333333333,
+          "total_gpu_busy_steps": 2,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k07"
+        },
+        "mechanism": "not identifiable from primary aggregate contrast alone"
+      },
+      "B": {
+        "changed_requests": [],
+        "decisions": 4,
+        "delta_anwg": 0.0,
+        "disagreement": 0,
+        "erased": 0,
+        "erasure_fraction": null,
+        "local_action_differences": 0,
+        "opportunity": 1,
+        "request_denominator": 2,
+        "unmatched_requests": []
+      },
+      "C": {
+        "changed_requests": [],
+        "decisions": 4,
+        "delta_anwg": 0.0,
+        "disagreement": 0,
+        "erased": 0,
+        "erasure_fraction": null,
+        "local_action_differences": 0,
+        "opportunity": 1,
+        "request_denominator": 2,
+        "unmatched_requests": []
+      },
+      "base": {
+        "applied": [
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              10
+            ],
+            "time": 0.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 1.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              20
+            ],
+            "time": 2.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 3.0
+          }
+        ],
+        "completed": [
+          {
+            "admission": 0.0,
+            "completion": 2.0,
+            "id": 10,
+            "met": true
+          },
+          {
+            "admission": 2.0,
+            "completion": 4.0,
+            "id": 20,
+            "met": true
+          }
+        ],
+        "events": [
+          {
+            "base_action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              10,
+              20
+            ],
+            "donor_action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              10,
+              20
+            ],
+            "snapshot": {
+              "completed_count": 0,
+              "gpu_states": [
+                {
+                  "active_request_ids": [],
+                  "active_requests_info": [],
+                  "current_kv_tokens": 0,
+                  "decoding_count": 0,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {}
+                }
+              ],
+              "migrating_queue": [],
+              "step": 0,
+              "time": 0.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 10,
+                  "slo_deadline": 20
+                },
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 10
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              20
+            ],
+            "donor_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              20
+            ],
+            "snapshot": {
+              "completed_count": 0,
+              "gpu_states": [
+                {
+                  "active_request_ids": [
+                    10
+                  ],
+                  "active_requests_info": [
+                    {
+                      "arrival_time": 0,
+                      "class_id": "synthetic_contract",
+                      "predicted_output_tokens": 2,
+                      "priority": 1.0,
+                      "prompt_tokens": 1,
+                      "request_id": 10,
+                      "slo_deadline": 20
+                    }
+                  ],
+                  "current_kv_tokens": 2,
+                  "decoding_count": 1,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {
+                    "10": 1
+                  }
+                }
+              ],
+              "migrating_queue": [],
+              "step": 1,
+              "time": 1.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 10
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [
+              20
+            ],
+            "donor_action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [
+              20
+            ],
+            "snapshot": {
+              "completed_count": 1,
+              "gpu_states": [
+                {
+                  "active_request_ids": [],
+                  "active_requests_info": [],
+                  "current_kv_tokens": 0,
+                  "decoding_count": 0,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {}
+                }
+              ],
+              "migrating_queue": [],
+              "step": 2,
+              "time": 2.0,
+              "waiting_queue": [
+                {
+                  "arrival_time": 0,
+                  "class_id": "synthetic_contract",
+                  "predicted_output_tokens": 2,
+                  "priority": 1.0,
+                  "prompt_tokens": 1,
+                  "request_id": 20,
+                  "slo_deadline": 10
+                }
+              ]
+            }
+          },
+          {
+            "base_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "base_rank": [],
+            "donor_action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "donor_rank": [],
+            "snapshot": {
+              "completed_count": 1,
+              "gpu_states": [
+                {
+                  "active_request_ids": [
+                    20
+                  ],
+                  "active_requests_info": [
+                    {
+                      "arrival_time": 0,
+                      "class_id": "synthetic_contract",
+                      "predicted_output_tokens": 2,
+                      "priority": 1.0,
+                      "prompt_tokens": 1,
+                      "request_id": 20,
+                      "slo_deadline": 10
+                    }
+                  ],
+                  "current_kv_tokens": 2,
+                  "decoding_count": 1,
+                  "gpu_id": 0,
+                  "incoming_migrations": [],
+                  "max_active_sequences": 1,
+                  "max_batch_tokens": 100,
+                  "max_kv_tokens": 1000,
+                  "prefilling_count": 0,
+                  "role": null,
+                  "tokens_decoded_per_request": {
+                    "20": 1
+                  }
+                }
+              ],
+              "migrating_queue": [],
+              "step": 3,
+              "time": 3.0,
+              "waiting_queue": []
+            }
+          }
+        ],
+        "metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 4.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 3.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 1.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 2.0,
+          "median_latency": 3.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 3.9,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 1.9,
+          "p95_tpot": 1.0,
+          "p95_ttft": 2.9,
+          "p99_latency": 3.98,
+          "p99_ttft": 2.98,
+          "policy_name": "stage3e",
+          "request_throughput": 0.6666666666666666,
+          "seed": 0,
+          "sim_duration": 3.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 1.3333333333333333,
+          "total_gpu_busy_steps": 2,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k07"
+        }
+      },
+      "case_id": "k07",
+      "donor": {
+        "applied": [
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  10
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              10
+            ],
+            "time": 0.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 1.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": [
+                  20
+                ]
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [
+              20
+            ],
+            "time": 2.0
+          },
+          {
+            "action": {
+              "admit": {
+                "0": []
+              },
+              "hold_decode": {},
+              "migrate": {},
+              "preempt": {},
+              "prefill_chunk_override": {},
+              "swap": {}
+            },
+            "admitted": [],
+            "time": 3.0
+          }
+        ],
+        "completed": [
+          {
+            "admission": 0.0,
+            "completion": 2.0,
+            "id": 10,
+            "met": true
+          },
+          {
+            "admission": 2.0,
+            "completion": 4.0,
+            "id": 20,
+            "met": true
+          }
+        ],
+        "events": [],
+        "metrics": {
+          "arrival_normalized_weighted_goodput": 1.0,
+          "completion_fraction": 1.0,
+          "max_latency": 4.0,
+          "mean_active_batch_size": 0.5,
+          "mean_gpu_utilization": 0.5,
+          "mean_latency": 3.0,
+          "mean_prefill_delay": 1.0,
+          "mean_queuing_delay": 1.0,
+          "mean_tpot": 1.0,
+          "mean_ttft": 2.0,
+          "median_latency": 3.0,
+          "num_completed": 2,
+          "num_dropped": 0,
+          "num_slo_violated": 0,
+          "num_total": 2,
+          "p95_latency": 3.9,
+          "p95_prefill_delay": 1.0,
+          "p95_queuing_delay": 1.9,
+          "p95_tpot": 1.0,
+          "p95_ttft": 2.9,
+          "p99_latency": 3.98,
+          "p99_ttft": 2.98,
+          "policy_name": "stage3e",
+          "request_throughput": 0.6666666666666666,
+          "seed": 0,
+          "sim_duration": 3.0,
+          "slo_violation_rate": 0.0,
+          "token_throughput": 1.3333333333333333,
+          "total_gpu_busy_steps": 2,
+          "weighted_completion_fraction": 1.0,
+          "weighted_goodput": 1.0,
+          "workload_tag": "k07"
+        }
+      },
+      "donor_neutrality_events": [
+        {
+          "base_action": {
+            "admit": {
+              "0": [
+                10
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            10,
+            20
+          ],
+          "donor_action": {
+            "admit": {
+              "0": [
+                10
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            10,
+            20
+          ],
+          "snapshot": {
+            "completed_count": 0,
+            "gpu_states": [
+              {
+                "active_request_ids": [],
+                "active_requests_info": [],
+                "current_kv_tokens": 0,
+                "decoding_count": 0,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {}
+              }
+            ],
+            "migrating_queue": [],
+            "step": 0,
+            "time": 0.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 10,
+                "slo_deadline": 20
+              },
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 20,
+                "slo_deadline": 10
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            20
+          ],
+          "donor_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            20
+          ],
+          "snapshot": {
+            "completed_count": 0,
+            "gpu_states": [
+              {
+                "active_request_ids": [
+                  10
+                ],
+                "active_requests_info": [
+                  {
+                    "arrival_time": 0,
+                    "class_id": "synthetic_contract",
+                    "predicted_output_tokens": 2,
+                    "priority": 1.0,
+                    "prompt_tokens": 1,
+                    "request_id": 10,
+                    "slo_deadline": 20
+                  }
+                ],
+                "current_kv_tokens": 2,
+                "decoding_count": 1,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {
+                  "10": 1
+                }
+              }
+            ],
+            "migrating_queue": [],
+            "step": 1,
+            "time": 1.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 20,
+                "slo_deadline": 10
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": [
+                20
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [
+            20
+          ],
+          "donor_action": {
+            "admit": {
+              "0": [
+                20
+              ]
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [
+            20
+          ],
+          "snapshot": {
+            "completed_count": 1,
+            "gpu_states": [
+              {
+                "active_request_ids": [],
+                "active_requests_info": [],
+                "current_kv_tokens": 0,
+                "decoding_count": 0,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {}
+              }
+            ],
+            "migrating_queue": [],
+            "step": 2,
+            "time": 2.0,
+            "waiting_queue": [
+              {
+                "arrival_time": 0,
+                "class_id": "synthetic_contract",
+                "predicted_output_tokens": 2,
+                "priority": 1.0,
+                "prompt_tokens": 1,
+                "request_id": 20,
+                "slo_deadline": 10
+              }
+            ]
+          }
+        },
+        {
+          "base_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "base_rank": [],
+          "donor_action": {
+            "admit": {
+              "0": []
+            },
+            "hold_decode": {},
+            "migrate": {},
+            "preempt": {},
+            "prefill_chunk_override": {},
+            "swap": {}
+          },
+          "donor_rank": [],
+          "snapshot": {
+            "completed_count": 1,
+            "gpu_states": [
+              {
+                "active_request_ids": [
+                  20
+                ],
+                "active_requests_info": [
+                  {
+                    "arrival_time": 0,
+                    "class_id": "synthetic_contract",
+                    "predicted_output_tokens": 2,
+                    "priority": 1.0,
+                    "prompt_tokens": 1,
+                    "request_id": 20,
+                    "slo_deadline": 10
+                  }
+                ],
+                "current_kv_tokens": 2,
+                "decoding_count": 1,
+                "gpu_id": 0,
+                "incoming_migrations": [],
+                "max_active_sequences": 1,
+                "max_batch_tokens": 100,
+                "max_kv_tokens": 1000,
+                "prefilling_count": 0,
+                "role": null,
+                "tokens_decoded_per_request": {
+                  "20": 1
+                }
+              }
+            ],
+            "migrating_queue": [],
+            "step": 3,
+            "time": 3.0,
+            "waiting_queue": []
+          }
+        }
+      ],
+      "observer_neutrality": true,
+      "request_count": 2
+    }
+  ]
+}

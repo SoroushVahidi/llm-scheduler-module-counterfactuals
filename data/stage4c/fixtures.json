@@ -1,0 +1,324 @@
+[
+  {
+    "capacity": 1,
+    "case_id": "k01",
+    "donor": "edf",
+    "expected": {
+      "base": {
+        "10": {
+          "admission": 0,
+          "completion": 2
+        }
+      },
+      "counts": {
+        "disagreement": 0,
+        "erased": 0,
+        "opportunity": 0
+      },
+      "donor": {
+        "10": {
+          "admission": 0,
+          "completion": 2
+        }
+      }
+    },
+    "requests": [
+      {
+        "actual_output_tokens": 2,
+        "arrival_time": 0,
+        "request_id": 10,
+        "slo_deadline": 20
+      }
+    ]
+  },
+  {
+    "capacity": 1,
+    "case_id": "k02",
+    "donor": "edf",
+    "expected": {
+      "base": {
+        "10": {
+          "admission": 0,
+          "completion": 2
+        },
+        "20": {
+          "admission": 2,
+          "completion": 4
+        }
+      },
+      "counts": {
+        "disagreement": 0,
+        "erased": 0,
+        "opportunity": 1
+      },
+      "donor": {
+        "10": {
+          "admission": 0,
+          "completion": 2
+        },
+        "20": {
+          "admission": 2,
+          "completion": 4
+        }
+      }
+    },
+    "requests": [
+      {
+        "actual_output_tokens": 2,
+        "arrival_time": 0,
+        "request_id": 10,
+        "slo_deadline": 10
+      },
+      {
+        "actual_output_tokens": 2,
+        "arrival_time": 0,
+        "request_id": 20,
+        "slo_deadline": 20
+      }
+    ]
+  },
+  {
+    "capacity": 2,
+    "case_id": "k03",
+    "donor": "edf",
+    "expected": {
+      "base": {
+        "10": {
+          "admission": 0,
+          "completion": 2
+        },
+        "20": {
+          "admission": 0,
+          "completion": 2
+        }
+      },
+      "counts": {
+        "disagreement": 1,
+        "erased": 1,
+        "opportunity": 1
+      },
+      "donor": {
+        "10": {
+          "admission": 0,
+          "completion": 2
+        },
+        "20": {
+          "admission": 0,
+          "completion": 2
+        }
+      }
+    },
+    "requests": [
+      {
+        "actual_output_tokens": 2,
+        "arrival_time": 0,
+        "request_id": 10,
+        "slo_deadline": 20
+      },
+      {
+        "actual_output_tokens": 2,
+        "arrival_time": 0,
+        "request_id": 20,
+        "slo_deadline": 10
+      }
+    ]
+  },
+  {
+    "capacity": 1,
+    "case_id": "k04",
+    "donor": "edf",
+    "expected": {
+      "base": {
+        "10": {
+          "admission": 0,
+          "completion": 2
+        },
+        "20": {
+          "admission": 2,
+          "completion": 4
+        }
+      },
+      "counts": {
+        "disagreement": 1,
+        "erased": 0,
+        "opportunity": 1
+      },
+      "donor": {
+        "10": {
+          "admission": 2,
+          "completion": 4
+        },
+        "20": {
+          "admission": 0,
+          "completion": 2
+        }
+      }
+    },
+    "requests": [
+      {
+        "actual_output_tokens": 2,
+        "arrival_time": 0,
+        "request_id": 10,
+        "slo_deadline": 20
+      },
+      {
+        "actual_output_tokens": 2,
+        "arrival_time": 0,
+        "request_id": 20,
+        "slo_deadline": 10
+      }
+    ]
+  },
+  {
+    "capacity": 1,
+    "case_id": "k05",
+    "donor": "edf",
+    "expected": {
+      "base": {
+        "10": {
+          "admission": 0,
+          "completion": 2
+        },
+        "20": {
+          "admission": 2,
+          "completion": 4
+        }
+      },
+      "counts": {
+        "disagreement": 1,
+        "erased": 0,
+        "opportunity": 1
+      },
+      "donor": {
+        "10": {
+          "admission": 2,
+          "completion": 4
+        },
+        "20": {
+          "admission": 0,
+          "completion": 2
+        }
+      }
+    },
+    "requests": [
+      {
+        "actual_output_tokens": 2,
+        "arrival_time": 0,
+        "request_id": 10,
+        "slo_deadline": 20
+      },
+      {
+        "actual_output_tokens": 2,
+        "arrival_time": 0,
+        "request_id": 20,
+        "slo_deadline": 2
+      }
+    ]
+  },
+  {
+    "capacity": 1,
+    "case_id": "k06",
+    "donor": "edf",
+    "expected": {
+      "base": {
+        "10": {
+          "admission": 0,
+          "completion": 4
+        },
+        "20": {
+          "admission": 4,
+          "completion": 6
+        },
+        "30": {
+          "admission": 6,
+          "completion": 8
+        }
+      },
+      "counts": {
+        "disagreement": 4,
+        "erased": 3,
+        "opportunity": 4
+      },
+      "donor": {
+        "10": {
+          "admission": 0,
+          "completion": 4
+        },
+        "20": {
+          "admission": 6,
+          "completion": 8
+        },
+        "30": {
+          "admission": 4,
+          "completion": 6
+        }
+      }
+    },
+    "requests": [
+      {
+        "actual_output_tokens": 4,
+        "arrival_time": 0,
+        "request_id": 10,
+        "slo_deadline": 20
+      },
+      {
+        "actual_output_tokens": 2,
+        "arrival_time": 1,
+        "request_id": 20,
+        "slo_deadline": 20
+      },
+      {
+        "actual_output_tokens": 2,
+        "arrival_time": 1,
+        "request_id": 30,
+        "slo_deadline": 6
+      }
+    ]
+  },
+  {
+    "capacity": 1,
+    "case_id": "k07",
+    "donor": "fifo",
+    "expected": {
+      "base": {
+        "10": {
+          "admission": 0,
+          "completion": 2
+        },
+        "20": {
+          "admission": 2,
+          "completion": 4
+        }
+      },
+      "counts": {
+        "disagreement": 0,
+        "erased": 0,
+        "opportunity": 1
+      },
+      "donor": {
+        "10": {
+          "admission": 0,
+          "completion": 2
+        },
+        "20": {
+          "admission": 2,
+          "completion": 4
+        }
+      }
+    },
+    "requests": [
+      {
+        "actual_output_tokens": 2,
+        "arrival_time": 0,
+        "request_id": 10,
+        "slo_deadline": 20
+      },
+      {
+        "actual_output_tokens": 2,
+        "arrival_time": 0,
+        "request_id": 20,
+        "slo_deadline": 10
+      }
+    ]
+  }
+]

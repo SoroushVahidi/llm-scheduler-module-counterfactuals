@@ -1,5 +1,7 @@
 # Provenance and implementation lineage
 
+The first sections describe the retained v0.1.0 baseline. Current extension sources and claims are in `provenance/recovered_sources.json` and `provenance/claim_matrix.json`.
+
 Source development commit: `cf2200de16b6f6c0aabeaebc5a73de97f01feac2`. This private source identifier is retained for provenance, not offered as a publicly accessible checkout. `projection_lineage.json` maps the 22 explicit A/B input files to whole-file hashes, logical source IDs and field-removal transformations. The private builder retains exact internal paths; the public package needs none of them. `claim_register.json` distinguishes supported reconstruction from frozen evidence and historical limitations. Hash agreement identifies bytes; it does not attest native algorithm fidelity or the historical executed simulator version.
 
 ## Algorithm/source lineage
@@ -28,3 +30,22 @@ Upstream references, verified release labels and license caveats are in `THIRD_P
 This release was prepared with substantive AI assistance for projection adapters, analysis checking, tests and documentation. Human authors remain responsible for final scientific and publication approval; no independent human verification is asserted by an automated PASS.
 
 Public release v0.1.0 (2026-10-30 UTC) comes from the approved 43-file snapshot at private work commit `38f0689d868e57169dd2fd4832a2de6db175855b`. Its scientific data, analysis code and tests are unchanged. Release-only edits update public URLs, citation/version metadata and author-approved publication status; the content manifest is regenerated. The original development history is not distributed.
+
+## Stage4C extension provenance
+
+Reviewed manuscript snapshot: `a93e5c0b8d69f39ead656b5c808d82e3f958922f`. Full source paths, SHA256 values,
+source checkout IDs, recorded execution IDs and storage qualifications are in
+`provenance/stage4c_sources.json`. The756 prefill raw outputs and20 priority
+bench-result files are saved files outside their source Git trees; their
+SHA256 identities are attested by the reviewed Stage4A records. A checkout
+commit is not falsely presented as containing these outputs. The v3 raw arms
+remain remote; the Stage4C projection derives its public summaries from the reviewed
+receipt and repaired saved analysis. No remote job or read was performed during Stage4C. The subsequent v0.2.0 preparation retrieved existing prospective files read-only; no jobs were launched.
+Private packaging uses explicit field allowlists and never imports experiment
+code. Original pilot analyzers and pure oracle are project-owned MIT code;
+only their analysis/verifier functions are included. New adapters aggregate
+saved counters/means under the declared formulas.
+
+The public v0.1.0 annotated tag object is `87328166a4735048cd34bad8a04113473625556d`;
+it points to commit `484aba68a02709006e6b824d6734cfeb69ecd056`.
+Tag objects and source commits are recorded distinctly.

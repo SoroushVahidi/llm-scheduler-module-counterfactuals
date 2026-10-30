@@ -1,13 +1,12 @@
 cff-version: 1.2.0
-message: "Please cite the actual version you use. This is research software and data, not a journal publication; no DOI has been assigned."
+message: "Cite the versioned research release you use. This is research software and data, not a journal publication; no DOI has been assigned."
 type: software
 title: "Module Counterfactuals for Attributing LLM Serving Scheduler Effects: Outcome Reconstruction Package"
 authors:
   - family-names: Vahidi
     given-names: Soroush
-version: 0.1.0
-date-released: 2026-10-30
+version: 0.2.0
 repository-code: "https://github.com/SoroushVahidi/llm-scheduler-module-counterfactuals"
-url: "https://github.com/SoroushVahidi/llm-scheduler-module-counterfactuals/releases/tag/v0.1.0"
+url: "https://github.com/SoroushVahidi/llm-scheduler-module-counterfactuals"
 license: MIT
 abstract: "Portable reconstruction of selected model-conditional scheduler intervention analyses from outcome projections. Data licensing is specified separately in LICENSE-DATA."

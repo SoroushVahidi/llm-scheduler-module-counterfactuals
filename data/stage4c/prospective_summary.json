@@ -1,0 +1,86 @@
+{
+  "H1": {
+    "bootstrap_b": 2000,
+    "bootstrap_unit": "source_window (stratified by source_family)",
+    "delta_r_1x": 0.054504116021541066,
+    "delta_r_95ci": [
+      -0.019730857160741362,
+      0.18389660134613608
+    ],
+    "delta_r_ci_excludes_zero": false,
+    "n_windows": 140,
+    "primary_test_result": "INCONCLUSIVE_CI_INCLUDES_ZERO",
+    "r_actionable_1x": 0.12846341386768137,
+    "r_structural_1x": 0.0739592978461403
+  },
+  "H2": {
+    "source_centered_delta_r": -0.05615276417345422,
+    "source_centered_r_actionable": 0.2565893092868002,
+    "source_centered_r_structural": 0.3127420734602544
+  },
+  "H4_mooncake": {
+    "actionable_reduces_mismatch": true,
+    "by_subtrace": {
+      "mooncake_fast25_conversation": {
+        "mean_actionable_opportunity_rate": 0.4441882785061567,
+        "mean_final_action_divergence_rate": 0.0029606684016408595,
+        "mean_structural_opportunity_rate": 0.6990845422097463,
+        "n_windows": 20,
+        "r_actionable": -0.1572709647730192,
+        "r_structural": -0.44381287331719815
+      },
+      "mooncake_fast25_toolagent": {
+        "mean_actionable_opportunity_rate": 0.30143889398190354,
+        "mean_final_action_divergence_rate": 0.007040629129452566,
+        "mean_structural_opportunity_rate": 0.5889038778715465,
+        "n_windows": 20,
+        "r_actionable": 0.14056313130606657,
+        "r_structural": -0.23477757673069546
+      }
+    },
+    "combined_delta_r": 0.26753310918309625,
+    "combined_r_actionable": -0.03949078022652074,
+    "combined_r_structural": -0.307023889409617,
+    "historical_context_not_pooled": "Original public_trace_replay_v1 Mooncake windows (excluded from this campaign) had mean structural opportunity 0.9392 (Conversation) / 0.4463 (ToolAgent) vs mean actual action divergence 0.0017 / 0.0100. This test uses only the 40 NEW Mooncake windows and is not statistically pooled with those historical values.",
+    "n_windows": 40,
+    "structural_exceeds_actionable_mean": true
+  },
+  "result_classification": "PARTIAL_ACTIONABLE_GENERALIZATION",
+  "secondary": {
+    "S1_actionable_given_structural_vs_divergence": {
+      "pearson_r": 0.21979486976108298,
+      "permutation_p": 0.00849575212393803
+    },
+    "S2_pairwise_rank_disagreement_vs_divergence": {
+      "pearson_r": 0.1825009233525281,
+      "permutation_p": 0.03248375812093953
+    },
+    "S3_actionable_override_rate_by_family": {
+      "azure_2023": {
+        "count": 20,
+        "mean": 0.586250065861039
+      },
+      "azure_2024": {
+        "count": 38,
+        "mean": 0.823072993153984
+      },
+      "burstgpt": {
+        "count": 15,
+        "mean": 0.7336540046009908
+      },
+      "mooncake": {
+        "count": 40,
+        "mean": 0.9802437217374769
+      }
+    },
+    "S3_override_rate_range_across_families": 0.39399365587643786,
+    "S4_actionable_to_divergence_r_spread_across_families": 0.9799042136063696,
+    "S4_structural_to_actionable_more_source_sensitive": false,
+    "S4_structural_to_actionable_spread_across_families": 0.3846910392404553,
+    "bh_fdr_q": 0.1,
+    "bh_qvalues_S1_S2": {
+      "S1": 0.01699150424787606,
+      "S2": 0.03248375812093953
+    }
+  }
+}

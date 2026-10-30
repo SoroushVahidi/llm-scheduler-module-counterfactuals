@@ -1,0 +1,102 @@
+[
+  {
+    "completed_each_arm": 96,
+    "control_sha256": "36fbf582e6decd50b535807cead8d6eb1aee6b59de54bec627336487bcba78bf",
+    "failed_each_arm": 0,
+    "input_multiset_equal": false,
+    "input_vector_equal": false,
+    "output_vector_equal": true,
+    "pair": "real_vllm_priority_opportunity_v1__HIGH__995001",
+    "treatment_sha256": "9df6ecbb275dc9b2c74da161ec9ee16fced88c10c0430fc3cccaa47638f3fdcf"
+  },
+  {
+    "completed_each_arm": 96,
+    "control_sha256": "6fd5ca2f9b451b15f7598e7bf09adf6f5d25e5f8fb30e5bb536ac1dfc439497c",
+    "failed_each_arm": 0,
+    "input_multiset_equal": false,
+    "input_vector_equal": false,
+    "output_vector_equal": true,
+    "pair": "real_vllm_priority_opportunity_v1__HIGH__995002",
+    "treatment_sha256": "35e4a366f0b6cbd160cc86249f798125a9c6898d87484930bd27379db2303e80"
+  },
+  {
+    "completed_each_arm": 96,
+    "control_sha256": "55342adea0fb38c75e9b7d9d0ee1f9864e96c275862cce9929b996710dcb43d3",
+    "failed_each_arm": 0,
+    "input_multiset_equal": false,
+    "input_vector_equal": false,
+    "output_vector_equal": true,
+    "pair": "real_vllm_priority_opportunity_v1__HIGH__995003",
+    "treatment_sha256": "92c7ec8f8e9dfc1245cf2b73ab2857bb6b36bbb9e5ca71519bfc8e59c867f1d3"
+  },
+  {
+    "completed_each_arm": 96,
+    "control_sha256": "2865605b41ce5dfe0b7a1e66bffcb06bc42a9df52e0833bd68f8c8c9ea5635a1",
+    "failed_each_arm": 0,
+    "input_multiset_equal": false,
+    "input_vector_equal": false,
+    "output_vector_equal": true,
+    "pair": "real_vllm_priority_opportunity_v1__HIGH__995004",
+    "treatment_sha256": "891c903e6e13d36d393738cb02096b58aa82c3ed5e61ba164be72a894a25ceb9"
+  },
+  {
+    "completed_each_arm": 96,
+    "control_sha256": "3d567fb6d1d94ed565920c6b480ee8b7ce1fc675c24ccded748097e118cecb6e",
+    "failed_each_arm": 0,
+    "input_multiset_equal": false,
+    "input_vector_equal": false,
+    "output_vector_equal": true,
+    "pair": "real_vllm_priority_opportunity_v1__HIGH__995005",
+    "treatment_sha256": "2f6d853688d1327ff74edf7fb18e5e9e673d6f9ce23ac2c3be70dd7c4bc2d256"
+  },
+  {
+    "completed_each_arm": 96,
+    "control_sha256": "43608f04c38c8e4a350daa103129b8b78b1e5a9890d174c5e9f37ee1f4d38a82",
+    "failed_each_arm": 0,
+    "input_multiset_equal": false,
+    "input_vector_equal": false,
+    "output_vector_equal": true,
+    "pair": "real_vllm_priority_opportunity_v1__LOW__995001",
+    "treatment_sha256": "f0fe1dccae39f5f538a0b432feacfddb28ba5d50829d5d518f8c39e49a05a45a"
+  },
+  {
+    "completed_each_arm": 96,
+    "control_sha256": "b86a3d82d90e19e7d0151a9be4ec77ce7cba6f0d9c1d3bdd569713304d8d9f23",
+    "failed_each_arm": 0,
+    "input_multiset_equal": false,
+    "input_vector_equal": false,
+    "output_vector_equal": true,
+    "pair": "real_vllm_priority_opportunity_v1__LOW__995002",
+    "treatment_sha256": "443177f6728cb7c0845618ef243bad2cfa704ee64743c12321f8d3094a50c457"
+  },
+  {
+    "completed_each_arm": 96,
+    "control_sha256": "0a1efc658bd4358e489492524672b417a0d1a9abb7b5eafaf046bfed45924169",
+    "failed_each_arm": 0,
+    "input_multiset_equal": false,
+    "input_vector_equal": false,
+    "output_vector_equal": true,
+    "pair": "real_vllm_priority_opportunity_v1__LOW__995003",
+    "treatment_sha256": "e5607eeb6df8a6985d045e81511fc75078774ad9ec5cbb2890adbd7b95e82453"
+  },
+  {
+    "completed_each_arm": 96,
+    "control_sha256": "cf9e9ddb4bde70aac68cc5382f2c7a3a7a9d07dabb9f38de0586799c94847bcd",
+    "failed_each_arm": 0,
+    "input_multiset_equal": false,
+    "input_vector_equal": false,
+    "output_vector_equal": true,
+    "pair": "real_vllm_priority_opportunity_v1__LOW__995004",
+    "treatment_sha256": "21a1f0ad16c30f2a9be183aaa3fce1ec93b569bac5e9113b30182fd375eae588"
+  },
+  {
+    "completed_each_arm": 96,
+    "control_sha256": "60da1523c402dbadeec443f5dc0efa32027fae5d1298e7e198256fc727d7b098",
+    "failed_each_arm": 0,
+    "input_multiset_equal": false,
+    "input_vector_equal": false,
+    "output_vector_equal": true,
+    "pair": "real_vllm_priority_opportunity_v1__LOW__995005",
+    "treatment_sha256": "0e8d24bcdbe5bd7d35ea594ebf8f0aaca76f18acaed28092d817d9ef7d0bae3b"
+  }
+]

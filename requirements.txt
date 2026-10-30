@@ -1,3 +1,4 @@
 # Tested with CPython 3.12.3. No simulator, GPU, credentials, or network at runtime.
 numpy==2.3.5
 matplotlib==3.10.9
+pandas==3.0.2

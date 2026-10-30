@@ -1,0 +1,16 @@
+table,label,status,claims,output_or_limitation
+S1,policy-inventory,Documentary inventory,C34-37,Candidate inventories; no native fidelity certification
+S2,appendix-source-correlations,RECONSTRUCTED,C27,output/recovered/results.json prospective.by_source
+S3,related-compare,Documentary methods comparison,Not empirical,No scientific regeneration required
+S4,erasure-sensitivity,RECONSTRUCTED,C09,output/results.json
+S5,kv-populations,RECONSTRUCTED,C31,output/results.json
+S6,replay-ranges,RECONSTRUCTED,C21,output/results.json
+S7,stage4a-pilot,RECONSTRUCTED,C38-39,output/stage4c/pilot.csv
+S8,stage4a-erasure,RECONSTRUCTED,C12-13,output/stage4c/erasure_extension.csv
+S9,stage4a-fidelity,RECONSTRUCTED,C35-36,output/stage4c/dynamic_fidelity.csv
+S10,stage4a-prefill-fidelity,RECONSTRUCTED,C37,output/stage4c/prefill_fidelity.csv
+S11,stage4a-lineage,Documentary provenance,C48,provenance/stage4c_sources.json; unavailable raw hashes cannot be publicly reverified
+S12,benchmark-prediction,FROZEN SCORES,C45,data/stage4c/predictive_model_scores.json; not individual-prediction reconstruction
+S13,stage4a-pairing,AUDIT ASSERTIONS,C44,output/stage4c/real_engine_pairing_audit_assertions.csv; vectors withheld
+S14,metric-counts,RECONSTRUCTED,C29,output/results.json metrics.by_module
+S15,campaigns,Historical inventory,C01-48,No certification of25200-unit seed archive

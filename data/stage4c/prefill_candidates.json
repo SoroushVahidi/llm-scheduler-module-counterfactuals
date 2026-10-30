@@ -1,0 +1,38 @@
+[
+  {
+    "base_policy": "aging_priority",
+    "candidate_id": "0cee1e5f7af303f2",
+    "classification": "DYNAMICALLY_TESTABLE_AT_EXISTING_POST_ADMISSION_BOUNDARY",
+    "donor_policy": "adaptive_chunked_prefill",
+    "known_context_dependency": "requires compatible admission-filtered candidate set",
+    "module_type": "prefill",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "estimated_service_time_first",
+    "candidate_id": "234a705a07d3f053",
+    "classification": "DYNAMICALLY_TESTABLE_AT_EXISTING_POST_ADMISSION_BOUNDARY",
+    "donor_policy": "adaptive_chunked_prefill",
+    "known_context_dependency": "requires compatible admission-filtered candidate set",
+    "module_type": "prefill",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "edf",
+    "candidate_id": "9dc7cb5a4f049982",
+    "classification": "DYNAMICALLY_TESTABLE_AT_EXISTING_POST_ADMISSION_BOUNDARY",
+    "donor_policy": "adaptive_chunked_prefill",
+    "known_context_dependency": "requires compatible admission-filtered candidate set",
+    "module_type": "prefill",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "admission_control",
+    "candidate_id": "d7fa030f5043623d",
+    "classification": "DYNAMICALLY_TESTABLE_AT_EXISTING_POST_ADMISSION_BOUNDARY",
+    "donor_policy": "adaptive_chunked_prefill",
+    "known_context_dependency": "requires compatible admission-filtered candidate set",
+    "module_type": "prefill",
+    "semantic_compatibility_note": null
+  }
+]

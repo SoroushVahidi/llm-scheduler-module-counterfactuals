@@ -1,0 +1,21 @@
+{
+  "priority": {
+    "B": 10000,
+    "C_values_ms": [
+      856.367457124482,
+      612.8223110184384,
+      639.9272294074763,
+      805.2372353267857,
+      750.1397761322248
+    ],
+    "bootstrap_one_sided_95_lower": 662.147263235723,
+    "bootstrap_one_sided_95_upper": 803.6503403680399,
+    "bootstrap_seed": 424242,
+    "mean_C_ms": 732.8988018018815,
+    "median_C_ms": 750.1397761322248,
+    "n_positive": 5
+  },
+  "v3_lower": 5.0335092812517415,
+  "v3_mean": 13.535409889572026,
+  "warning": "Saved positive statistics do not establish identical-input paired causal effects; pairing flags are audit assertions, not recomputable from withheld vectors."
+}

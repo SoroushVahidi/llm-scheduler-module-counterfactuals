@@ -1,0 +1,458 @@
+{
+  "status": "Frozen model scores, not predictions; cannot rerun AUROC/MAE or training",
+  "tasks": {
+    "decision_divergence_prediction": {
+      "B0_constant": {
+        "test": {
+          "AUPRC": 0.16666666666666666,
+          "AUROC": 0.5,
+          "Brier_score": 0.3532235939643347,
+          "accuracy_descriptive": 0.16666666666666666,
+          "n": 6,
+          "positive_prevalence": 0.16666666666666666
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      },
+      "B1_workload_only": {
+        "test": {
+          "AUPRC": 0.5,
+          "AUROC": 0.9,
+          "Brier_score": 0.1699821909074982,
+          "accuracy_descriptive": 0.8333333333333334,
+          "n": 6,
+          "positive_prevalence": 0.16666666666666666
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      },
+      "B2_module_only": {
+        "test": {
+          "AUPRC": 0.3333333333333333,
+          "AUROC": 0.8,
+          "Brier_score": 0.32696794106823984,
+          "accuracy_descriptive": 0.6666666666666666,
+          "n": 6,
+          "positive_prevalence": 0.16666666666666666
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      },
+      "B3_workload_plus_module": {
+        "test": {
+          "AUPRC": 1.0,
+          "AUROC": 1.0,
+          "Brier_score": 0.1769206616308472,
+          "accuracy_descriptive": 0.6666666666666666,
+          "n": 6,
+          "positive_prevalence": 0.16666666666666666
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      },
+      "B4_richest_allowed": {
+        "test": {
+          "AUPRC": 1.0,
+          "AUROC": 1.0,
+          "Brier_score": 0.1652354091503667,
+          "accuracy_descriptive": 0.6666666666666666,
+          "n": 6,
+          "positive_prevalence": 0.16666666666666666
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      },
+      "B5_tree": {
+        "test": {
+          "AUPRC": 1.0,
+          "AUROC": 1.0,
+          "Brier_score": 0.32775911933756946,
+          "accuracy_descriptive": 0.6666666666666666,
+          "n": 6,
+          "positive_prevalence": 0.16666666666666666
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      }
+    },
+    "decision_divergence_prediction_companion_rate": {
+      "B0_constant": {
+        "test": {
+          "MAE": 0.013884289248765431,
+          "Pearson": "NOT_DEFINED",
+          "RMSE": 0.01388838090625072,
+          "Spearman": "NOT_DEFINED",
+          "n": 6,
+          "sign_accuracy": 0.16666666666666666
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      },
+      "B1_workload_only": {
+        "test": {
+          "MAE": 0.016099434024090628,
+          "Pearson": 0.5976143046671967,
+          "RMSE": 0.016699664033965177,
+          "Spearman": 0.5393598899705937,
+          "n": 6,
+          "sign_accuracy": 0.16666666666666666
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      },
+      "B2_module_only": {
+        "test": {
+          "MAE": 0.01038314912876543,
+          "Pearson": 0.4472135954999579,
+          "RMSE": 0.014425621134361992,
+          "Spearman": 0.4472135954999579,
+          "n": 6,
+          "sign_accuracy": 0.16666666666666666
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      },
+      "B3_workload_plus_module": {
+        "test": {
+          "MAE": 0.013898934115318985,
+          "Pearson": 0.5320901894626805,
+          "RMSE": 0.017149058276253883,
+          "Spearman": 0.6546536707079772,
+          "n": 6,
+          "sign_accuracy": 0.16666666666666666
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      },
+      "B4_richest_allowed": {
+        "test": {
+          "MAE": 0.012691355000186396,
+          "Pearson": 0.4939847155434418,
+          "RMSE": 0.017924477624168614,
+          "Spearman": 0.6546536707079772,
+          "n": 6,
+          "sign_accuracy": 0.16666666666666666
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      },
+      "B5_tree": {
+        "test": {
+          "MAE": 0.01265147565943609,
+          "Pearson": 0.4868232297512749,
+          "RMSE": 0.013646888857966364,
+          "Spearman": 0.39279220242478635,
+          "n": 6,
+          "sign_accuracy": 0.16666666666666666
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      }
+    },
+    "effect_size_prediction_pre_decision": {
+      "B0_constant": {
+        "test": {
+          "MAE": 0.010352435832679082,
+          "Pearson": "NOT_DEFINED",
+          "RMSE": 0.025388037585080753,
+          "Spearman": "NOT_DEFINED",
+          "n": 3351,
+          "sign_accuracy": 0.15517755893763055
+        },
+        "test_ci_primary_metric": {
+          "B": 1000,
+          "hi": 0.013684710877983015,
+          "lo": 0.0076844255679283605,
+          "n_valid_replicates": 1000,
+          "status": "OK"
+        }
+      },
+      "B1_workload_only": {
+        "test": {
+          "MAE": 0.010961104768128454,
+          "Pearson": 0.27546209465783983,
+          "RMSE": 0.02437979422206178,
+          "Spearman": 0.3008081015855961,
+          "n": 3351,
+          "sign_accuracy": 0.1566696508504924
+        },
+        "test_ci_primary_metric": {
+          "B": 1000,
+          "hi": 0.014628646045883792,
+          "lo": 0.008250754395660243,
+          "n_valid_replicates": 1000,
+          "status": "OK"
+        }
+      },
+      "B2_module_only": {
+        "test": {
+          "MAE": 0.01053531250784908,
+          "Pearson": 0.2604316670364062,
+          "RMSE": 0.02455463343288793,
+          "Spearman": 0.2845759764902213,
+          "n": 3351,
+          "sign_accuracy": 0.15905699791107134
+        },
+        "test_ci_primary_metric": {
+          "B": 1000,
+          "hi": 0.013854484009527664,
+          "lo": 0.008033454413931353,
+          "n_valid_replicates": 1000,
+          "status": "OK"
+        }
+      },
+      "B3_workload_plus_module": {
+        "test": {
+          "MAE": 0.011118430151206322,
+          "Pearson": 0.33710542329074483,
+          "RMSE": 0.02389941058472415,
+          "Spearman": 0.34393781597713646,
+          "n": 3351,
+          "sign_accuracy": 0.15279021187705163
+        },
+        "test_ci_primary_metric": {
+          "B": 1000,
+          "hi": 0.014462394154143993,
+          "lo": 0.008578396406086484,
+          "n_valid_replicates": 1000,
+          "status": "OK"
+        }
+      },
+      "B4_richest_allowed": {
+        "test": {
+          "MAE": 0.011169770130896749,
+          "Pearson": 0.3354434261237967,
+          "RMSE": 0.023907361833704982,
+          "Spearman": 0.33945972943120495,
+          "n": 3351,
+          "sign_accuracy": 0.1521933751119069
+        },
+        "test_ci_primary_metric": {
+          "B": 1000,
+          "hi": 0.014485062216273685,
+          "lo": 0.008650259261095817,
+          "n_valid_replicates": 1000,
+          "status": "OK"
+        }
+      },
+      "B5_tree": {
+        "test": {
+          "MAE": 0.008747550300491607,
+          "Pearson": 0.5886236255864862,
+          "RMSE": 0.02052645513183867,
+          "Spearman": 0.3963196271249915,
+          "n": 3351,
+          "sign_accuracy": 0.15547597732020293
+        },
+        "test_ci_primary_metric": {
+          "B": 1000,
+          "hi": 0.012046497181271421,
+          "lo": 0.006433937216937023,
+          "n_valid_replicates": 1000,
+          "status": "OK"
+        }
+      }
+    },
+    "effect_size_prediction_with_divergence": {},
+    "opportunity_prediction": {
+      "B0_constant": {
+        "test": {
+          "AUPRC": 0.5,
+          "AUROC": 0.5,
+          "Brier_score": 0.2777777777777778,
+          "accuracy_descriptive": 0.5,
+          "n": 6,
+          "positive_prevalence": 0.5
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      },
+      "B1_workload_only": {
+        "test": {
+          "AUPRC": 0.5,
+          "AUROC": 0.4444444444444444,
+          "Brier_score": 0.2723811544213666,
+          "accuracy_descriptive": 0.5,
+          "n": 6,
+          "positive_prevalence": 0.5
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      },
+      "B2_module_only": {
+        "test": {
+          "AUPRC": 1.0,
+          "AUROC": 1.0,
+          "Brier_score": 0.10633903307377927,
+          "accuracy_descriptive": 1.0,
+          "n": 6,
+          "positive_prevalence": 0.5
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      },
+      "B3_workload_plus_module": {
+        "test": {
+          "AUPRC": 1.0,
+          "AUROC": 1.0,
+          "Brier_score": 0.04402268514411806,
+          "accuracy_descriptive": 1.0,
+          "n": 6,
+          "positive_prevalence": 0.5
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      },
+      "B5_tree": {
+        "test": {
+          "AUPRC": 1.0,
+          "AUROC": 1.0,
+          "Brier_score": 0.19831490866503487,
+          "accuracy_descriptive": 0.6666666666666666,
+          "n": 6,
+          "positive_prevalence": 0.5
+        },
+        "test_ci_primary_metric": {
+          "n_groups": 1,
+          "status": "INSUFFICIENT_GROUPS_FOR_BOOTSTRAP"
+        }
+      }
+    },
+    "pairwise_interaction_prediction": {
+      "B0_constant": {
+        "test": {
+          "MAE": 0.01613388832165752,
+          "Pearson": "NOT_DEFINED",
+          "RMSE": 0.02554058501025195,
+          "Spearman": "NOT_DEFINED",
+          "n": 2166,
+          "sign_accuracy": 0.24145891043397968
+        },
+        "test_ci_primary_metric": {
+          "B": 1000,
+          "hi": 0.02070783162441873,
+          "lo": 0.01242047395151223,
+          "n_valid_replicates": 1000,
+          "status": "OK"
+        }
+      },
+      "B1_workload_only": {
+        "test": {
+          "MAE": 0.015223889151023025,
+          "Pearson": 0.29783814926499347,
+          "RMSE": 0.0243770706657745,
+          "Spearman": 0.3077549145477069,
+          "n": 2166,
+          "sign_accuracy": 0.2322253000923361
+        },
+        "test_ci_primary_metric": {
+          "B": 1000,
+          "hi": 0.019515163411404572,
+          "lo": 0.011567951366541075,
+          "n_valid_replicates": 1000,
+          "status": "OK"
+        }
+      },
+      "B2_module_only": {
+        "test": {
+          "MAE": 0.016147563446661437,
+          "Pearson": 0.07901881617685642,
+          "RMSE": 0.02546919123174597,
+          "Spearman": 0.008352964336623121,
+          "n": 2166,
+          "sign_accuracy": 0.24284395198522624
+        },
+        "test_ci_primary_metric": {
+          "B": 1000,
+          "hi": 0.02072934105674875,
+          "lo": 0.012451895164915702,
+          "n_valid_replicates": 1000,
+          "status": "OK"
+        }
+      },
+      "B3_workload_plus_module": {
+        "test": {
+          "MAE": 0.015226678677721706,
+          "Pearson": 0.29778933862096224,
+          "RMSE": 0.024377489273480924,
+          "Spearman": 0.28263640599173045,
+          "n": 2166,
+          "sign_accuracy": 0.2322253000923361
+        },
+        "test_ci_primary_metric": {
+          "B": 1000,
+          "hi": 0.019513266371096946,
+          "lo": 0.011564784638544092,
+          "n_valid_replicates": 1000,
+          "status": "OK"
+        }
+      },
+      "B4_richest_allowed": {
+        "test": {
+          "MAE": 0.015227377216489363,
+          "Pearson": 0.2973118004397082,
+          "RMSE": 0.02438128502028516,
+          "Spearman": 0.2826862453017878,
+          "n": 2166,
+          "sign_accuracy": 0.2322253000923361
+        },
+        "test_ci_primary_metric": {
+          "B": 1000,
+          "hi": 0.019515599704216416,
+          "lo": 0.01156398142031206,
+          "n_valid_replicates": 1000,
+          "status": "OK"
+        }
+      },
+      "B5_tree": {
+        "test": {
+          "MAE": 0.015232092638088949,
+          "Pearson": 0.26483365171501666,
+          "RMSE": 0.024657073534194496,
+          "Spearman": 0.28299979659603147,
+          "n": 2166,
+          "sign_accuracy": 0.23961218836565096
+        },
+        "test_ci_primary_metric": {
+          "B": 1000,
+          "hi": 0.019694777539820258,
+          "lo": 0.011593536662368793,
+          "n_valid_replicates": 1000,
+          "status": "OK"
+        }
+      }
+    }
+  }
+}

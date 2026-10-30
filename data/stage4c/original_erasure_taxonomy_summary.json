@@ -1,0 +1,79 @@
+{
+  "ambiguity_reduction": {
+    "absolute_reduction": 0.6368644695884184,
+    "by_pair": {
+      "b74cc96d31f0": {
+        "absolute_reduction": 0.7152875175315568,
+        "local_unknown_ambiguous_rate": 0.0,
+        "relative_reduction": 1.0,
+        "trajectory_unknown_ambiguous_rate": 0.7152875175315568
+      },
+      "d5d035057cd1": {
+        "absolute_reduction": 0.8308386711360393,
+        "local_unknown_ambiguous_rate": 0.0,
+        "relative_reduction": 1.0,
+        "trajectory_unknown_ambiguous_rate": 0.8308386711360393
+      },
+      "e81993d1c022": {
+        "absolute_reduction": 0.031083997343957503,
+        "local_unknown_ambiguous_rate": 0.0,
+        "relative_reduction": 1.0,
+        "trajectory_unknown_ambiguous_rate": 0.031083997343957503
+      }
+    },
+    "local_unknown_ambiguous_rate": 0.0,
+    "relative_reduction": 1.0,
+    "trajectory_unknown_ambiguous_rate": 0.6368644695884184
+  },
+  "mechanism_specific_erasure": "STRONG",
+  "trajectory_vs_local_comparison": {
+    "b74cc96d31f0": {
+      "dominant_mechanism_agrees": true,
+      "estimand_warning": "Do not directly equate rates; trajectory and shared-state local estimands differ.",
+      "local_actionable": 98550,
+      "local_dominant_cause": "PREFILL_FILTER",
+      "local_dominant_cause_share": 1.0,
+      "local_survival_to_final_divergence_rate": 0.007488584474885845,
+      "local_unknown_rate": 0.0,
+      "trajectory_actionable": 111228,
+      "trajectory_aligned_actionable": 29217,
+      "trajectory_aligned_survival_to_final_divergence_rate": 0.0,
+      "trajectory_dominant_cause": "PREFILL_FILTER",
+      "trajectory_dominant_cause_share": 1.0,
+      "trajectory_survival_to_final_divergence_rate": 0.022035818319128278,
+      "trajectory_unknown_rate": 0.7152875175315568
+    },
+    "d5d035057cd1": {
+      "dominant_mechanism_agrees": true,
+      "estimand_warning": "Do not directly equate rates; trajectory and shared-state local estimands differ.",
+      "local_actionable": 238863,
+      "local_dominant_cause": "RESOURCE_FEASIBILITY",
+      "local_dominant_cause_share": 0.9994313155566789,
+      "local_survival_to_final_divergence_rate": 0.006166714811419098,
+      "local_unknown_rate": 0.0,
+      "trajectory_actionable": 180786,
+      "trajectory_aligned_actionable": 25686,
+      "trajectory_aligned_survival_to_final_divergence_rate": 0.0,
+      "trajectory_dominant_cause": "RESOURCE_FEASIBILITY",
+      "trajectory_dominant_cause_share": 0.9973137117495913,
+      "trajectory_survival_to_final_divergence_rate": 0.02708174305532508,
+      "trajectory_unknown_rate": 0.8308386711360393
+    },
+    "e81993d1c022": {
+      "dominant_mechanism_agrees": true,
+      "estimand_warning": "Do not directly equate rates; trajectory and shared-state local estimands differ.",
+      "local_actionable": 3135,
+      "local_dominant_cause": "RESOURCE_FEASIBILITY",
+      "local_dominant_cause_share": 1.0,
+      "local_survival_to_final_divergence_rate": 0.03062200956937799,
+      "local_unknown_rate": 0.0,
+      "trajectory_actionable": 72288,
+      "trajectory_aligned_actionable": 69663,
+      "trajectory_aligned_survival_to_final_divergence_rate": 0.0,
+      "trajectory_dominant_cause": "RESOURCE_FEASIBILITY",
+      "trajectory_dominant_cause_share": 1.0,
+      "trajectory_survival_to_final_divergence_rate": 0.005229083665338645,
+      "trajectory_unknown_rate": 0.031083997343957503
+    }
+  }
+}

@@ -475,7 +475,7 @@
         "cd176d3fb11c410e425ac7a08d4ff2145218aaafb2ae02fb0dd1cbcab86265f6",
         "a90d3427bc2698823cfad3d923d7719ff1891b16214fc49008e2c15426a789f5"
       ],
-      "statistical_unit": "140 windows, three selected pair tasks per window"
+      "statistical_unit": "140 source windows at three replay rates (420 dependent window-rate cells); primary inference on 140 unit-rate windows after seed aggregation"
     },
     {
       "claim_id": "metric_categories",

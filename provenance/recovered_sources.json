@@ -1,0 +1,654 @@
+{
+  "sources": [
+    {
+      "public_file": "data/recovered/priority_probes.json",
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "selected_fields": [
+        "config_id",
+        "cell_id",
+        "seed",
+        "n_decisions",
+        "candidate_set_ge2_fraction",
+        "priority_rank_disagreement_fraction"
+      ],
+      "sha256": "f9b77a9acfcf14f92af2aa39f2d3d7012153509bf78c6b1c0af17ce45a4be8ce",
+      "source_file": "artifacts/analysis_priority_decision_opportunity_confirmatory/results.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "public_file": "data/recovered/fairness.json",
+      "rows": 300,
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "selected_fields": [
+        "config_id",
+        "cell_id",
+        "seed",
+        "intervention_id",
+        "module_type",
+        "reward_base",
+        "reward_intervention",
+        "delta_anwg"
+      ],
+      "sha256": "f08eb3c9ef106206380537ce8abc4c71c3bf752da90fbd5779af66dce2b661cf",
+      "source_file": "artifacts/analysis_gate1_corrective_3module_v2/canonical_singles.jsonl",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "public_file": "data/recovered/heldout_singles.json",
+      "rows": 800,
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "selected_fields": [
+        "config_id",
+        "cell_id",
+        "family",
+        "kv_pressure_index",
+        "seed",
+        "intervention_id",
+        "module_type",
+        "reward_base",
+        "reward_intervention",
+        "delta_anwg",
+        "abs_delta_anwg",
+        "delta_num_slo_violated"
+      ],
+      "sha256": "0f90bfb1c55d616c86ac8d4c2428d8dcdc7098ba804d7ea4b696516141b72ea3",
+      "source_file": "experiments/heldout_generalization_v1/analysis/canonical_singles.jsonl",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "public_file": "data/recovered/heldout_pairwise.json",
+      "rows": 5,
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "selected_fields": [
+        "config_id",
+        "cell_id",
+        "seed",
+        "pairwise_id",
+        "base_reward",
+        "first_reward",
+        "second_reward",
+        "both_reward",
+        "interaction"
+      ],
+      "sha256": "61a02af44cf3d645234ded07a22951370a32f4f20c12fc1dddfe62124f46bee4",
+      "source_file": "experiments/heldout_generalization_v1/analysis/canonical_pairwise.jsonl",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "public_file": "data/recovered/heldout_divergence.json",
+      "rows": 600,
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "selected_fields": [
+        "config_id",
+        "cell_id",
+        "seed",
+        "intervention_id",
+        "module_type",
+        "decision_divergence_rate",
+        "fraction_requests_completion_time_changed",
+        "median_abs_completion_time_diff"
+      ],
+      "sha256": "65675604f335e880bd958bb1fbca29cea14e4a915450540c659eda384eab5f48",
+      "source_file": "experiments/heldout_generalization_v1/analysis/divergence_replay.jsonl",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "public_file": "data/recovered/heldout_priority_probes.json",
+      "rows": 20,
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "selected_fields": [
+        "config_id",
+        "cell_id",
+        "seed",
+        "n_decisions",
+        "candidate_set_ge2_fraction",
+        "priority_rank_disagreement_fraction",
+        "priority_top_choice_disagreement_fraction",
+        "potential_decision_divergence_rate",
+        "promotion_opportunity_fraction"
+      ],
+      "sha256": "74b74a8bc74faa3c10f4af1f0214236161531da485188a53579f8403116d22f4",
+      "source_file": "experiments/heldout_generalization_v1/analysis/priority_structural_probes.jsonl",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "public_file": "data/recovered/heldout_prefill_probes.json",
+      "rows": 10,
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "selected_fields": [
+        "config_id",
+        "cell_id",
+        "seed",
+        "n_decisions",
+        "pressure_ge_threshold_fraction",
+        "prefill_candidate_filter_disagreement_fraction",
+        "prefill_action_divergence_fraction"
+      ],
+      "sha256": "1e247ff90dc71b6ee3447a112f1c7efa55c037e254aea0d4113aef73b96a68fb",
+      "source_file": "experiments/heldout_generalization_v1/analysis/prefill_structural_probes.jsonl",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "cf04ddb40621baa2b52941347fdc81a7baefbf86bdfea38eec94104b2ad01864",
+      "source_file": "experiments/heldout_generalization_v1/analysis/results.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "public_file": "data/recovered/replay_four_arm.json",
+      "rows": 63,
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "selected_fields": [
+        "config_id",
+        "source_key",
+        "window_role",
+        "replay_rate_multiplier",
+        "seed",
+        "pairwise_id",
+        "base_reward",
+        "first_reward",
+        "second_reward",
+        "both_reward",
+        "interaction"
+      ],
+      "sha256": "d186a3f9026510e5fde795b7262c039a002cdbbcba9c34c7d96abea390e20f98",
+      "source_file": "experiments/public_trace_replay_v1/analysis/canonical_pairwise.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "public_file": "data/recovered/kv_pairwise.json",
+      "rows": 9840,
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "selected_fields": [
+        "config_id",
+        "pairwise_id",
+        "heldout_stream_index",
+        "heldout_stream_seed",
+        "base_reward",
+        "first_reward_v1",
+        "second_reward_v1",
+        "both_reward_v1",
+        "interaction_v1_corrected"
+      ],
+      "sha256": "d3f52d555264af2da6978479c7b321a09f4dc175de155b6e85f627074bc84d01",
+      "source_file": "artifacts/analysis_heldout_kv_guard_scorpio_correction/joined_pairwise.jsonl",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "60dffd176714a849e213671d8667edfeaf3e82ee0407f4cbf7517a2488e5ef2a",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2023_code_w0_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "f2a4dfccfe9ff1e583bca2683b087859e4c2e7cb83d976af6ebe1569d9694aeb",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2023_code_w1_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "ed6d483e1fb5625854cd4e21b15b98ddcca411cc71f392dc2190160e2f4ad54e",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2023_code_w2_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "5dbdf4be2818aa23ff79db4ac9e1b00049baafce8438e19b08803cba527c4aba",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2023_code_w3_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "572afd7d4df23648ac4d0fe198e017cd80a38fa6a80c2c022247b03f6854b2da",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2023_code_w4_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "b6254fcecdcbbb58d0f43fb0c1ced3bf51a0e95c3a10432f2c1c6659cad485ab",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2023_code_w5_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "354d74d3ca68b0a2cc475a0483a77efb418772c02608a21dd73e2b1d3db76679",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2023_code_w6_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "cd5e51d6794b020c227203f077c698af9622e02bcf1bf312b589797e31d5a32f",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2023_code_w7_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "1fe6b1e80af37680b9dca3f217542b29383258eda4589f9c0155b1ee6a333f55",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2023_conversation_w0_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "cf42f2bbb8ae784cff41b3e8f2e5300de15ebf1bc53f90c19de1a8046df99b71",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2023_conversation_w1_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "c8960d147a67098433ce238d73e03b8c4431fe61082041aa0ff3ae8a4a0234bb",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2023_conversation_w2_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "c8dee72092621f7d84ece53f0abf1d53c920bc5badf5af0384adbf7a12f79704",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2023_conversation_w3_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "a14720c1381e19f4fb7837a89ba6548dfe9fb9ce013949d53aaa6e3500fde8fe",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2023_conversation_w4_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "f1c787e7a4336c989a394970a28e084d30e2600240615de3357d847f8a0fb38b",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2023_conversation_w5_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "2726482516e1c0c4aff869ad8a43a6a5e3b2186d06f46ccdeadd54d52dfb96df",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2023_conversation_w6_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "736993ce86fced70a1bdcf52b60d59998de6bc536e0371fa263a5c2c9d83d82e",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2023_conversation_w7_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "5534228f38174350e45cc794f590ca7d042cdb6999f4601dca10c4692b890dd3",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2024_code_w0_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "bb77721fc24cf2c0207593adebe0d1e7c885d320f8353aeb141c6e2f799188ed",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2024_code_w1_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "7324e7dd03e1f24fc25d196b5c7a2174bc21738318cfa31cb8a45c6486e3b5f8",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2024_code_w2_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "cb83a8b9da42037d70a011bf94bfacba4bb0081e96e787291758e94760d5a768",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2024_code_w3_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "24cd4568ef9f03c7f7c6801bd9b5a69786d83581dfdc10e69d73bb9a63ac691e",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2024_code_w4_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "7a932e155b9f00e1b6251ef1ad05dad4e2dbc8d04378af2771514ea8dc81c96f",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2024_code_w5_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "38b861a32352e4a5f63f97e671815e31d91c2f4b5d5d9fab8686fb40e7a62955",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2024_code_w6_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "4e5a5b9b1c78187e84aad34b2f5d5f9a08de515303c22c5fc3931f6dd5cb77e6",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2024_code_w7_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "657b9731386c2eb02be6779a6f3e535f7d51a009979c2183582daef7e4d07a2d",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2024_conversation_w0_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "2df9dc24cdb9dbf505fac26ff623107c84e02afa9c805de05bb4f632483d30c2",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2024_conversation_w1_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "0fc668b1e6a473353452d3c19703e6095480760fbe43a1f70bc5524bcad756c8",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2024_conversation_w2_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "6caff59b9dae8f1e73d9cd6271c961ae7449b2c2fad6128567160342bac113eb",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2024_conversation_w3_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "cfd4dd4899a971b9040cf43db8e667be544ef83c235cff0a4d27475f4f8fca0d",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2024_conversation_w4_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "26156bd8a2d1808b9faff7c225c42af0eca050e684060bc7ffe4603cca8b0021",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2024_conversation_w5_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "1acaff80dd3fcfa0f15b1ae483d1c6d01d531c1cca7097cc5d7406b11539d76a",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2024_conversation_w6_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "13906fd1d99c029a1602d29291602e4f5de69a03b27183bf3dedbbde2eb2c9ae",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_azure_llm_2024_conversation_w7_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "f8aab5f2f823827a3622695af0f353be53e05ed584da1489e63185f92805af8e",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_burstgpt_v2_without_fails_1_w0_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "a15467b7b97426b978fc510188c9efc84bd3847bfbf099c132116edb9d83c4d9",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_burstgpt_v2_without_fails_1_w1_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "d8143431609f47edd414b8c617c82ae9f91aa024ffb6542ebfa2435f7bc12851",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_burstgpt_v2_without_fails_1_w2_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "55043fe5e740a170682a9ca41ba185e915ad25097d89d28698bb645db0dcbd70",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_burstgpt_v2_without_fails_1_w3_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "7afb8fe2852a203dffdaa0d075c20e8688c3e121c6bda0898071143c197f0a4a",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_burstgpt_v2_without_fails_1_w4_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "ff9ab2211ed95552a9f4bf2fbcece2cbbc4bdfde3d3aa84a4aacf1dc58bec30b",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_burstgpt_v2_without_fails_1_w5_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "24e51c189d38479d941a480b143cd36daeb9fcbdd0ea684692fc6a09a5b7989b",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_burstgpt_v2_without_fails_1_w6_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "b55f981c359e2791b446441e19a530fdbf2f24505fe3943ed7b4aa5f1ac7af62",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_burstgpt_v2_without_fails_1_w7_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "00e383f7a8d56ccc4308f64eae290d57f6944abd1af2669ca69d6de847d091b0",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_mooncake_fast25_conversation_w0_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "9c37fe17f4203433661fff9ba2dcc28898a8579b6a94f610d6e9fa7ea166dfd3",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_mooncake_fast25_conversation_w1_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "3b6474c44739caf739c11fff15808dea22902529adb17e3a17fc8e5d7d977020",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_mooncake_fast25_conversation_w2_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "32c4f6b19a5524eac9894a35b61fdf3d1d165689622a0954abba5640a34e6866",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_mooncake_fast25_conversation_w3_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "e49dc17fa8c3864ff1a352b7d6241e3f85c84a6875a9e38e959ec96a9380d523",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_mooncake_fast25_conversation_w4_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "99c05fb08e22aba77ab75d0708cefcf3f14ba85aefe2239741b4c19ee13a5a54",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_mooncake_fast25_conversation_w5_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "5d4954a63ce34454eb5fae2b554f4ec52940e5f7fd42eb04af4a7a65bfd949da",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_mooncake_fast25_conversation_w6_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "ad3a40079d42a14279b2091852dd10777f2271711afaf41305d8f7ac295f7556",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_mooncake_fast25_conversation_w7_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "2378e760fe08882e52dfa6c9d31b1973d311ee9b9bbe5bfc2f4a484ecc573f4f",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_mooncake_fast25_toolagent_w0_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "efba441926179ed3fc0c3f13966286948857b0b688f1d90ee9ffe9286de5610b",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_mooncake_fast25_toolagent_w1_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "7babdbdc03e812d7456e9f11e646d5658f5105f25f2e76d43a9147742e3a4f1a",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_mooncake_fast25_toolagent_w2_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "2d78f208eb3a4dc0e916cc6e86ddaded0ae5478bd4056e1ad5b033c35c8ff97a",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_mooncake_fast25_toolagent_w3_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "0e252dd986f2d580296a46c22e7bce05ada212a11b7de0287b290dfa8ee2dd09",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_mooncake_fast25_toolagent_w4_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "ed58380cd29a9f87f48841d2a6c68c23a976e8e130890547a00d6f8cfc7ab65e",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_mooncake_fast25_toolagent_w5_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "601a2e198d20353c6d4ca1f0ea247ce6d64cac9d160b41d1957fd4a2caf28e14",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_mooncake_fast25_toolagent_w6_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "dddacfe50651ba570a2aa170099bea89300cb1d77bff9371f07ba69b75d84aaf",
+      "source_file": "experiments/local_counterfactual_override_cause_v1/results/raw/lcocv1_mooncake_fast25_toolagent_w7_1p0x.json",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Retrieved saved artifact outside Git; no containing/execution commit asserted",
+      "sha256": "1a283de7cd500aa201d91202e50dba412f89d8ef79b33bf4611a05b6075b803d",
+      "source_file": "prospective_actionable_opportunity_v1/analysis/actionable_stage_funnel.csv",
+      "source_snapshot_commit": null
+    },
+    {
+      "scope": "Retrieved saved artifact outside Git; no containing/execution commit asserted",
+      "sha256": "3a7d42cfb55f93be2fe2785be90394217188d377136f00c264c0fb019b39efed",
+      "source_file": "prospective_actionable_opportunity_v1/analysis/prospective_counts_and_hashes.json",
+      "source_snapshot_commit": null
+    },
+    {
+      "scope": "Retrieved saved artifact outside Git; no containing/execution commit asserted",
+      "sha256": "7128b092372551116f578d0e1947c51b4c9417cff347d1eade02783ea8927708",
+      "source_file": "prospective_actionable_opportunity_v1/analysis/window_level_metrics.parquet",
+      "source_snapshot_commit": null
+    },
+    {
+      "scope": "Retrieved saved artifact outside Git; no containing/execution commit asserted",
+      "sha256": "de7faae8630dcd43a9a962a93f8522d89a11169398dddc6d808a8d1f918bda19",
+      "source_file": "prospective_actionable_opportunity_v1/analysis/source_stratum_summary.csv",
+      "source_snapshot_commit": null
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "c1fef1c14552303ae09e771777f37eec41410a823ddd7a7ace3b8537d2d1a876",
+      "source_file": "src/module_intervention_benchmark/gate1/analysis/stats_units.py",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "b45be2a25203ee83bda7b2d28ca64c9fb46ffea6726c3ef137a9980de729e43d",
+      "source_file": "src/module_intervention_benchmark/gate1/analysis/corrective_v2.py",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "0aa6da0f3d4b6e362ab886518751ef6675602b912771df12a7f818b0312ff9a9",
+      "source_file": "src/module_intervention_benchmark/gate1/analysis/heldout_generalization.py",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "640fd7675866567565adddc24655709d13f7992e6b213970d98ff4075f8a9f45",
+      "source_file": "scripts/analyze_shared_state_erasure_window_inference.py",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "66708e39ef2451b257b5febb9254ded1ffa16f11de5401e9adf58effe51c3fb0",
+      "source_file": "src/module_intervention_benchmark/gate1/analysis/prospective_actionable_opportunity_confirmatory.py",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "28689a98e3e151e1b20c216b78d8016d36fc15250cad71172e6f0a76ad29924e",
+      "source_file": "src/module_intervention_benchmark/gate1/analysis/priority_decision_opportunity_confirmatory.py",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    },
+    {
+      "scope": "Saved source bytes at reviewed snapshot; not execution attestation",
+      "sha256": "732069204145334fe85695805df4fc7d8044bda38446290a40a6d736286853ee",
+      "source_file": "src/module_intervention_benchmark/gate1/analysis/prefill_decision_opportunity_confirmatory.py",
+      "source_repository": "SoroushVahidi/llm-serving-module-intervention-benchmark",
+      "source_snapshot_commit": "a93e5c0b8d69f39ead656b5c808d82e3f958922f"
+    }
+  ],
+  "version": "0.2.0"
+}

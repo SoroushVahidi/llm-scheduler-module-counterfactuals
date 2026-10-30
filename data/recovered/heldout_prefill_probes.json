@@ -1,0 +1,92 @@
+[
+  {
+    "cell_id": "hg_prefill_active",
+    "config_id": "hg_v1_hg_prefill_active_r0",
+    "n_decisions": 5037,
+    "prefill_action_divergence_fraction": 0.0063529879,
+    "prefill_candidate_filter_disagreement_fraction": 0.0704784594,
+    "pressure_ge_threshold_fraction": 0.1324200913,
+    "seed": 986398104
+  },
+  {
+    "cell_id": "hg_prefill_active",
+    "config_id": "hg_v1_hg_prefill_active_r1",
+    "n_decisions": 4354,
+    "prefill_action_divergence_fraction": 0.0195222784,
+    "prefill_candidate_filter_disagreement_fraction": 0.4540652274,
+    "pressure_ge_threshold_fraction": 0.4974735875,
+    "seed": 986398105
+  },
+  {
+    "cell_id": "hg_prefill_active",
+    "config_id": "hg_v1_hg_prefill_active_r2",
+    "n_decisions": 5166,
+    "prefill_action_divergence_fraction": 0.0027100271,
+    "prefill_candidate_filter_disagreement_fraction": 0.2564847077,
+    "pressure_ge_threshold_fraction": 0.2586140147,
+    "seed": 986398106
+  },
+  {
+    "cell_id": "hg_prefill_active",
+    "config_id": "hg_v1_hg_prefill_active_r3",
+    "n_decisions": 3946,
+    "prefill_action_divergence_fraction": 0.0,
+    "prefill_candidate_filter_disagreement_fraction": 0.1241763811,
+    "pressure_ge_threshold_fraction": 0.1469842879,
+    "seed": 986398107
+  },
+  {
+    "cell_id": "hg_prefill_active",
+    "config_id": "hg_v1_hg_prefill_active_r4",
+    "n_decisions": 4707,
+    "prefill_action_divergence_fraction": 0.0,
+    "prefill_candidate_filter_disagreement_fraction": 0.005098789,
+    "pressure_ge_threshold_fraction": 0.0123220735,
+    "seed": 986398108
+  },
+  {
+    "cell_id": "hg_prefill_inactive",
+    "config_id": "hg_v1_hg_prefill_inactive_r0",
+    "n_decisions": 6512,
+    "prefill_action_divergence_fraction": 0.0,
+    "prefill_candidate_filter_disagreement_fraction": 0.0,
+    "pressure_ge_threshold_fraction": 0.0,
+    "seed": 982343116
+  },
+  {
+    "cell_id": "hg_prefill_inactive",
+    "config_id": "hg_v1_hg_prefill_inactive_r1",
+    "n_decisions": 6278,
+    "prefill_action_divergence_fraction": 0.0,
+    "prefill_candidate_filter_disagreement_fraction": 0.0,
+    "pressure_ge_threshold_fraction": 0.0,
+    "seed": 982343117
+  },
+  {
+    "cell_id": "hg_prefill_inactive",
+    "config_id": "hg_v1_hg_prefill_inactive_r2",
+    "n_decisions": 7546,
+    "prefill_action_divergence_fraction": 0.0,
+    "prefill_candidate_filter_disagreement_fraction": 0.0,
+    "pressure_ge_threshold_fraction": 0.0,
+    "seed": 982343118
+  },
+  {
+    "cell_id": "hg_prefill_inactive",
+    "config_id": "hg_v1_hg_prefill_inactive_r3",
+    "n_decisions": 6630,
+    "prefill_action_divergence_fraction": 0.0,
+    "prefill_candidate_filter_disagreement_fraction": 0.0,
+    "pressure_ge_threshold_fraction": 0.0,
+    "seed": 982343119
+  },
+  {
+    "cell_id": "hg_prefill_inactive",
+    "config_id": "hg_v1_hg_prefill_inactive_r4",
+    "n_decisions": 6481,
+    "prefill_action_divergence_fraction": 0.0,
+    "prefill_candidate_filter_disagreement_fraction": 0.0,
+    "pressure_ge_threshold_fraction": 0.0,
+    "seed": 982343120
+  }
+]

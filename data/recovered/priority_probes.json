@@ -1,0 +1,242 @@
+[
+  {
+    "candidate_set_ge2_fraction": 0.0,
+    "cell_id": "pdo_p0_pressure_no_opportunity",
+    "config_id": "pdo_v1_pdo_p0_pressure_no_opportunity_r0",
+    "n_decisions": 13934,
+    "priority_rank_disagreement_fraction": 0.0,
+    "seed": 2807746
+  },
+  {
+    "candidate_set_ge2_fraction": 0.0,
+    "cell_id": "pdo_p0_pressure_no_opportunity",
+    "config_id": "pdo_v1_pdo_p0_pressure_no_opportunity_r1",
+    "n_decisions": 16185,
+    "priority_rank_disagreement_fraction": 0.0,
+    "seed": 2807747
+  },
+  {
+    "candidate_set_ge2_fraction": 0.0,
+    "cell_id": "pdo_p0_pressure_no_opportunity",
+    "config_id": "pdo_v1_pdo_p0_pressure_no_opportunity_r2",
+    "n_decisions": 15952,
+    "priority_rank_disagreement_fraction": 0.0,
+    "seed": 2807748
+  },
+  {
+    "candidate_set_ge2_fraction": 0.0,
+    "cell_id": "pdo_p0_pressure_no_opportunity",
+    "config_id": "pdo_v1_pdo_p0_pressure_no_opportunity_r3",
+    "n_decisions": 14551,
+    "priority_rank_disagreement_fraction": 0.0,
+    "seed": 2807749
+  },
+  {
+    "candidate_set_ge2_fraction": 0.0,
+    "cell_id": "pdo_p0_pressure_no_opportunity",
+    "config_id": "pdo_v1_pdo_p0_pressure_no_opportunity_r4",
+    "n_decisions": 14999,
+    "priority_rank_disagreement_fraction": 0.0,
+    "seed": 2807750
+  },
+  {
+    "candidate_set_ge2_fraction": 0.0,
+    "cell_id": "pdo_p0_pressure_no_opportunity",
+    "config_id": "pdo_v1_pdo_p0_pressure_no_opportunity_r5",
+    "n_decisions": 15526,
+    "priority_rank_disagreement_fraction": 0.0,
+    "seed": 2807751
+  },
+  {
+    "candidate_set_ge2_fraction": 0.0,
+    "cell_id": "pdo_p0_pressure_no_opportunity",
+    "config_id": "pdo_v1_pdo_p0_pressure_no_opportunity_r6",
+    "n_decisions": 14808,
+    "priority_rank_disagreement_fraction": 0.0,
+    "seed": 2807752
+  },
+  {
+    "candidate_set_ge2_fraction": 0.0,
+    "cell_id": "pdo_p0_pressure_no_opportunity",
+    "config_id": "pdo_v1_pdo_p0_pressure_no_opportunity_r7",
+    "n_decisions": 16009,
+    "priority_rank_disagreement_fraction": 0.0,
+    "seed": 2807753
+  },
+  {
+    "candidate_set_ge2_fraction": 0.0,
+    "cell_id": "pdo_p0_pressure_no_opportunity",
+    "config_id": "pdo_v1_pdo_p0_pressure_no_opportunity_r8",
+    "n_decisions": 17221,
+    "priority_rank_disagreement_fraction": 0.0,
+    "seed": 2807754
+  },
+  {
+    "candidate_set_ge2_fraction": 0.0,
+    "cell_id": "pdo_p0_pressure_no_opportunity",
+    "config_id": "pdo_v1_pdo_p0_pressure_no_opportunity_r9",
+    "n_decisions": 19022,
+    "priority_rank_disagreement_fraction": 0.0,
+    "seed": 2807755
+  },
+  {
+    "candidate_set_ge2_fraction": 0.3664342798843734,
+    "cell_id": "pdo_p1_generic_opportunity",
+    "config_id": "pdo_v1_pdo_p1_generic_opportunity_r0",
+    "n_decisions": 5881,
+    "priority_rank_disagreement_fraction": 0.31389219520489714,
+    "seed": 2127662
+  },
+  {
+    "candidate_set_ge2_fraction": 0.15509651202167288,
+    "cell_id": "pdo_p1_generic_opportunity",
+    "config_id": "pdo_v1_pdo_p1_generic_opportunity_r1",
+    "n_decisions": 5906,
+    "priority_rank_disagreement_fraction": 0.11581442600745005,
+    "seed": 2127663
+  },
+  {
+    "candidate_set_ge2_fraction": 0.3020888186764964,
+    "cell_id": "pdo_p1_generic_opportunity",
+    "config_id": "pdo_v1_pdo_p1_generic_opportunity_r2",
+    "n_decisions": 5697,
+    "priority_rank_disagreement_fraction": 0.21011058451816747,
+    "seed": 2127664
+  },
+  {
+    "candidate_set_ge2_fraction": 0.4961632368329264,
+    "cell_id": "pdo_p1_generic_opportunity",
+    "config_id": "pdo_v1_pdo_p1_generic_opportunity_r3",
+    "n_decisions": 5734,
+    "priority_rank_disagreement_fraction": 0.4502964771538193,
+    "seed": 2127665
+  },
+  {
+    "candidate_set_ge2_fraction": 0.19089147286821706,
+    "cell_id": "pdo_p1_generic_opportunity",
+    "config_id": "pdo_v1_pdo_p1_generic_opportunity_r4",
+    "n_decisions": 6192,
+    "priority_rank_disagreement_fraction": 0.11595607235142119,
+    "seed": 2127666
+  },
+  {
+    "candidate_set_ge2_fraction": 0.6143976003999333,
+    "cell_id": "pdo_p1_generic_opportunity",
+    "config_id": "pdo_v1_pdo_p1_generic_opportunity_r5",
+    "n_decisions": 6001,
+    "priority_rank_disagreement_fraction": 0.5532411264789202,
+    "seed": 2127667
+  },
+  {
+    "candidate_set_ge2_fraction": 0.1239406779661017,
+    "cell_id": "pdo_p1_generic_opportunity",
+    "config_id": "pdo_v1_pdo_p1_generic_opportunity_r6",
+    "n_decisions": 5664,
+    "priority_rank_disagreement_fraction": 0.0480225988700565,
+    "seed": 2127668
+  },
+  {
+    "candidate_set_ge2_fraction": 0.22358722358722358,
+    "cell_id": "pdo_p1_generic_opportunity",
+    "config_id": "pdo_v1_pdo_p1_generic_opportunity_r7",
+    "n_decisions": 5291,
+    "priority_rank_disagreement_fraction": 0.0910980910980911,
+    "seed": 2127669
+  },
+  {
+    "candidate_set_ge2_fraction": 0.75485336637753,
+    "cell_id": "pdo_p1_generic_opportunity",
+    "config_id": "pdo_v1_pdo_p1_generic_opportunity_r8",
+    "n_decisions": 4842,
+    "priority_rank_disagreement_fraction": 0.6282527881040892,
+    "seed": 2127670
+  },
+  {
+    "candidate_set_ge2_fraction": 0.2917251051893408,
+    "cell_id": "pdo_p1_generic_opportunity",
+    "config_id": "pdo_v1_pdo_p1_generic_opportunity_r9",
+    "n_decisions": 5704,
+    "priority_rank_disagreement_fraction": 0.197054698457223,
+    "seed": 2127671
+  },
+  {
+    "candidate_set_ge2_fraction": 0.7568906115417743,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r0",
+    "n_decisions": 4644,
+    "priority_rank_disagreement_fraction": 0.696167097329888,
+    "seed": 2707845
+  },
+  {
+    "candidate_set_ge2_fraction": 0.5093492894540015,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r1",
+    "n_decisions": 5348,
+    "priority_rank_disagreement_fraction": 0.4007105459985041,
+    "seed": 2707846
+  },
+  {
+    "candidate_set_ge2_fraction": 0.47511136935889986,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r2",
+    "n_decisions": 5163,
+    "priority_rank_disagreement_fraction": 0.3091226031377106,
+    "seed": 2707847
+  },
+  {
+    "candidate_set_ge2_fraction": 0.580952380952381,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r3",
+    "n_decisions": 5460,
+    "priority_rank_disagreement_fraction": 0.4756410256410256,
+    "seed": 2707848
+  },
+  {
+    "candidate_set_ge2_fraction": 0.7180308184910946,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r4",
+    "n_decisions": 4997,
+    "priority_rank_disagreement_fraction": 0.675805483289974,
+    "seed": 2707849
+  },
+  {
+    "candidate_set_ge2_fraction": 0.3268142880232746,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r5",
+    "n_decisions": 6187,
+    "priority_rank_disagreement_fraction": 0.3121060287700016,
+    "seed": 2707850
+  },
+  {
+    "candidate_set_ge2_fraction": 0.7180880974695407,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r6",
+    "n_decisions": 5335,
+    "priority_rank_disagreement_fraction": 0.6084348641049672,
+    "seed": 2707851
+  },
+  {
+    "candidate_set_ge2_fraction": 0.3284920207997131,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r7",
+    "n_decisions": 5577,
+    "priority_rank_disagreement_fraction": 0.06795768334229872,
+    "seed": 2707852
+  },
+  {
+    "candidate_set_ge2_fraction": 0.5133678309616214,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r8",
+    "n_decisions": 4638,
+    "priority_rank_disagreement_fraction": 0.45040965933592064,
+    "seed": 2707853
+  },
+  {
+    "candidate_set_ge2_fraction": 0.6231674581870741,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r9",
+    "n_decisions": 4843,
+    "priority_rank_disagreement_fraction": 0.4809002684286599,
+    "seed": 2707854
+  }
+]

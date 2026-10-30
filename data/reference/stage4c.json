@@ -1,0 +1,474 @@
+{
+  "dynamic_fidelity": {
+    "admission": {
+      "agree": 60957,
+      "mean_positive_unit": 1.0,
+      "pooled": 1.0,
+      "positive_units": 3969,
+      "reachable": 60957,
+      "units": 3969,
+      "zero_units": 0
+    },
+    "all": {
+      "agree": 141459,
+      "mean_positive_unit": 0.9597581457130288,
+      "pooled": 0.9298927190975783,
+      "positive_units": 8121,
+      "reachable": 152124,
+      "units": 10773,
+      "zero_units": 2652
+    },
+    "fairness_aging": {
+      "agree": 4329,
+      "mean_positive_unit": 0.5093031551584183,
+      "pooled": 0.2887154861944778,
+      "positive_units": 666,
+      "reachable": 14994,
+      "units": 1134,
+      "zero_units": 468
+    },
+    "kv_guard": {
+      "agree": 5934,
+      "mean_positive_unit": 1.0,
+      "pooled": 1.0,
+      "positive_units": 378,
+      "reachable": 5934,
+      "units": 378,
+      "zero_units": 0
+    },
+    "priority": {
+      "agree": 70239,
+      "mean_positive_unit": 1.0,
+      "pooled": 1.0,
+      "positive_units": 3108,
+      "reachable": 70239,
+      "units": 5292,
+      "zero_units": 2184
+    }
+  },
+  "erasure_extension": {
+    "cells": [
+      {
+        "actionable_count": 4,
+        "config_id": "ptr_v1_azure_llm_2023_code_w0_1p0x",
+        "erased_count": 4,
+        "erasure_rate": 1.0,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 6,
+        "config_id": "ptr_v1_azure_llm_2023_code_w1_1p0x",
+        "erased_count": 6,
+        "erasure_rate": 1.0,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 12,
+        "config_id": "ptr_v1_azure_llm_2023_code_w2_1p0x",
+        "erased_count": 10,
+        "erasure_rate": 0.8333333333333334,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 0,
+        "config_id": "ptr_v1_azure_llm_2023_conversation_w0_1p0x",
+        "erased_count": 0,
+        "erasure_rate": null,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 1,
+        "config_id": "ptr_v1_azure_llm_2023_conversation_w1_1p0x",
+        "erased_count": 1,
+        "erasure_rate": 1.0,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 0,
+        "config_id": "ptr_v1_azure_llm_2023_conversation_w2_1p0x",
+        "erased_count": 0,
+        "erasure_rate": null,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 3,
+        "config_id": "ptr_v1_azure_llm_2024_code_w0_1p0x",
+        "erased_count": 3,
+        "erasure_rate": 1.0,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 65,
+        "config_id": "ptr_v1_azure_llm_2024_code_w1_1p0x",
+        "erased_count": 56,
+        "erasure_rate": 0.8615384615384616,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 17,
+        "config_id": "ptr_v1_azure_llm_2024_code_w2_1p0x",
+        "erased_count": 13,
+        "erasure_rate": 0.7647058823529411,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 885,
+        "config_id": "ptr_v1_azure_llm_2024_conversation_w0_1p0x",
+        "erased_count": 851,
+        "erasure_rate": 0.9615819209039548,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 1309,
+        "config_id": "ptr_v1_azure_llm_2024_conversation_w1_1p0x",
+        "erased_count": 1263,
+        "erasure_rate": 0.9648586707410237,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 3,
+        "config_id": "ptr_v1_azure_llm_2024_conversation_w2_1p0x",
+        "erased_count": 3,
+        "erasure_rate": 1.0,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 0,
+        "config_id": "ptr_v1_burstgpt_v2_without_fails_1_w0_1p0x",
+        "erased_count": 0,
+        "erasure_rate": null,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 10,
+        "config_id": "ptr_v1_burstgpt_v2_without_fails_1_w1_1p0x",
+        "erased_count": 10,
+        "erasure_rate": 1.0,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 12,
+        "config_id": "ptr_v1_burstgpt_v2_without_fails_1_w2_1p0x",
+        "erased_count": 11,
+        "erasure_rate": 0.9166666666666666,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 38169,
+        "config_id": "ptr_v1_mooncake_fast25_conversation_w0_1p0x",
+        "erased_count": 38148,
+        "erasure_rate": 0.9994498152951348,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 30298,
+        "config_id": "ptr_v1_mooncake_fast25_conversation_w1_1p0x",
+        "erased_count": 30278,
+        "erasure_rate": 0.99933989042181,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 5085,
+        "config_id": "ptr_v1_mooncake_fast25_conversation_w2_1p0x",
+        "erased_count": 5056,
+        "erasure_rate": 0.9942969518190757,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 25340,
+        "config_id": "ptr_v1_mooncake_fast25_toolagent_w0_1p0x",
+        "erased_count": 25310,
+        "erasure_rate": 0.9988161010260458,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 1117,
+        "config_id": "ptr_v1_mooncake_fast25_toolagent_w1_1p0x",
+        "erased_count": 1083,
+        "erasure_rate": 0.9695613249776186,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 1085,
+        "config_id": "ptr_v1_mooncake_fast25_toolagent_w2_1p0x",
+        "erased_count": 1053,
+        "erasure_rate": 0.9705069124423963,
+        "family": "admission"
+      },
+      {
+        "actionable_count": 5,
+        "config_id": "ptr_v1_azure_llm_2023_code_w0_1p0x",
+        "erased_count": 5,
+        "erasure_rate": 1.0,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 8,
+        "config_id": "ptr_v1_azure_llm_2023_code_w1_1p0x",
+        "erased_count": 8,
+        "erasure_rate": 1.0,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 23,
+        "config_id": "ptr_v1_azure_llm_2023_code_w2_1p0x",
+        "erased_count": 20,
+        "erasure_rate": 0.8695652173913043,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 0,
+        "config_id": "ptr_v1_azure_llm_2023_conversation_w0_1p0x",
+        "erased_count": 0,
+        "erasure_rate": null,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 1,
+        "config_id": "ptr_v1_azure_llm_2023_conversation_w1_1p0x",
+        "erased_count": 1,
+        "erasure_rate": 1.0,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 0,
+        "config_id": "ptr_v1_azure_llm_2023_conversation_w2_1p0x",
+        "erased_count": 0,
+        "erasure_rate": null,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 4,
+        "config_id": "ptr_v1_azure_llm_2024_code_w0_1p0x",
+        "erased_count": 4,
+        "erasure_rate": 1.0,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 97,
+        "config_id": "ptr_v1_azure_llm_2024_code_w1_1p0x",
+        "erased_count": 85,
+        "erasure_rate": 0.8762886597938144,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 22,
+        "config_id": "ptr_v1_azure_llm_2024_code_w2_1p0x",
+        "erased_count": 17,
+        "erasure_rate": 0.7727272727272727,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 454,
+        "config_id": "ptr_v1_azure_llm_2024_conversation_w0_1p0x",
+        "erased_count": 430,
+        "erasure_rate": 0.947136563876652,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 611,
+        "config_id": "ptr_v1_azure_llm_2024_conversation_w1_1p0x",
+        "erased_count": 581,
+        "erasure_rate": 0.9509001636661211,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 3,
+        "config_id": "ptr_v1_azure_llm_2024_conversation_w2_1p0x",
+        "erased_count": 3,
+        "erasure_rate": 1.0,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 0,
+        "config_id": "ptr_v1_burstgpt_v2_without_fails_1_w0_1p0x",
+        "erased_count": 0,
+        "erasure_rate": null,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 16,
+        "config_id": "ptr_v1_burstgpt_v2_without_fails_1_w1_1p0x",
+        "erased_count": 16,
+        "erasure_rate": 1.0,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 17,
+        "config_id": "ptr_v1_burstgpt_v2_without_fails_1_w2_1p0x",
+        "erased_count": 16,
+        "erasure_rate": 0.9411764705882353,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 868,
+        "config_id": "ptr_v1_mooncake_fast25_conversation_w0_1p0x",
+        "erased_count": 805,
+        "erasure_rate": 0.9274193548387096,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 862,
+        "config_id": "ptr_v1_mooncake_fast25_conversation_w1_1p0x",
+        "erased_count": 850,
+        "erasure_rate": 0.9860788863109049,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 1568,
+        "config_id": "ptr_v1_mooncake_fast25_conversation_w2_1p0x",
+        "erased_count": 1549,
+        "erasure_rate": 0.9878826530612245,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 706,
+        "config_id": "ptr_v1_mooncake_fast25_toolagent_w0_1p0x",
+        "erased_count": 662,
+        "erasure_rate": 0.9376770538243626,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 994,
+        "config_id": "ptr_v1_mooncake_fast25_toolagent_w1_1p0x",
+        "erased_count": 704,
+        "erasure_rate": 0.7082494969818913,
+        "family": "kv_guard"
+      },
+      {
+        "actionable_count": 737,
+        "config_id": "ptr_v1_mooncake_fast25_toolagent_w2_1p0x",
+        "erased_count": 635,
+        "erasure_rate": 0.8616010854816825,
+        "family": "kv_guard"
+      }
+    ],
+    "cross_seed_counts_identical": true,
+    "families": {
+      "admission": {
+        "actionable": 103421,
+        "bootstrap_note": "Frozen code resamples 18 positive-window rates per family, B=10000 seed=424243; not pooled-event CI, not the original fixed-source full-frame bootstrap.",
+        "cells": 21,
+        "erased": 103159,
+        "pooled_rate": 0.9974666653774379,
+        "positive_cell_mean": 0.957480885084359,
+        "positive_cells": 18,
+        "saved_mean_cell_interval": [
+          0.9237523486980049,
+          0.9853825119921356
+        ],
+        "zero_cells": 3
+      },
+      "kv_guard": {
+        "actionable": 6996,
+        "bootstrap_note": "Frozen code resamples 18 positive-window rates per family, B=10000 seed=424243; not pooled-event CI, not the original fixed-source full-frame bootstrap.",
+        "cells": 21,
+        "erased": 6391,
+        "pooled_rate": 0.9135220125786163,
+        "positive_cell_mean": 0.931483493252343,
+        "positive_cells": 18,
+        "saved_mean_cell_interval": [
+          0.8917981623597022,
+          0.9659178135082279
+        ],
+        "zero_cells": 3
+      }
+    },
+    "raw_units": 126
+  },
+  "prefill_fidelity": {
+    "historical_hashes_matched": 756,
+    "raw_units": 756,
+    "views": {
+      "ACTIVE_CENSUS_VIEW": {
+        "ALL_EVALUABLE_STATES": {
+          "agree": 432645,
+          "positive_units": 348,
+          "states": 432645
+        },
+        "GUARD_ACTIVE_STATES": {
+          "agree": 432645,
+          "positive_units": 348,
+          "states": 432645
+        },
+        "GUARD_INACTIVE_OR_PASS_THROUGH_STATES": {
+          "agree": 0,
+          "positive_units": 0,
+          "states": 0
+        },
+        "REACHABLE_STATES": {
+          "agree": 432645,
+          "positive_units": 348,
+          "states": 432645
+        },
+        "ZERO_OPPORTUNITY_STATES": {
+          "agree": 0,
+          "positive_units": 0,
+          "states": 0
+        }
+      },
+      "ACTIVE_FIRST64_SUBVIEW": {
+        "ALL_EVALUABLE_STATES": {
+          "agree": 18378,
+          "positive_units": 348,
+          "states": 18378
+        },
+        "GUARD_ACTIVE_STATES": {
+          "agree": 18378,
+          "positive_units": 348,
+          "states": 18378
+        },
+        "GUARD_INACTIVE_OR_PASS_THROUGH_STATES": {
+          "agree": 0,
+          "positive_units": 0,
+          "states": 0
+        },
+        "REACHABLE_STATES": {
+          "agree": 18378,
+          "positive_units": 348,
+          "states": 18378
+        },
+        "ZERO_OPPORTUNITY_STATES": {
+          "agree": 0,
+          "positive_units": 0,
+          "states": 0
+        }
+      },
+      "STANDARD_VIEW": {
+        "ALL_EVALUABLE_STATES": {
+          "agree": 48384,
+          "positive_units": 756,
+          "states": 48384
+        },
+        "GUARD_ACTIVE_STATES": {
+          "agree": 4530,
+          "positive_units": 207,
+          "states": 4530
+        },
+        "GUARD_INACTIVE_OR_PASS_THROUGH_STATES": {
+          "agree": 7167,
+          "positive_units": 756,
+          "states": 7167
+        },
+        "REACHABLE_STATES": {
+          "agree": 11697,
+          "positive_units": 756,
+          "states": 11697
+        },
+        "ZERO_OPPORTUNITY_STATES": {
+          "agree": 36687,
+          "positive_units": 648,
+          "states": 36687
+        }
+      }
+    }
+  },
+  "stage3e": {
+    "cases": 7,
+    "equal_diagnoses": true,
+    "hashes_matched": 30,
+    "local_branches": 224,
+    "repeat_records_identical": true,
+    "trajectories": 56
+  }
+}

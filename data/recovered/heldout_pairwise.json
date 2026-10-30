@@ -1,0 +1,57 @@
+[
+  {
+    "base_reward": 0.8672985782,
+    "both_reward": 0.8590047393,
+    "cell_id": "hg_prio_fair_interaction",
+    "config_id": "hg_v1_hg_prio_fair_interaction_r0",
+    "first_reward": 0.855450237,
+    "interaction": 0.0118483412,
+    "pairwise_id": "fdbca4434f9e",
+    "second_reward": 0.8590047393,
+    "seed": 987749607
+  },
+  {
+    "base_reward": 0.8316831683,
+    "both_reward": 0.9158415842,
+    "cell_id": "hg_prio_fair_interaction",
+    "config_id": "hg_v1_hg_prio_fair_interaction_r1",
+    "first_reward": 0.8527227723,
+    "interaction": -0.021039604,
+    "pairwise_id": "fdbca4434f9e",
+    "second_reward": 0.9158415842,
+    "seed": 987749608
+  },
+  {
+    "base_reward": 0.8667413214,
+    "both_reward": 0.8857782755,
+    "cell_id": "hg_prio_fair_interaction",
+    "config_id": "hg_v1_hg_prio_fair_interaction_r2",
+    "first_reward": 0.8667413214,
+    "interaction": 0.0,
+    "pairwise_id": "fdbca4434f9e",
+    "second_reward": 0.8857782755,
+    "seed": 987749609
+  },
+  {
+    "base_reward": 0.8295081967,
+    "both_reward": 0.8885245902,
+    "cell_id": "hg_prio_fair_interaction",
+    "config_id": "hg_v1_hg_prio_fair_interaction_r3",
+    "first_reward": 0.8295081967,
+    "interaction": 2.220446049e-16,
+    "pairwise_id": "fdbca4434f9e",
+    "second_reward": 0.8885245902,
+    "seed": 987749610
+  },
+  {
+    "base_reward": 0.956797967,
+    "both_reward": 0.956797967,
+    "cell_id": "hg_prio_fair_interaction",
+    "config_id": "hg_v1_hg_prio_fair_interaction_r4",
+    "first_reward": 0.956797967,
+    "interaction": 0.0,
+    "pairwise_id": "fdbca4434f9e",
+    "second_reward": 0.956797967,
+    "seed": 987749611
+  }
+]

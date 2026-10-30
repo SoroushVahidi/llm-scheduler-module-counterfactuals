@@ -1,0 +1,650 @@
+[
+  {
+    "base_policy": "admission_control",
+    "candidate_id": "a1d6d837a85aaaf1",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "adaptive_chunked_prefill",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "admission_control",
+    "candidate_id": "8cdab5f4aed27d5d",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "aging_priority",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "admission_control",
+    "candidate_id": "a7f1a87dd43cd278",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "admission_control",
+    "candidate_id": "76e82a82d3628d00",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "admission_control",
+    "candidate_id": "22c1921a7e57a939",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "weighted_shortest_processing",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "aging_priority",
+    "candidate_id": "f466b4a1155e7ad9",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "adaptive_chunked_prefill",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "aging_priority",
+    "candidate_id": "0b957183d2cb6cb3",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "aging_priority",
+    "candidate_id": "fd7000a8707f523c",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "edf",
+    "candidate_id": "448e9c7a1d23f278",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "adaptive_chunked_prefill",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "edf",
+    "candidate_id": "6c3688675ab38ef9",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "edf",
+    "candidate_id": "715a9f4d4fb11145",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "estimated_service_time_first",
+    "candidate_id": "7ab6a894ca5162e2",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "adaptive_chunked_prefill",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "estimated_service_time_first",
+    "candidate_id": "8e2de7f7381f495a",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "estimated_service_time_first",
+    "candidate_id": "d9ee6cf4e17a0288",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "scorpio_style_slo_guard",
+    "candidate_id": "6433e99bea0015c0",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "aging_priority",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "scorpio_style_slo_guard",
+    "candidate_id": "fac280a60748c11e",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "scorpio_style_slo_guard",
+    "candidate_id": "1e28ea8ba8725c0d",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "weighted_shortest_processing",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "slo_slack_score",
+    "candidate_id": "99e4894bb3cf0db0",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "slo_slack_score",
+    "candidate_id": "53709b530dac46d9",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "weighted_shortest_processing",
+    "candidate_id": "526c8fecc5653c92",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "weighted_shortest_processing",
+    "candidate_id": "ad16a5acd1131e71",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": null,
+    "module_type": "admission",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "admission_control",
+    "candidate_id": "34ab201dc7e7db92",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "aging_priority",
+    "known_context_dependency": null,
+    "module_type": "fairness_aging",
+    "semantic_compatibility_note": "v0 aging_tiebreak structurally unreachable on this base priority key"
+  },
+  {
+    "base_policy": "edf",
+    "candidate_id": "2892f092f922c892",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "aging_priority",
+    "known_context_dependency": null,
+    "module_type": "fairness_aging",
+    "semantic_compatibility_note": "v0 aging_tiebreak structurally unreachable on this base priority key"
+  },
+  {
+    "base_policy": "estimated_service_time_first",
+    "candidate_id": "71653734286d8d0e",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "aging_priority",
+    "known_context_dependency": null,
+    "module_type": "fairness_aging",
+    "semantic_compatibility_note": "v0 aging_tiebreak structurally unreachable on this base priority key"
+  },
+  {
+    "base_policy": "scorpio_style_slo_guard",
+    "candidate_id": "e6657a4da9723df5",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "aging_priority",
+    "known_context_dependency": null,
+    "module_type": "fairness_aging",
+    "semantic_compatibility_note": "v0 aging_tiebreak structurally unreachable on this base priority key"
+  },
+  {
+    "base_policy": "slo_slack_score",
+    "candidate_id": "2a9c5128b3da5b46",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "aging_priority",
+    "known_context_dependency": null,
+    "module_type": "fairness_aging",
+    "semantic_compatibility_note": "v0 aging_tiebreak structurally unreachable on this base priority key"
+  },
+  {
+    "base_policy": "weighted_shortest_processing",
+    "candidate_id": "39a9e64652a77950",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "aging_priority",
+    "known_context_dependency": null,
+    "module_type": "fairness_aging",
+    "semantic_compatibility_note": "v0 aging_tiebreak structurally unreachable on this base priority key"
+  },
+  {
+    "base_policy": "admission_control",
+    "candidate_id": "9851f35d640a9747",
+    "classification": "CONTEXT_DEPENDENT",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": "kv guard only enforced during placement on pressure_first_fit bases unless round_robin path checks kv_guard",
+    "module_type": "kv_guard",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "admission_control",
+    "candidate_id": "36a54f1b4b57dba0",
+    "classification": "CONTEXT_DEPENDENT",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": "kv guard only enforced during placement on pressure_first_fit bases unless round_robin path checks kv_guard",
+    "module_type": "kv_guard",
+    "semantic_compatibility_note": "routes to KVReservePlacementComponent; not Scorpio decode filter semantics"
+  },
+  {
+    "base_policy": "aging_priority",
+    "candidate_id": "dd3f83598cc9fbe7",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": null,
+    "module_type": "kv_guard",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "aging_priority",
+    "candidate_id": "2beb655fcf9e5cc4",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": null,
+    "module_type": "kv_guard",
+    "semantic_compatibility_note": "routes to KVReservePlacementComponent; not Scorpio decode filter semantics"
+  },
+  {
+    "base_policy": "edf",
+    "candidate_id": "f4ebe289d19f1f4a",
+    "classification": "CONTEXT_DEPENDENT",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": "kv guard only enforced during placement on pressure_first_fit bases unless round_robin path checks kv_guard",
+    "module_type": "kv_guard",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "edf",
+    "candidate_id": "25db33b2c897478b",
+    "classification": "CONTEXT_DEPENDENT",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": "kv guard only enforced during placement on pressure_first_fit bases unless round_robin path checks kv_guard",
+    "module_type": "kv_guard",
+    "semantic_compatibility_note": "routes to KVReservePlacementComponent; not Scorpio decode filter semantics"
+  },
+  {
+    "base_policy": "estimated_service_time_first",
+    "candidate_id": "6e7a62dfcb1415e2",
+    "classification": "CONTEXT_DEPENDENT",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": "kv guard only enforced during placement on pressure_first_fit bases unless round_robin path checks kv_guard",
+    "module_type": "kv_guard",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "estimated_service_time_first",
+    "candidate_id": "140551413db3f20e",
+    "classification": "CONTEXT_DEPENDENT",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": "kv guard only enforced during placement on pressure_first_fit bases unless round_robin path checks kv_guard",
+    "module_type": "kv_guard",
+    "semantic_compatibility_note": "routes to KVReservePlacementComponent; not Scorpio decode filter semantics"
+  },
+  {
+    "base_policy": "scorpio_style_slo_guard",
+    "candidate_id": "8069b5497838898a",
+    "classification": "CONTEXT_DEPENDENT",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": "kv guard only enforced during placement on pressure_first_fit bases unless round_robin path checks kv_guard",
+    "module_type": "kv_guard",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "slo_slack_score",
+    "candidate_id": "08d800334c13d275",
+    "classification": "CONTEXT_DEPENDENT",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": "kv guard only enforced during placement on pressure_first_fit bases unless round_robin path checks kv_guard",
+    "module_type": "kv_guard",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "slo_slack_score",
+    "candidate_id": "6904ad261dd3b77b",
+    "classification": "CONTEXT_DEPENDENT",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": "kv guard only enforced during placement on pressure_first_fit bases unless round_robin path checks kv_guard",
+    "module_type": "kv_guard",
+    "semantic_compatibility_note": "routes to KVReservePlacementComponent; not Scorpio decode filter semantics"
+  },
+  {
+    "base_policy": "weighted_shortest_processing",
+    "candidate_id": "8cfa766d5ad34288",
+    "classification": "CONTEXT_DEPENDENT",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": "kv guard only enforced during placement on pressure_first_fit bases unless round_robin path checks kv_guard",
+    "module_type": "kv_guard",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "weighted_shortest_processing",
+    "candidate_id": "27aa7fe7247b436a",
+    "classification": "CONTEXT_DEPENDENT",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": "kv guard only enforced during placement on pressure_first_fit bases unless round_robin path checks kv_guard",
+    "module_type": "kv_guard",
+    "semantic_compatibility_note": "routes to KVReservePlacementComponent; not Scorpio decode filter semantics"
+  },
+  {
+    "base_policy": "admission_control",
+    "candidate_id": "d7fa030f5043623d",
+    "classification": "CONTEXT_DEPENDENT",
+    "donor_policy": "adaptive_chunked_prefill",
+    "known_context_dependency": "requires compatible admission-filtered candidate set",
+    "module_type": "prefill",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "aging_priority",
+    "candidate_id": "0cee1e5f7af303f2",
+    "classification": "CONTEXT_DEPENDENT",
+    "donor_policy": "adaptive_chunked_prefill",
+    "known_context_dependency": "requires compatible admission-filtered candidate set",
+    "module_type": "prefill",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "edf",
+    "candidate_id": "9dc7cb5a4f049982",
+    "classification": "CONTEXT_DEPENDENT",
+    "donor_policy": "adaptive_chunked_prefill",
+    "known_context_dependency": "requires compatible admission-filtered candidate set",
+    "module_type": "prefill",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "estimated_service_time_first",
+    "candidate_id": "234a705a07d3f053",
+    "classification": "CONTEXT_DEPENDENT",
+    "donor_policy": "adaptive_chunked_prefill",
+    "known_context_dependency": "requires compatible admission-filtered candidate set",
+    "module_type": "prefill",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "admission_control",
+    "candidate_id": "b02bc6f1ccaf6daa",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "adaptive_chunked_prefill",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "admission_control",
+    "candidate_id": "f9f0f5f2305c804e",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "aging_priority",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "admission_control",
+    "candidate_id": "f42be0485c6eb159",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "admission_control",
+    "candidate_id": "554dab435d2053a0",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "admission_control",
+    "candidate_id": "af5aa2d953f5ebd3",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "weighted_shortest_processing",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "aging_priority",
+    "candidate_id": "84c1f5969def5a6f",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "adaptive_chunked_prefill",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "aging_priority",
+    "candidate_id": "e5fb2075aa233d62",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "aging_priority",
+    "candidate_id": "6d9d1a21d7fb3924",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "aging_priority",
+    "candidate_id": "48fffeb9dde26a47",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "weighted_shortest_processing",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "edf",
+    "candidate_id": "3c255a3e782a030d",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "adaptive_chunked_prefill",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "edf",
+    "candidate_id": "46b2545803bd2c2b",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "aging_priority",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "edf",
+    "candidate_id": "e7f753e0c4d49c88",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "edf",
+    "candidate_id": "09de20d4f95b9c24",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "edf",
+    "candidate_id": "e0b38f4089ee4a2c",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "weighted_shortest_processing",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "estimated_service_time_first",
+    "candidate_id": "16a5fb963559dcf5",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "aging_priority",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "estimated_service_time_first",
+    "candidate_id": "379fbb9dcd6c3258",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "estimated_service_time_first",
+    "candidate_id": "8b770dbe25baa60a",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "estimated_service_time_first",
+    "candidate_id": "1d617d84203a144a",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "weighted_shortest_processing",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "scorpio_style_slo_guard",
+    "candidate_id": "458cb7300450b6e1",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "aging_priority",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "scorpio_style_slo_guard",
+    "candidate_id": "e745172791ee40e2",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "scorpio_style_slo_guard",
+    "candidate_id": "a6e6ef3fd8681ba4",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "weighted_shortest_processing",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "slo_slack_score",
+    "candidate_id": "fda5a19eb71147e5",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "aging_priority",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "slo_slack_score",
+    "candidate_id": "7f710326c5a7efd7",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "slo_slack_score",
+    "candidate_id": "ad70ba12a59bdf4c",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "slo_slack_score",
+    "candidate_id": "e8a75e461b9fc4e7",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "weighted_shortest_processing",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "weighted_shortest_processing",
+    "candidate_id": "6d5af3d3ad1e1fc7",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "aging_priority",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "weighted_shortest_processing",
+    "candidate_id": "754eb66028c51b6c",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "kv_constrained_online",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  },
+  {
+    "base_policy": "weighted_shortest_processing",
+    "candidate_id": "037a9f6fff725ac7",
+    "classification": "DYNAMICALLY_TESTABLE",
+    "donor_policy": "scorpio_style_slo_guard",
+    "known_context_dependency": null,
+    "module_type": "priority",
+    "semantic_compatibility_note": null
+  }
+]

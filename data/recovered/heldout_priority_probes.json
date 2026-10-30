@@ -1,0 +1,222 @@
+[
+  {
+    "candidate_set_ge2_fraction": 0.1577676415,
+    "cell_id": "hg_prio_fair_interaction",
+    "config_id": "hg_v1_hg_prio_fair_interaction_r0",
+    "n_decisions": 3727,
+    "potential_decision_divergence_rate": 0.1008854306,
+    "priority_rank_disagreement_fraction": 0.1215454789,
+    "priority_top_choice_disagreement_fraction": 0.1008854306,
+    "promotion_opportunity_fraction": 0.0401647786,
+    "seed": 987749607
+  },
+  {
+    "candidate_set_ge2_fraction": 0.2587038029,
+    "cell_id": "hg_prio_fair_interaction",
+    "config_id": "hg_v1_hg_prio_fair_interaction_r1",
+    "n_decisions": 3734,
+    "potential_decision_divergence_rate": 0.0822174612,
+    "priority_rank_disagreement_fraction": 0.1896089984,
+    "priority_top_choice_disagreement_fraction": 0.0822174612,
+    "promotion_opportunity_fraction": 0.1053042122,
+    "seed": 987749608
+  },
+  {
+    "candidate_set_ge2_fraction": 0.198325484,
+    "cell_id": "hg_prio_fair_interaction",
+    "config_id": "hg_v1_hg_prio_fair_interaction_r2",
+    "n_decisions": 3822,
+    "potential_decision_divergence_rate": 0.0434327577,
+    "priority_rank_disagreement_fraction": 0.1159079016,
+    "priority_top_choice_disagreement_fraction": 0.0434327577,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 987749609
+  },
+  {
+    "candidate_set_ge2_fraction": 0.2261017671,
+    "cell_id": "hg_prio_fair_interaction",
+    "config_id": "hg_v1_hg_prio_fair_interaction_r3",
+    "n_decisions": 4697,
+    "potential_decision_divergence_rate": 0.1258249947,
+    "priority_rank_disagreement_fraction": 0.1739408133,
+    "priority_top_choice_disagreement_fraction": 0.1258249947,
+    "promotion_opportunity_fraction": 0.0699198835,
+    "seed": 987749610
+  },
+  {
+    "candidate_set_ge2_fraction": 0.1088306778,
+    "cell_id": "hg_prio_fair_interaction",
+    "config_id": "hg_v1_hg_prio_fair_interaction_r4",
+    "n_decisions": 3703,
+    "potential_decision_divergence_rate": 0.0410477991,
+    "priority_rank_disagreement_fraction": 0.0477990818,
+    "priority_top_choice_disagreement_fraction": 0.0410477991,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 987749611
+  },
+  {
+    "candidate_set_ge2_fraction": 0.5122353588,
+    "cell_id": "hg_prio_high_opportunity",
+    "config_id": "hg_v1_hg_prio_high_opportunity_r0",
+    "n_decisions": 3637,
+    "potential_decision_divergence_rate": 0.252405829,
+    "priority_rank_disagreement_fraction": 0.4877646412,
+    "priority_top_choice_disagreement_fraction": 0.252405829,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 974631670
+  },
+  {
+    "candidate_set_ge2_fraction": 0.1253707199,
+    "cell_id": "hg_prio_high_opportunity",
+    "config_id": "hg_v1_hg_prio_high_opportunity_r1",
+    "n_decisions": 3709,
+    "potential_decision_divergence_rate": 0.0234564573,
+    "priority_rank_disagreement_fraction": 0.0264222162,
+    "priority_top_choice_disagreement_fraction": 0.0234564573,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 974631671
+  },
+  {
+    "candidate_set_ge2_fraction": 0.3162835869,
+    "cell_id": "hg_prio_high_opportunity",
+    "config_id": "hg_v1_hg_prio_high_opportunity_r2",
+    "n_decisions": 3089,
+    "potential_decision_divergence_rate": 0.0747814827,
+    "priority_rank_disagreement_fraction": 0.1035933959,
+    "priority_top_choice_disagreement_fraction": 0.0747814827,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 974631672
+  },
+  {
+    "candidate_set_ge2_fraction": 0.0955777461,
+    "cell_id": "hg_prio_high_opportunity",
+    "config_id": "hg_v1_hg_prio_high_opportunity_r3",
+    "n_decisions": 2804,
+    "potential_decision_divergence_rate": 0.0057061341,
+    "priority_rank_disagreement_fraction": 0.0057061341,
+    "priority_top_choice_disagreement_fraction": 0.0057061341,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 974631673
+  },
+  {
+    "candidate_set_ge2_fraction": 0.5456609485,
+    "cell_id": "hg_prio_high_opportunity",
+    "config_id": "hg_v1_hg_prio_high_opportunity_r4",
+    "n_decisions": 3964,
+    "potential_decision_divergence_rate": 0.1495963673,
+    "priority_rank_disagreement_fraction": 0.2954086781,
+    "priority_top_choice_disagreement_fraction": 0.1495963673,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 974631674
+  },
+  {
+    "candidate_set_ge2_fraction": 0.0369322908,
+    "cell_id": "hg_prio_low_opportunity",
+    "config_id": "hg_v1_hg_prio_low_opportunity_r0",
+    "n_decisions": 6011,
+    "potential_decision_divergence_rate": 0.0,
+    "priority_rank_disagreement_fraction": 0.0,
+    "priority_top_choice_disagreement_fraction": 0.0,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 978425011
+  },
+  {
+    "candidate_set_ge2_fraction": 0.0,
+    "cell_id": "hg_prio_low_opportunity",
+    "config_id": "hg_v1_hg_prio_low_opportunity_r1",
+    "n_decisions": 7135,
+    "potential_decision_divergence_rate": 0.0,
+    "priority_rank_disagreement_fraction": 0.0,
+    "priority_top_choice_disagreement_fraction": 0.0,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 978425012
+  },
+  {
+    "candidate_set_ge2_fraction": 0.0,
+    "cell_id": "hg_prio_low_opportunity",
+    "config_id": "hg_v1_hg_prio_low_opportunity_r2",
+    "n_decisions": 7826,
+    "potential_decision_divergence_rate": 0.0,
+    "priority_rank_disagreement_fraction": 0.0,
+    "priority_top_choice_disagreement_fraction": 0.0,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 978425013
+  },
+  {
+    "candidate_set_ge2_fraction": 0.0,
+    "cell_id": "hg_prio_low_opportunity",
+    "config_id": "hg_v1_hg_prio_low_opportunity_r3",
+    "n_decisions": 7806,
+    "potential_decision_divergence_rate": 0.0,
+    "priority_rank_disagreement_fraction": 0.0,
+    "priority_top_choice_disagreement_fraction": 0.0,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 978425014
+  },
+  {
+    "candidate_set_ge2_fraction": 0.0122873346,
+    "cell_id": "hg_prio_low_opportunity",
+    "config_id": "hg_v1_hg_prio_low_opportunity_r4",
+    "n_decisions": 7406,
+    "potential_decision_divergence_rate": 0.0,
+    "priority_rank_disagreement_fraction": 0.0,
+    "priority_top_choice_disagreement_fraction": 0.0,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 978425015
+  },
+  {
+    "candidate_set_ge2_fraction": 0.1887983171,
+    "cell_id": "hg_prio_mid_opportunity",
+    "config_id": "hg_v1_hg_prio_mid_opportunity_r0",
+    "n_decisions": 3803,
+    "potential_decision_divergence_rate": 0.0431238496,
+    "priority_rank_disagreement_fraction": 0.0951880095,
+    "priority_top_choice_disagreement_fraction": 0.0431238496,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 978272622
+  },
+  {
+    "candidate_set_ge2_fraction": 0.2245287015,
+    "cell_id": "hg_prio_mid_opportunity",
+    "config_id": "hg_v1_hg_prio_mid_opportunity_r1",
+    "n_decisions": 4721,
+    "potential_decision_divergence_rate": 0.1453081974,
+    "priority_rank_disagreement_fraction": 0.1872484643,
+    "priority_top_choice_disagreement_fraction": 0.1453081974,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 978272623
+  },
+  {
+    "candidate_set_ge2_fraction": 0.024588577,
+    "cell_id": "hg_prio_mid_opportunity",
+    "config_id": "hg_v1_hg_prio_mid_opportunity_r2",
+    "n_decisions": 5165,
+    "potential_decision_divergence_rate": 0.0056147144,
+    "priority_rank_disagreement_fraction": 0.0056147144,
+    "priority_top_choice_disagreement_fraction": 0.0056147144,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 978272624
+  },
+  {
+    "candidate_set_ge2_fraction": 0.0790394031,
+    "cell_id": "hg_prio_mid_opportunity",
+    "config_id": "hg_v1_hg_prio_mid_opportunity_r3",
+    "n_decisions": 4289,
+    "potential_decision_divergence_rate": 0.0149218932,
+    "priority_rank_disagreement_fraction": 0.0149218932,
+    "priority_top_choice_disagreement_fraction": 0.0149218932,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 978272625
+  },
+  {
+    "candidate_set_ge2_fraction": 0.303410341,
+    "cell_id": "hg_prio_mid_opportunity",
+    "config_id": "hg_v1_hg_prio_mid_opportunity_r4",
+    "n_decisions": 4545,
+    "potential_decision_divergence_rate": 0.1196919692,
+    "priority_rank_disagreement_fraction": 0.2558855886,
+    "priority_top_choice_disagreement_fraction": 0.1196919692,
+    "promotion_opportunity_fraction": 0.0,
+    "seed": 978272626
+  }
+]

@@ -1,0 +1,2262 @@
+[
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w0_1p0x",
+    "counts": {},
+    "n_decision_records": 6087,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      762795893,
+      764142669,
+      763098723
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w1_1p0x",
+    "counts": {},
+    "n_decision_records": 4326,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      764617252,
+      766581861,
+      760192484
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w2_1p0x",
+    "counts": {},
+    "n_decision_records": 5280,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      765416335,
+      765327859,
+      764246971
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w3_1p0x",
+    "counts": {},
+    "n_decision_records": 5055,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      766044404,
+      764943584,
+      762326635
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w4_1p0x",
+    "counts": {},
+    "n_decision_records": 4341,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      763300353,
+      762669317,
+      764639986
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w5_1p0x",
+    "counts": {},
+    "n_decision_records": 5031,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      760511780,
+      764192381,
+      765919425
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w6_1p0x",
+    "counts": {},
+    "n_decision_records": 9576,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      764723919,
+      760229283,
+      762645050
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w7_1p0x",
+    "counts": {},
+    "n_decision_records": 5958,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      763961486,
+      760536717,
+      764977137
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w0_1p0x",
+    "counts": {},
+    "n_decision_records": 38070,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      761133983,
+      760165441,
+      760766684
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w1_1p0x",
+    "counts": {},
+    "n_decision_records": 31707,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      763356147,
+      761281489,
+      763997468
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w2_1p0x",
+    "counts": {},
+    "n_decision_records": 23514,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      765152921,
+      764766245,
+      762943003
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w3_1p0x",
+    "counts": {},
+    "n_decision_records": 20370,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      760076779,
+      760523107,
+      760690144
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w4_1p0x",
+    "counts": {},
+    "n_decision_records": 18123,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      765983860,
+      760578206,
+      766969256
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w5_1p0x",
+    "counts": {},
+    "n_decision_records": 19755,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      764834310,
+      760901862,
+      766591035
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w6_1p0x",
+    "counts": {},
+    "n_decision_records": 26124,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      760606802,
+      762431916,
+      762121856
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w7_1p0x",
+    "counts": {},
+    "n_decision_records": 38409,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      763293606,
+      760314939,
+      764873197
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w0_1p0x",
+    "counts": {
+      "actionable": 207,
+      "cause_FINAL_DIVERGENCE": 24,
+      "cause_PREFILL_FILTER": 24,
+      "cause_UNKNOWN_AMBIGUOUS": 159,
+      "final_divergent": 24
+    },
+    "n_decision_records": 3018,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      766316034,
+      762291689,
+      763837544
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w1_1p0x",
+    "counts": {},
+    "n_decision_records": 7452,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      763153137,
+      761794417,
+      763855842
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w2_1p0x",
+    "counts": {
+      "actionable": 6,
+      "cause_PREFILL_FILTER": 6,
+      "final_divergent": 0
+    },
+    "n_decision_records": 1944,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      762933564,
+      765277390,
+      764702591
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w3_1p0x",
+    "counts": {},
+    "n_decision_records": 3615,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      765950742,
+      764987222,
+      766069322
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w4_1p0x",
+    "counts": {
+      "actionable": 66,
+      "cause_FINAL_DIVERGENCE": 18,
+      "cause_PREFILL_FILTER": 9,
+      "cause_UNKNOWN_AMBIGUOUS": 39,
+      "final_divergent": 18
+    },
+    "n_decision_records": 4533,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      762583156,
+      762574659,
+      760689908
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w5_1p0x",
+    "counts": {},
+    "n_decision_records": 3474,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      765122816,
+      766544246,
+      764781752
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w6_1p0x",
+    "counts": {},
+    "n_decision_records": 2382,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      766325993,
+      764648416,
+      760960569
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w7_1p0x",
+    "counts": {},
+    "n_decision_records": 3732,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      766535313,
+      765175879,
+      762963169
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w0_1p0x",
+    "counts": {
+      "actionable": 174,
+      "cause_PREFILL_FILTER": 174,
+      "final_divergent": 0
+    },
+    "n_decision_records": 6351,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      764635401,
+      760061231,
+      764279649
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w1_1p0x",
+    "counts": {
+      "actionable": 159,
+      "cause_FINAL_DIVERGENCE": 21,
+      "cause_UNKNOWN_AMBIGUOUS": 138,
+      "final_divergent": 21
+    },
+    "n_decision_records": 4194,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      764180941,
+      765393976,
+      765659178
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w2_1p0x",
+    "counts": {
+      "actionable": 108,
+      "cause_PREFILL_FILTER": 108,
+      "final_divergent": 0
+    },
+    "n_decision_records": 7503,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      763803291,
+      766157770,
+      765471420
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w3_1p0x",
+    "counts": {
+      "actionable": 1230,
+      "cause_FINAL_DIVERGENCE": 108,
+      "cause_PREFILL_FILTER": 285,
+      "cause_UNKNOWN_AMBIGUOUS": 837,
+      "final_divergent": 108
+    },
+    "n_decision_records": 5841,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      763345481,
+      765016340,
+      764161297
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w4_1p0x",
+    "counts": {
+      "actionable": 144,
+      "cause_PREFILL_FILTER": 144,
+      "final_divergent": 0
+    },
+    "n_decision_records": 5874,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      766245361,
+      761119587,
+      762521769
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w5_1p0x",
+    "counts": {
+      "actionable": 78,
+      "cause_PREFILL_FILTER": 78,
+      "final_divergent": 0
+    },
+    "n_decision_records": 6402,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      764584905,
+      763340319,
+      765416959
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w6_1p0x",
+    "counts": {
+      "actionable": 2649,
+      "cause_FINAL_DIVERGENCE": 225,
+      "cause_PREFILL_FILTER": 243,
+      "cause_UNKNOWN_AMBIGUOUS": 2181,
+      "final_divergent": 225
+    },
+    "n_decision_records": 6864,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      762053406,
+      764087880,
+      765787842
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w7_1p0x",
+    "counts": {},
+    "n_decision_records": 6189,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      765296790,
+      763827864,
+      763830244
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w0_1p0x",
+    "counts": {},
+    "n_decision_records": 13776,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      765528716,
+      763954699,
+      766658859
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w1_1p0x",
+    "counts": {},
+    "n_decision_records": 4665,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      764089121,
+      760708026,
+      766184244
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w2_1p0x",
+    "counts": {},
+    "n_decision_records": 27456,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      765043111,
+      760523985,
+      763352857
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w3_1p0x",
+    "counts": {},
+    "n_decision_records": 31353,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      766585020,
+      764363364,
+      762262088
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w4_1p0x",
+    "counts": {},
+    "n_decision_records": 20502,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      762916263,
+      765100817,
+      766901258
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w5_1p0x",
+    "counts": {},
+    "n_decision_records": 4074,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      766859047,
+      765493728,
+      764944418
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w6_1p0x",
+    "counts": {},
+    "n_decision_records": 2577,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      764413866,
+      765676465,
+      766398369
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w7_1p0x",
+    "counts": {},
+    "n_decision_records": 501,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      762655027,
+      766474494,
+      764921310
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w0_1p0x",
+    "counts": {
+      "actionable": 8838,
+      "cause_FINAL_DIVERGENCE": 45,
+      "cause_PREFILL_FILTER": 6420,
+      "cause_UNKNOWN_AMBIGUOUS": 2373,
+      "final_divergent": 45
+    },
+    "n_decision_records": 132003,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      766777528,
+      761394665,
+      764494521
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w1_1p0x",
+    "counts": {
+      "actionable": 10923,
+      "cause_FINAL_DIVERGENCE": 186,
+      "cause_PREFILL_FILTER": 6,
+      "cause_UNKNOWN_AMBIGUOUS": 10731,
+      "final_divergent": 186
+    },
+    "n_decision_records": 102237,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      762305252,
+      766675031,
+      762689372
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w2_1p0x",
+    "counts": {
+      "actionable": 12156,
+      "cause_FINAL_DIVERGENCE": 138,
+      "cause_PREFILL_FILTER": 705,
+      "cause_UNKNOWN_AMBIGUOUS": 11313,
+      "final_divergent": 138
+    },
+    "n_decision_records": 97353,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      766483559,
+      760824687,
+      766664087
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w3_1p0x",
+    "counts": {
+      "actionable": 3129,
+      "cause_FINAL_DIVERGENCE": 6,
+      "cause_PREFILL_FILTER": 2481,
+      "cause_UNKNOWN_AMBIGUOUS": 642,
+      "final_divergent": 6
+    },
+    "n_decision_records": 103584,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      760854365,
+      765339641,
+      766883394
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w4_1p0x",
+    "counts": {
+      "actionable": 8958,
+      "cause_FINAL_DIVERGENCE": 153,
+      "cause_PREFILL_FILTER": 723,
+      "cause_UNKNOWN_AMBIGUOUS": 8082,
+      "final_divergent": 153
+    },
+    "n_decision_records": 105972,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      762548841,
+      765332201,
+      766205153
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w5_1p0x",
+    "counts": {
+      "actionable": 7533,
+      "cause_FINAL_DIVERGENCE": 33,
+      "cause_PREFILL_FILTER": 3033,
+      "cause_UNKNOWN_AMBIGUOUS": 4467,
+      "final_divergent": 33
+    },
+    "n_decision_records": 123006,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      763022554,
+      761287217,
+      760052200
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w6_1p0x",
+    "counts": {
+      "actionable": 7026,
+      "cause_FINAL_DIVERGENCE": 39,
+      "cause_PREFILL_FILTER": 5007,
+      "cause_UNKNOWN_AMBIGUOUS": 1980,
+      "final_divergent": 39
+    },
+    "n_decision_records": 107415,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      764338501,
+      766259140,
+      761069279
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w7_1p0x",
+    "counts": {
+      "actionable": 6042,
+      "cause_FINAL_DIVERGENCE": 48,
+      "cause_PREFILL_FILTER": 1734,
+      "cause_UNKNOWN_AMBIGUOUS": 4260,
+      "final_divergent": 48
+    },
+    "n_decision_records": 85029,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      763519808,
+      764404654,
+      764893506
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w0_1p0x",
+    "counts": {
+      "actionable": 10050,
+      "cause_FINAL_DIVERGENCE": 180,
+      "cause_PREFILL_FILTER": 1686,
+      "cause_UNKNOWN_AMBIGUOUS": 8184,
+      "final_divergent": 180
+    },
+    "n_decision_records": 87000,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      764348886,
+      760067715,
+      761962980
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w1_1p0x",
+    "counts": {
+      "actionable": 3864,
+      "cause_FINAL_DIVERGENCE": 135,
+      "cause_PREFILL_FILTER": 282,
+      "cause_UNKNOWN_AMBIGUOUS": 3447,
+      "final_divergent": 135
+    },
+    "n_decision_records": 18531,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      766191148,
+      761343025,
+      766092687
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w2_1p0x",
+    "counts": {
+      "actionable": 4659,
+      "cause_FINAL_DIVERGENCE": 237,
+      "cause_PREFILL_FILTER": 174,
+      "cause_UNKNOWN_AMBIGUOUS": 4248,
+      "final_divergent": 237
+    },
+    "n_decision_records": 67029,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      761108277,
+      764667806,
+      764265060
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w3_1p0x",
+    "counts": {
+      "actionable": 3996,
+      "cause_FINAL_DIVERGENCE": 165,
+      "cause_PREFILL_FILTER": 1989,
+      "cause_UNKNOWN_AMBIGUOUS": 1842,
+      "final_divergent": 165
+    },
+    "n_decision_records": 14697,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      766491877,
+      763323918,
+      766290326
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w4_1p0x",
+    "counts": {
+      "actionable": 4497,
+      "cause_FINAL_DIVERGENCE": 189,
+      "cause_PREFILL_FILTER": 1191,
+      "cause_UNKNOWN_AMBIGUOUS": 3117,
+      "final_divergent": 189
+    },
+    "n_decision_records": 13995,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      764380795,
+      764111902,
+      766269615
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w5_1p0x",
+    "counts": {
+      "actionable": 4068,
+      "cause_FINAL_DIVERGENCE": 180,
+      "cause_PREFILL_FILTER": 420,
+      "cause_UNKNOWN_AMBIGUOUS": 3468,
+      "final_divergent": 180
+    },
+    "n_decision_records": 86997,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      762744673,
+      761890824,
+      764595552
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w6_1p0x",
+    "counts": {
+      "actionable": 3657,
+      "cause_FINAL_DIVERGENCE": 138,
+      "cause_PREFILL_FILTER": 393,
+      "cause_UNKNOWN_AMBIGUOUS": 3126,
+      "final_divergent": 138
+    },
+    "n_decision_records": 83616,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      760768998,
+      762478467,
+      763233368
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w7_1p0x",
+    "counts": {
+      "actionable": 7011,
+      "cause_FINAL_DIVERGENCE": 183,
+      "cause_PREFILL_FILTER": 1902,
+      "cause_UNKNOWN_AMBIGUOUS": 4926,
+      "final_divergent": 183
+    },
+    "n_decision_records": 17562,
+    "pair_id": "b74cc96d31f0",
+    "seeds": [
+      764276783,
+      763469898,
+      764125590
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w0_1p0x",
+    "counts": {
+      "actionable": 75,
+      "cause_FINAL_DIVERGENCE": 15,
+      "cause_PLACEMENT_SATURATION": 3,
+      "cause_UNKNOWN_AMBIGUOUS": 57,
+      "final_divergent": 15
+    },
+    "n_decision_records": 6087,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      760166571,
+      760568649,
+      764310959
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w1_1p0x",
+    "counts": {},
+    "n_decision_records": 4326,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      765393617,
+      764459724,
+      766954164
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w2_1p0x",
+    "counts": {
+      "actionable": 3,
+      "cause_PLACEMENT_SATURATION": 3,
+      "final_divergent": 0
+    },
+    "n_decision_records": 5280,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      762311558,
+      762820997,
+      760009276
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w3_1p0x",
+    "counts": {
+      "actionable": 3,
+      "cause_PLACEMENT_SATURATION": 3,
+      "final_divergent": 0
+    },
+    "n_decision_records": 5055,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      766522349,
+      765641157,
+      760227788
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w4_1p0x",
+    "counts": {},
+    "n_decision_records": 4341,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      760535344,
+      762566988,
+      766871348
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w5_1p0x",
+    "counts": {
+      "actionable": 3,
+      "cause_PLACEMENT_SATURATION": 3,
+      "final_divergent": 0
+    },
+    "n_decision_records": 5031,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      763226372,
+      763444196,
+      764574168
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w6_1p0x",
+    "counts": {},
+    "n_decision_records": 9576,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      761108025,
+      760989374,
+      762025123
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w7_1p0x",
+    "counts": {
+      "actionable": 15,
+      "cause_FINAL_DIVERGENCE": 9,
+      "cause_PLACEMENT_SATURATION": 6,
+      "final_divergent": 9
+    },
+    "n_decision_records": 5937,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      761976618,
+      765438857,
+      761601161
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w0_1p0x",
+    "counts": {},
+    "n_decision_records": 38070,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      766959902,
+      761602253,
+      760787614
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w1_1p0x",
+    "counts": {},
+    "n_decision_records": 31707,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      760645363,
+      765502968,
+      761547054
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w2_1p0x",
+    "counts": {},
+    "n_decision_records": 23514,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      760288780,
+      760910770,
+      764792641
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w3_1p0x",
+    "counts": {},
+    "n_decision_records": 20370,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      760885944,
+      764524362,
+      764990363
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w4_1p0x",
+    "counts": {},
+    "n_decision_records": 18123,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      763541972,
+      761882791,
+      762829582
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w5_1p0x",
+    "counts": {},
+    "n_decision_records": 19755,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      761825134,
+      765665718,
+      761056651
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w6_1p0x",
+    "counts": {},
+    "n_decision_records": 26124,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      760668440,
+      764371581,
+      766447754
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w7_1p0x",
+    "counts": {},
+    "n_decision_records": 38409,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      762336441,
+      766175272,
+      760265895
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w0_1p0x",
+    "counts": {
+      "actionable": 351,
+      "cause_FINAL_DIVERGENCE": 105,
+      "cause_UNKNOWN_AMBIGUOUS": 246,
+      "final_divergent": 105
+    },
+    "n_decision_records": 3009,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      764846640,
+      761878290,
+      763958801
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w1_1p0x",
+    "counts": {},
+    "n_decision_records": 7452,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      761021213,
+      761685620,
+      762823931
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w2_1p0x",
+    "counts": {
+      "actionable": 36,
+      "cause_FINAL_DIVERGENCE": 18,
+      "cause_UNKNOWN_AMBIGUOUS": 18,
+      "final_divergent": 18
+    },
+    "n_decision_records": 1944,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      766665647,
+      766399625,
+      766411982
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w3_1p0x",
+    "counts": {},
+    "n_decision_records": 3615,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      760534937,
+      765658557,
+      766433785
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w4_1p0x",
+    "counts": {
+      "actionable": 132,
+      "cause_FINAL_DIVERGENCE": 33,
+      "cause_PLACEMENT_SATURATION": 9,
+      "cause_RESOURCE_FEASIBILITY": 6,
+      "cause_UNKNOWN_AMBIGUOUS": 84,
+      "final_divergent": 33
+    },
+    "n_decision_records": 4533,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      765961636,
+      760336658,
+      763140611
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w5_1p0x",
+    "counts": {
+      "actionable": 3,
+      "cause_PLACEMENT_SATURATION": 3,
+      "final_divergent": 0
+    },
+    "n_decision_records": 3456,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      762062929,
+      761501131,
+      765420356
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w6_1p0x",
+    "counts": {
+      "actionable": 267,
+      "cause_FINAL_DIVERGENCE": 60,
+      "cause_PLACEMENT_SATURATION": 3,
+      "cause_UNKNOWN_AMBIGUOUS": 204,
+      "final_divergent": 60
+    },
+    "n_decision_records": 2382,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      764217411,
+      763440823,
+      762714363
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w7_1p0x",
+    "counts": {
+      "actionable": 135,
+      "cause_FINAL_DIVERGENCE": 36,
+      "cause_PLACEMENT_SATURATION": 3,
+      "cause_UNKNOWN_AMBIGUOUS": 96,
+      "final_divergent": 36
+    },
+    "n_decision_records": 3732,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      766330499,
+      765607370,
+      766346554
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w0_1p0x",
+    "counts": {
+      "actionable": 2517,
+      "cause_FINAL_DIVERGENCE": 177,
+      "cause_RESOURCE_FEASIBILITY": 63,
+      "cause_UNKNOWN_AMBIGUOUS": 2277,
+      "final_divergent": 177
+    },
+    "n_decision_records": 6219,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      761207820,
+      763934557,
+      765201936
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w1_1p0x",
+    "counts": {
+      "actionable": 1179,
+      "cause_FINAL_DIVERGENCE": 162,
+      "cause_UNKNOWN_AMBIGUOUS": 1017,
+      "final_divergent": 162
+    },
+    "n_decision_records": 4176,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      766257117,
+      763661551,
+      762896729
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w2_1p0x",
+    "counts": {
+      "actionable": 2514,
+      "cause_FINAL_DIVERGENCE": 141,
+      "cause_PLACEMENT_SATURATION": 3,
+      "cause_RESOURCE_FEASIBILITY": 48,
+      "cause_UNKNOWN_AMBIGUOUS": 2322,
+      "final_divergent": 141
+    },
+    "n_decision_records": 6855,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      762537890,
+      766264239,
+      766138660
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w3_1p0x",
+    "counts": {
+      "actionable": 2343,
+      "cause_FINAL_DIVERGENCE": 162,
+      "cause_RESOURCE_FEASIBILITY": 117,
+      "cause_UNKNOWN_AMBIGUOUS": 2064,
+      "final_divergent": 162
+    },
+    "n_decision_records": 5712,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      764279598,
+      762159569,
+      766919963
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w4_1p0x",
+    "counts": {
+      "actionable": 1896,
+      "cause_FINAL_DIVERGENCE": 123,
+      "cause_PLACEMENT_SATURATION": 6,
+      "cause_RESOURCE_FEASIBILITY": 54,
+      "cause_UNKNOWN_AMBIGUOUS": 1713,
+      "final_divergent": 123
+    },
+    "n_decision_records": 5394,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      760384211,
+      761154384,
+      765331145
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w5_1p0x",
+    "counts": {
+      "actionable": 1782,
+      "cause_FINAL_DIVERGENCE": 123,
+      "cause_RESOURCE_FEASIBILITY": 102,
+      "cause_UNKNOWN_AMBIGUOUS": 1557,
+      "final_divergent": 123
+    },
+    "n_decision_records": 6402,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      765846973,
+      764866403,
+      761887521
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w6_1p0x",
+    "counts": {
+      "actionable": 2982,
+      "cause_FINAL_DIVERGENCE": 234,
+      "cause_RESOURCE_FEASIBILITY": 141,
+      "cause_UNKNOWN_AMBIGUOUS": 2607,
+      "final_divergent": 234
+    },
+    "n_decision_records": 7257,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      766553808,
+      762737049,
+      765135524
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w7_1p0x",
+    "counts": {
+      "actionable": 1989,
+      "cause_FINAL_DIVERGENCE": 198,
+      "cause_PLACEMENT_SATURATION": 3,
+      "cause_UNKNOWN_AMBIGUOUS": 1788,
+      "final_divergent": 198
+    },
+    "n_decision_records": 6189,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      765511088,
+      765672510,
+      765633188
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w0_1p0x",
+    "counts": {
+      "actionable": 114,
+      "cause_FINAL_DIVERGENCE": 9,
+      "cause_PLACEMENT_SATURATION": 6,
+      "cause_RESOURCE_FEASIBILITY": 51,
+      "cause_UNKNOWN_AMBIGUOUS": 48,
+      "final_divergent": 9
+    },
+    "n_decision_records": 13776,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      764611182,
+      761117304,
+      763208761
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w1_1p0x",
+    "counts": {
+      "actionable": 51,
+      "cause_FINAL_DIVERGENCE": 36,
+      "cause_UNKNOWN_AMBIGUOUS": 15,
+      "final_divergent": 36
+    },
+    "n_decision_records": 4662,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      763730842,
+      764716401,
+      760666322
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w2_1p0x",
+    "counts": {
+      "actionable": 3258,
+      "cause_FINAL_DIVERGENCE": 18,
+      "cause_RESOURCE_FEASIBILITY": 2994,
+      "cause_UNKNOWN_AMBIGUOUS": 246,
+      "final_divergent": 18
+    },
+    "n_decision_records": 27456,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      760854353,
+      764825958,
+      762301656
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w3_1p0x",
+    "counts": {
+      "actionable": 6813,
+      "cause_FINAL_DIVERGENCE": 126,
+      "cause_UNKNOWN_AMBIGUOUS": 6687,
+      "final_divergent": 126
+    },
+    "n_decision_records": 31353,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      764825313,
+      763225396,
+      765536061
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w4_1p0x",
+    "counts": {
+      "actionable": 3,
+      "cause_PLACEMENT_SATURATION": 3,
+      "final_divergent": 0
+    },
+    "n_decision_records": 20502,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      762283964,
+      766428687,
+      761127157
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w5_1p0x",
+    "counts": {
+      "actionable": 3,
+      "cause_PLACEMENT_SATURATION": 3,
+      "final_divergent": 0
+    },
+    "n_decision_records": 4071,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      760722255,
+      764859724,
+      766004632
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w6_1p0x",
+    "counts": {
+      "actionable": 3,
+      "cause_PLACEMENT_SATURATION": 3,
+      "final_divergent": 0
+    },
+    "n_decision_records": 2574,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      765158109,
+      760844653,
+      761751783
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w7_1p0x",
+    "counts": {},
+    "n_decision_records": 501,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      766846597,
+      760136712,
+      762742433
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w0_1p0x",
+    "counts": {
+      "actionable": 27306,
+      "cause_FINAL_DIVERGENCE": 114,
+      "cause_RESOURCE_FEASIBILITY": 8046,
+      "cause_UNKNOWN_AMBIGUOUS": 19146,
+      "final_divergent": 114
+    },
+    "n_decision_records": 132003,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      765216305,
+      760207720,
+      761342358
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w1_1p0x",
+    "counts": {
+      "actionable": 12522,
+      "cause_FINAL_DIVERGENCE": 210,
+      "cause_UNKNOWN_AMBIGUOUS": 12312,
+      "final_divergent": 210
+    },
+    "n_decision_records": 102237,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      764647677,
+      763823026,
+      765236140
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w2_1p0x",
+    "counts": {
+      "actionable": 13200,
+      "cause_FINAL_DIVERGENCE": 183,
+      "cause_RESOURCE_FEASIBILITY": 33,
+      "cause_UNKNOWN_AMBIGUOUS": 12984,
+      "final_divergent": 183
+    },
+    "n_decision_records": 97353,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      764721450,
+      763261258,
+      764039222
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w3_1p0x",
+    "counts": {
+      "actionable": 7488,
+      "cause_FINAL_DIVERGENCE": 165,
+      "cause_UNKNOWN_AMBIGUOUS": 7323,
+      "final_divergent": 165
+    },
+    "n_decision_records": 103584,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      762774926,
+      766911994,
+      763754716
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w4_1p0x",
+    "counts": {
+      "actionable": 9924,
+      "cause_FINAL_DIVERGENCE": 168,
+      "cause_UNKNOWN_AMBIGUOUS": 9756,
+      "final_divergent": 168
+    },
+    "n_decision_records": 105699,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      761770844,
+      766719311,
+      762622910
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w5_1p0x",
+    "counts": {
+      "actionable": 7125,
+      "cause_FINAL_DIVERGENCE": 120,
+      "cause_PLACEMENT_SATURATION": 6,
+      "cause_RESOURCE_FEASIBILITY": 936,
+      "cause_UNKNOWN_AMBIGUOUS": 6063,
+      "final_divergent": 120
+    },
+    "n_decision_records": 123006,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      762387254,
+      763273992,
+      762273938
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w6_1p0x",
+    "counts": {
+      "actionable": 23610,
+      "cause_FINAL_DIVERGENCE": 183,
+      "cause_RESOURCE_FEASIBILITY": 13026,
+      "cause_UNKNOWN_AMBIGUOUS": 10401,
+      "final_divergent": 183
+    },
+    "n_decision_records": 107088,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      763353217,
+      765416251,
+      761023775
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w7_1p0x",
+    "counts": {
+      "actionable": 13200,
+      "cause_FINAL_DIVERGENCE": 216,
+      "cause_UNKNOWN_AMBIGUOUS": 12984,
+      "final_divergent": 216
+    },
+    "n_decision_records": 85029,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      761929066,
+      762717170,
+      763740545
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w0_1p0x",
+    "counts": {
+      "actionable": 5865,
+      "cause_FINAL_DIVERGENCE": 222,
+      "cause_UNKNOWN_AMBIGUOUS": 5643,
+      "final_divergent": 222
+    },
+    "n_decision_records": 87000,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      762248027,
+      761422122,
+      766034767
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w1_1p0x",
+    "counts": {
+      "actionable": 5007,
+      "cause_FINAL_DIVERGENCE": 171,
+      "cause_UNKNOWN_AMBIGUOUS": 4836,
+      "final_divergent": 171
+    },
+    "n_decision_records": 18531,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      763144503,
+      766260036,
+      763356587
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w2_1p0x",
+    "counts": {
+      "actionable": 2835,
+      "cause_FINAL_DIVERGENCE": 228,
+      "cause_UNKNOWN_AMBIGUOUS": 2607,
+      "final_divergent": 228
+    },
+    "n_decision_records": 67668,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      761859964,
+      762138775,
+      764415476
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w3_1p0x",
+    "counts": {
+      "actionable": 5394,
+      "cause_FINAL_DIVERGENCE": 210,
+      "cause_UNKNOWN_AMBIGUOUS": 5184,
+      "final_divergent": 210
+    },
+    "n_decision_records": 14697,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      761698218,
+      762127291,
+      764817801
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w4_1p0x",
+    "counts": {
+      "actionable": 4884,
+      "cause_FINAL_DIVERGENCE": 234,
+      "cause_UNKNOWN_AMBIGUOUS": 4650,
+      "final_divergent": 234
+    },
+    "n_decision_records": 14265,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      760047404,
+      762578699,
+      766813889
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w5_1p0x",
+    "counts": {
+      "actionable": 3882,
+      "cause_FINAL_DIVERGENCE": 270,
+      "cause_UNKNOWN_AMBIGUOUS": 3612,
+      "final_divergent": 270
+    },
+    "n_decision_records": 86997,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      760863189,
+      766395730,
+      766143720
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w6_1p0x",
+    "counts": {
+      "actionable": 3990,
+      "cause_FINAL_DIVERGENCE": 168,
+      "cause_UNKNOWN_AMBIGUOUS": 3822,
+      "final_divergent": 168
+    },
+    "n_decision_records": 83373,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      765099691,
+      762783651,
+      766743327
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w7_1p0x",
+    "counts": {
+      "actionable": 6084,
+      "cause_FINAL_DIVERGENCE": 249,
+      "cause_UNKNOWN_AMBIGUOUS": 5835,
+      "final_divergent": 249
+    },
+    "n_decision_records": 17562,
+    "pair_id": "d5d035057cd1",
+    "seeds": [
+      760856795,
+      761382251,
+      762691553
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w0_1p0x",
+    "counts": {},
+    "n_decision_records": 6087,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      763195410,
+      763573856,
+      760275399
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w1_1p0x",
+    "counts": {},
+    "n_decision_records": 4326,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      765815403,
+      763895189,
+      761069578
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w2_1p0x",
+    "counts": {},
+    "n_decision_records": 5280,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      760297759,
+      766451286,
+      766068298
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w3_1p0x",
+    "counts": {},
+    "n_decision_records": 5055,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      766566592,
+      763694060,
+      760847677
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w4_1p0x",
+    "counts": {},
+    "n_decision_records": 4341,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      763334065,
+      766853939,
+      762908875
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w5_1p0x",
+    "counts": {},
+    "n_decision_records": 5031,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      763675558,
+      762311762,
+      765260566
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w6_1p0x",
+    "counts": {},
+    "n_decision_records": 9576,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      760169628,
+      765790268,
+      764134297
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_code_w7_1p0x",
+    "counts": {},
+    "n_decision_records": 5958,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      766740365,
+      764975949,
+      764722229
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w0_1p0x",
+    "counts": {},
+    "n_decision_records": 38070,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      762950460,
+      763789999,
+      766635615
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w1_1p0x",
+    "counts": {},
+    "n_decision_records": 31707,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      766748644,
+      760419744,
+      762188535
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w2_1p0x",
+    "counts": {},
+    "n_decision_records": 23514,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      765839060,
+      765768420,
+      762482205
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w3_1p0x",
+    "counts": {},
+    "n_decision_records": 20370,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      760868719,
+      762379030,
+      765620157
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w4_1p0x",
+    "counts": {},
+    "n_decision_records": 18123,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      762562161,
+      763515765,
+      762726474
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w5_1p0x",
+    "counts": {},
+    "n_decision_records": 19755,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      760960992,
+      766611314,
+      764296596
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w6_1p0x",
+    "counts": {},
+    "n_decision_records": 26124,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      760186539,
+      763978010,
+      764981300
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2023_conversation_w7_1p0x",
+    "counts": {},
+    "n_decision_records": 38409,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      763105469,
+      761102045,
+      764635934
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w0_1p0x",
+    "counts": {},
+    "n_decision_records": 3018,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      765852573,
+      762834654,
+      760055910
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w1_1p0x",
+    "counts": {},
+    "n_decision_records": 7452,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      763752348,
+      766958290,
+      765858918
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w2_1p0x",
+    "counts": {},
+    "n_decision_records": 1944,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      760753150,
+      760798346,
+      762557185
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w3_1p0x",
+    "counts": {},
+    "n_decision_records": 3615,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      761595888,
+      761927607,
+      765313365
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w4_1p0x",
+    "counts": {},
+    "n_decision_records": 4533,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      762337301,
+      765385097,
+      766803005
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w5_1p0x",
+    "counts": {},
+    "n_decision_records": 3474,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      762952883,
+      765886395,
+      766276939
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w6_1p0x",
+    "counts": {},
+    "n_decision_records": 2382,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      764449479,
+      760077433,
+      762685648
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_code_w7_1p0x",
+    "counts": {},
+    "n_decision_records": 3732,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      762520258,
+      764327855,
+      764814098
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w0_1p0x",
+    "counts": {
+      "actionable": 354,
+      "cause_FINAL_DIVERGENCE": 63,
+      "cause_RESOURCE_FEASIBILITY": 3,
+      "cause_UNKNOWN_AMBIGUOUS": 288,
+      "final_divergent": 63
+    },
+    "n_decision_records": 6351,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      765465869,
+      766255446,
+      765675618
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w1_1p0x",
+    "counts": {},
+    "n_decision_records": 4194,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      761629135,
+      763265798,
+      763718591
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w2_1p0x",
+    "counts": {},
+    "n_decision_records": 7503,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      766552212,
+      764959448,
+      760578842
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w3_1p0x",
+    "counts": {
+      "actionable": 795,
+      "cause_FINAL_DIVERGENCE": 90,
+      "cause_RESOURCE_FEASIBILITY": 3,
+      "cause_UNKNOWN_AMBIGUOUS": 702,
+      "final_divergent": 90
+    },
+    "n_decision_records": 5817,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      763319229,
+      765095304,
+      760445634
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w4_1p0x",
+    "counts": {},
+    "n_decision_records": 5874,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      760355546,
+      761944386,
+      765367775
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w5_1p0x",
+    "counts": {
+      "actionable": 126,
+      "cause_FINAL_DIVERGENCE": 51,
+      "cause_RESOURCE_FEASIBILITY": 3,
+      "cause_UNKNOWN_AMBIGUOUS": 72,
+      "final_divergent": 51
+    },
+    "n_decision_records": 6402,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      760572315,
+      763159677,
+      764962945
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w6_1p0x",
+    "counts": {
+      "actionable": 279,
+      "cause_FINAL_DIVERGENCE": 42,
+      "cause_RESOURCE_FEASIBILITY": 144,
+      "cause_UNKNOWN_AMBIGUOUS": 93,
+      "final_divergent": 42
+    },
+    "n_decision_records": 7587,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      766413101,
+      763153749,
+      760574769
+    ]
+  },
+  {
+    "config_id": "occmv1_azure_llm_2024_conversation_w7_1p0x",
+    "counts": {
+      "actionable": 1275,
+      "cause_FINAL_DIVERGENCE": 132,
+      "cause_RESOURCE_FEASIBILITY": 51,
+      "cause_UNKNOWN_AMBIGUOUS": 1092,
+      "final_divergent": 132
+    },
+    "n_decision_records": 6177,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      761801001,
+      766058100,
+      764962596
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w0_1p0x",
+    "counts": {},
+    "n_decision_records": 13776,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      764409115,
+      766832601,
+      761777693
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w1_1p0x",
+    "counts": {},
+    "n_decision_records": 4665,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      760525785,
+      766855506,
+      764321182
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w2_1p0x",
+    "counts": {},
+    "n_decision_records": 27456,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      760955361,
+      764795453,
+      763580849
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w3_1p0x",
+    "counts": {},
+    "n_decision_records": 31353,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      766663683,
+      766074428,
+      760171044
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w4_1p0x",
+    "counts": {},
+    "n_decision_records": 20502,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      762291858,
+      766005297,
+      762403650
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w5_1p0x",
+    "counts": {},
+    "n_decision_records": 4074,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      761354020,
+      761865847,
+      760279027
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w6_1p0x",
+    "counts": {},
+    "n_decision_records": 2577,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      761339225,
+      762101328,
+      764699328
+    ]
+  },
+  {
+    "config_id": "occmv1_burstgpt_v2_without_fails_1_w7_1p0x",
+    "counts": {},
+    "n_decision_records": 501,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      766017666,
+      762426533,
+      761886205
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w0_1p0x",
+    "counts": {
+      "actionable": 60090,
+      "cause_RESOURCE_FEASIBILITY": 60090,
+      "final_divergent": 0
+    },
+    "n_decision_records": 132003,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      763165132,
+      765051293,
+      765475115
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w1_1p0x",
+    "counts": {},
+    "n_decision_records": 102237,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      764222563,
+      760129902,
+      760403626
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w2_1p0x",
+    "counts": {},
+    "n_decision_records": 97353,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      761128707,
+      761869179,
+      762630742
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w3_1p0x",
+    "counts": {},
+    "n_decision_records": 103584,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      764659484,
+      763399903,
+      763727898
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w4_1p0x",
+    "counts": {},
+    "n_decision_records": 105972,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      765235556,
+      760634714,
+      762061258
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w5_1p0x",
+    "counts": {},
+    "n_decision_records": 123006,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      764840632,
+      764543844,
+      766049738
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w6_1p0x",
+    "counts": {
+      "actionable": 2148,
+      "cause_RESOURCE_FEASIBILITY": 2148,
+      "final_divergent": 0
+    },
+    "n_decision_records": 107415,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      763943762,
+      760209781,
+      762562420
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_conversation_w7_1p0x",
+    "counts": {},
+    "n_decision_records": 85029,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      760639448,
+      763357458,
+      763013340
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w0_1p0x",
+    "counts": {
+      "actionable": 7221,
+      "cause_RESOURCE_FEASIBILITY": 7221,
+      "final_divergent": 0
+    },
+    "n_decision_records": 87000,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      760266551,
+      766605057,
+      763111706
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w1_1p0x",
+    "counts": {},
+    "n_decision_records": 18531,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      765109563,
+      763897636,
+      762919683
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w2_1p0x",
+    "counts": {},
+    "n_decision_records": 67668,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      765076492,
+      765572954,
+      762226485
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w3_1p0x",
+    "counts": {},
+    "n_decision_records": 14697,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      763754837,
+      761550923,
+      763577011
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w4_1p0x",
+    "counts": {},
+    "n_decision_records": 14265,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      766788664,
+      766626682,
+      763819243
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w5_1p0x",
+    "counts": {},
+    "n_decision_records": 86997,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      762892199,
+      766142428,
+      760564431
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w6_1p0x",
+    "counts": {},
+    "n_decision_records": 84165,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      763054902,
+      763424527,
+      765607143
+    ]
+  },
+  {
+    "config_id": "occmv1_mooncake_fast25_toolagent_w7_1p0x",
+    "counts": {},
+    "n_decision_records": 17562,
+    "pair_id": "e81993d1c022",
+    "seeds": [
+      766968109,
+      761424245,
+      766523286
+    ]
+  }
+]
