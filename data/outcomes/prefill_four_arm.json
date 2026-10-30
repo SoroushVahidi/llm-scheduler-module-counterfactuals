@@ -1,0 +1,122 @@
+[
+  {
+    "base_reward": 0.4666666667,
+    "both_reward": 0.4,
+    "cell_id": "fdo_f2_valid_joint_opportunity",
+    "config_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r0",
+    "first_reward": 0.4,
+    "interaction": 0.0413793103,
+    "pairwise_id": "5c6b33b64e86",
+    "second_reward": 0.4252873563,
+    "seed": 3763767,
+    "workload_instance_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r0"
+  },
+  {
+    "base_reward": 0.7897310513,
+    "both_reward": 0.7188264059,
+    "cell_id": "fdo_f2_valid_joint_opportunity",
+    "config_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r1",
+    "first_reward": 0.7701711491,
+    "interaction": 0.0171149144,
+    "pairwise_id": "5c6b33b64e86",
+    "second_reward": 0.7212713936,
+    "seed": 3763768,
+    "workload_instance_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r1"
+  },
+  {
+    "base_reward": 0.2329411765,
+    "both_reward": 0.2305882353,
+    "cell_id": "fdo_f2_valid_joint_opportunity",
+    "config_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r2",
+    "first_reward": 0.2305882353,
+    "interaction": 0.0235294118,
+    "pairwise_id": "5c6b33b64e86",
+    "second_reward": 0.2094117647,
+    "seed": 3763769,
+    "workload_instance_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r2"
+  },
+  {
+    "base_reward": 0.619047619,
+    "both_reward": 0.5914786967,
+    "cell_id": "fdo_f2_valid_joint_opportunity",
+    "config_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r3",
+    "first_reward": 0.5764411028,
+    "interaction": 0.045112782,
+    "pairwise_id": "5c6b33b64e86",
+    "second_reward": 0.5889724311,
+    "seed": 3763770,
+    "workload_instance_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r3"
+  },
+  {
+    "base_reward": 0.7874396135,
+    "both_reward": 0.7077294686,
+    "cell_id": "fdo_f2_valid_joint_opportunity",
+    "config_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r4",
+    "first_reward": 0.7246376812,
+    "interaction": 1.110223025e-16,
+    "pairwise_id": "5c6b33b64e86",
+    "second_reward": 0.770531401,
+    "seed": 3763771,
+    "workload_instance_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r4"
+  },
+  {
+    "base_reward": 0.8333333333,
+    "both_reward": 0.8214285714,
+    "cell_id": "fdo_f2_valid_joint_opportunity",
+    "config_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r5",
+    "first_reward": 0.7714285714,
+    "interaction": 0.0119047619,
+    "pairwise_id": "5c6b33b64e86",
+    "second_reward": 0.8714285714,
+    "seed": 3763772,
+    "workload_instance_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r5"
+  },
+  {
+    "base_reward": 0.6919315403,
+    "both_reward": 0.7017114914,
+    "cell_id": "fdo_f2_valid_joint_opportunity",
+    "config_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r6",
+    "first_reward": 0.7017114914,
+    "interaction": 0.0,
+    "pairwise_id": "5c6b33b64e86",
+    "second_reward": 0.6919315403,
+    "seed": 3763773,
+    "workload_instance_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r6"
+  },
+  {
+    "base_reward": 0.6329411765,
+    "both_reward": 0.5411764706,
+    "cell_id": "fdo_f2_valid_joint_opportunity",
+    "config_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r7",
+    "first_reward": 0.6094117647,
+    "interaction": 0.0164705882,
+    "pairwise_id": "5c6b33b64e86",
+    "second_reward": 0.5482352941,
+    "seed": 3763774,
+    "workload_instance_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r7"
+  },
+  {
+    "base_reward": 0.380733945,
+    "both_reward": 0.3371559633,
+    "cell_id": "fdo_f2_valid_joint_opportunity",
+    "config_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r8",
+    "first_reward": 0.3371559633,
+    "interaction": 0.0688073394,
+    "pairwise_id": "5c6b33b64e86",
+    "second_reward": 0.3119266055,
+    "seed": 3763775,
+    "workload_instance_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r8"
+  },
+  {
+    "base_reward": 0.4842615012,
+    "both_reward": 0.4140435835,
+    "cell_id": "fdo_f2_valid_joint_opportunity",
+    "config_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r9",
+    "first_reward": 0.3559322034,
+    "interaction": 0.0508474576,
+    "pairwise_id": "5c6b33b64e86",
+    "second_reward": 0.4915254237,
+    "seed": 3763776,
+    "workload_instance_id": "fdo_v1_fdo_f2_valid_joint_opportunity_r9"
+  }
+]

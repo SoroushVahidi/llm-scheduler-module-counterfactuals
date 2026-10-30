@@ -1,0 +1,49 @@
+{
+  "campaign": "prefill_decision_opportunity_confirmatory_v1",
+  "figure": "fig5_prefill_chain",
+  "n_instances_per_cell": 10,
+  "n_seeds_per_cell": 10,
+  "panels": {
+    "action_divergence": {
+      "f0_ci_high": 0.0,
+      "f0_ci_low": 0.0,
+      "f0_mean": 0.0,
+      "f1_ci_high": 0.018804828655255186,
+      "f1_ci_low": 0.013190222320523718,
+      "f1_mean": 0.015940606065630313,
+      "label": "Action divergence",
+      "uncertainty": "bootstrap_95ci"
+    },
+    "delta_anwg": {
+      "f0_ci_high": 0.0,
+      "f0_ci_low": 0.0,
+      "f0_mean": 0.0,
+      "f1_ci_high": 0.0,
+      "f1_ci_low": 0.0,
+      "f1_mean": 0.0,
+      "label": "\u0394ANWG",
+      "uncertainty": "bootstrap_95ci"
+    },
+    "pressure_active_fraction": {
+      "f0_max": 0.0,
+      "f0_mean": 0.0,
+      "f0_min": 0.0,
+      "f1_max": 0.8285593040526205,
+      "f1_mean": 0.5526781312778272,
+      "f1_min": 0.3184118949699462,
+      "label": "Pressure \u2265 0.65 fraction",
+      "uncertainty": "seed_min_max"
+    },
+    "timing_changed_fraction": {
+      "f0_ci_high": 0.0,
+      "f0_ci_low": 0.0,
+      "f0_mean": 0.0,
+      "f1_ci_high": 0.684375,
+      "f1_ci_low": 0.49406249999999996,
+      "f1_mean": 0.5878125,
+      "label": "Requests with timing change",
+      "uncertainty": "bootstrap_95ci"
+    }
+  },
+  "stratum": "PRC"
+}

@@ -1,0 +1,55 @@
+{
+  "counts": {
+    "cells": 168,
+    "pairs": 3,
+    "positive_cells": 72,
+    "positive_windows": 40,
+    "sources": 7,
+    "windows": 56,
+    "zero_cells": 96
+  },
+  "denominator": 340548,
+  "equal_positive_cell_mean": 0.9608057388264111,
+  "label": "POST_HOC_STAGE2A",
+  "numerator": 338241,
+  "pooled_event_weighted": 0.9932256245815568,
+  "primary": {
+    "B": 10000,
+    "equal_positive_cell_ci95": [
+      0.9323476315860101,
+      0.9801055270799813
+    ],
+    "pooled_event_weighted_ci95": [
+      0.987982687412994,
+      0.9958353485833814
+    ],
+    "undefined_draws": 0
+  },
+  "sampling_unit": "source-specific nonoverlapping trace window; all three seeds and selected pairs retained jointly",
+  "scope": "conditional on seven fixed source strata; residual temporal dependence and source sampling are not estimated",
+  "selection": "38 benchmark-eligible pairs; 3 prespecified local pairs; no extrapolation to remaining 35",
+  "source_hierarchical_sensitivity": {
+    "B": 10000,
+    "equal_positive_cell_ci95": [
+      0.8916560105051347,
+      0.9872839931582957
+    ],
+    "pooled_event_weighted_ci95": [
+      0.9652378101765489,
+      0.9974740243701278
+    ],
+    "undefined_draws": 0
+  },
+  "unstratified_sensitivity": {
+    "B": 10000,
+    "equal_positive_cell_ci95": [
+      0.9268251249511751,
+      0.9813698957278473
+    ],
+    "pooled_event_weighted_ci95": [
+      0.9860054988757843,
+      0.9961001579098943
+    ],
+    "undefined_draws": 0
+  }
+}

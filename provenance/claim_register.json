@@ -1,0 +1,746 @@
+{
+  "authority": "Stage 3A independently verified the 22-claim Stage 2A2 register; Stage 3B rechecks all available registered hashes",
+  "claims": [
+    {
+      "claim_id": "erasure_counts",
+      "historical_execution_commit": "b5bc1967adf6210be4cae69549163686f8a6003d",
+      "limitation": "Conditional fixed-source post-hoc inference; temporal dependence and selected-pair scope.",
+      "public_input": "data/diagnostics/erasure_windows.json",
+      "public_scope": "LEVEL_1_RECONSTRUCTION",
+      "source_input_hashes": [
+        "4dc0170d8c0def1ee954547808a1dec2277470bcbb86b70c3da110a571ce5c27",
+        "2782edd8fe9ea3f5f0e8789fbf3ab7c0724c37dac4ccf36f0f71d675f90c8e6c"
+      ],
+      "statistical_unit": "56 source-specific windows; three seeds/pairs jointly; seven fixed source strata"
+    },
+    {
+      "claim_id": "erasure_event_weighted",
+      "historical_execution_commit": "b5bc1967adf6210be4cae69549163686f8a6003d",
+      "limitation": "Conditional fixed-source post-hoc inference; temporal dependence and selected-pair scope.",
+      "public_input": "data/diagnostics/erasure_windows.json",
+      "public_scope": "LEVEL_1_RECONSTRUCTION",
+      "source_input_hashes": [
+        "4dc0170d8c0def1ee954547808a1dec2277470bcbb86b70c3da110a571ce5c27",
+        "2782edd8fe9ea3f5f0e8789fbf3ab7c0724c37dac4ccf36f0f71d675f90c8e6c"
+      ],
+      "statistical_unit": "56 source-specific windows; three seeds/pairs jointly; seven fixed source strata"
+    },
+    {
+      "claim_id": "erasure_positive_cell_mean",
+      "historical_execution_commit": "b5bc1967adf6210be4cae69549163686f8a6003d",
+      "limitation": "Conditional fixed-source post-hoc inference; temporal dependence and selected-pair scope.",
+      "public_input": "data/diagnostics/erasure_windows.json",
+      "public_scope": "LEVEL_1_RECONSTRUCTION",
+      "source_input_hashes": [
+        "4dc0170d8c0def1ee954547808a1dec2277470bcbb86b70c3da110a571ce5c27",
+        "2782edd8fe9ea3f5f0e8789fbf3ab7c0724c37dac4ccf36f0f71d675f90c8e6c"
+      ],
+      "statistical_unit": "56 source-specific windows; three seeds/pairs jointly; seven fixed source strata"
+    },
+    {
+      "claim_id": "erasure_populations",
+      "historical_execution_commit": "b5bc1967adf6210be4cae69549163686f8a6003d",
+      "limitation": "Conditional fixed-source post-hoc inference; temporal dependence and selected-pair scope.",
+      "public_input": "data/diagnostics/erasure_windows.json",
+      "public_scope": "LEVEL_1_RECONSTRUCTION",
+      "source_input_hashes": [
+        "4dc0170d8c0def1ee954547808a1dec2277470bcbb86b70c3da110a571ce5c27",
+        "2782edd8fe9ea3f5f0e8789fbf3ab7c0724c37dac4ccf36f0f71d675f90c8e6c"
+      ],
+      "statistical_unit": "56 source-specific windows; three seeds/pairs jointly; seven fixed source strata"
+    },
+    {
+      "claim_id": "kv_mixed_thirteen_historical_sensitivity",
+      "historical_execution_commit": null,
+      "limitation": "Joined outcomes available; native Scorpio semantic claim invalid; exact old/new executable attestation incomplete.",
+      "public_input": "data/outcomes/kv.json",
+      "public_scope": "LEVEL_1_RECONSTRUCTION",
+      "source_input_hashes": [
+        "7ebe2d42b9d235d4ac9444121a18b7ae86ff6c6e119f53cf44ab0ad295c03f2e",
+        "4dc0170d8c0def1ee954547808a1dec2277470bcbb86b70c3da110a571ce5c27"
+      ],
+      "statistical_unit": "10 shared seed streams; fixed workload conditions/pairs"
+    },
+    {
+      "claim_id": "kv_one_unflagged_pair_sensitivity",
+      "historical_execution_commit": null,
+      "limitation": "Joined outcomes available; native Scorpio semantic claim invalid; exact old/new executable attestation incomplete.",
+      "public_input": "data/outcomes/kv.json",
+      "public_scope": "LEVEL_1_RECONSTRUCTION",
+      "source_input_hashes": [
+        "7ebe2d42b9d235d4ac9444121a18b7ae86ff6c6e119f53cf44ab0ad295c03f2e",
+        "4dc0170d8c0def1ee954547808a1dec2277470bcbb86b70c3da110a571ce5c27"
+      ],
+      "statistical_unit": "10 shared seed streams; fixed workload conditions/pairs"
+    },
+    {
+      "claim_id": "kv_six_clean_slot_exploratory",
+      "historical_execution_commit": null,
+      "limitation": "Joined outcomes available; native Scorpio semantic claim invalid; exact old/new executable attestation incomplete.",
+      "public_input": "data/outcomes/kv.json",
+      "public_scope": "LEVEL_1_RECONSTRUCTION",
+      "source_input_hashes": [
+        "7ebe2d42b9d235d4ac9444121a18b7ae86ff6c6e119f53cf44ab0ad295c03f2e",
+        "4dc0170d8c0def1ee954547808a1dec2277470bcbb86b70c3da110a571ce5c27"
+      ],
+      "statistical_unit": "10 shared seed streams; fixed workload conditions/pairs"
+    },
+    {
+      "claim_id": "priority_controlled",
+      "historical_execution_commit": "23d2c8d8c5c41ef5ba8374b00769f93dbb0c9284",
+      "limitation": "Historical pointwise intervals; plus-one FDR sensitivity is not an exact null-randomization test.",
+      "public_input": "data/outcomes/priority.json",
+      "public_scope": "LEVEL_1_RECONSTRUCTION",
+      "source_input_hashes": [
+        "9b5168cfb1fbcac66a157baac457866dcd894d40dd4c6830004bf0c232df5e15",
+        "3b2e871fbbc8e3ba8107975054ccbbc054e2dce93084e2ee7445add55bdfdcdc",
+        "f9b77a9acfcf14f92af2aa39f2d3d7012153509bf78c6b1c0af17ce45a4be8ce",
+        "52b233cf338cde7d08fe2af5550363b50c8bc1af20d892b7217b0334c6f3a497"
+      ],
+      "statistical_unit": "10 independently generated workload/seed instances per cell; interventions paired within instance"
+    },
+    {
+      "claim_id": "prefill_controlled",
+      "historical_execution_commit": null,
+      "limitation": "Historical pointwise intervals; plus-one FDR sensitivity is not an exact null-randomization test.",
+      "public_input": "data/outcomes/prefill.json",
+      "public_scope": "LEVEL_1_RECONSTRUCTION",
+      "source_input_hashes": [
+        "69945613090f9bd2f5e2687036beb73576e06eded9548af796e44aedbbd24b4b",
+        "16d57e40d020720773a7d0089b69dfda8b4594fc37097f98cbeda437f44b2339",
+        "55c967cebf1c4da98bca38d845f7053c9bcd03dc2ce50a58b97cd99dfdf3d72e",
+        "52b233cf338cde7d08fe2af5550363b50c8bc1af20d892b7217b0334c6f3a497"
+      ],
+      "statistical_unit": "10 independently generated workload/seed instances per cell; interventions paired within instance"
+    },
+    {
+      "claim_id": "heldout_priority",
+      "frozen_summary": {
+        "by_cell": [
+          {
+            "candidate_set_ge2_mean": 0.18994587467620358,
+            "cell_id": "hg_prio_fair_interaction",
+            "decision_divergence": {
+              "ci_excludes_zero": true,
+              "ci_high": 0.014017055908076486,
+              "ci_low": 0.0044306868549525095,
+              "mean": 0.008573474852048178
+            },
+            "mean_abs_delta_anwg": {
+              "ci_excludes_zero": true,
+              "ci_high": 0.02623043688044177,
+              "ci_low": 0.008792159608184635,
+              "mean": 0.017511298244313203
+            },
+            "n_instances": 5,
+            "rank_disagreement_mean": 0.12976045481268741
+          },
+          {
+            "candidate_set_ge2_mean": 0.31902567204359816,
+            "cell_id": "hg_prio_high_opportunity",
+            "decision_divergence": {
+              "ci_excludes_zero": true,
+              "ci_high": 0.02169633809127112,
+              "ci_low": 0.011974793354226668,
+              "mean": 0.01751936670265755
+            },
+            "mean_abs_delta_anwg": {
+              "ci_excludes_zero": true,
+              "ci_high": 0.0392854971292164,
+              "ci_low": 0.00739466705893609,
+              "mean": 0.023094851485679153
+            },
+            "n_instances": 5,
+            "rank_disagreement_mean": 0.18377901310733394
+          },
+          {
+            "candidate_set_ge2_mean": 0.009843925078754482,
+            "cell_id": "hg_prio_low_opportunity",
+            "decision_divergence": {
+              "ci_excludes_zero": false,
+              "ci_high": 0.00014972550324405257,
+              "ci_low": 0.0,
+              "mean": 4.9908501081350855e-05
+            },
+            "mean_abs_delta_anwg": {
+              "ci_excludes_zero": false,
+              "ci_high": 0.0,
+              "ci_low": 0.0,
+              "mean": 0.0
+            },
+            "n_instances": 5,
+            "rank_disagreement_mean": 0.0
+          },
+          {
+            "candidate_set_ge2_mean": 0.1640730679566064,
+            "cell_id": "hg_prio_mid_opportunity",
+            "decision_divergence": {
+              "ci_excludes_zero": true,
+              "ci_high": 0.010826309018078531,
+              "ci_low": 0.0031274417091911575,
+              "mean": 0.007358876861196915
+            },
+            "mean_abs_delta_anwg": {
+              "ci_excludes_zero": true,
+              "ci_high": 0.027904418497772088,
+              "ci_low": 0.001965548765818222,
+              "mean": 0.014934983631795153
+            },
+            "n_instances": 5,
+            "rank_disagreement_mean": 0.11177173399453708
+          }
+        ],
+        "low_vs_higher_opportunity_divergence_permutation_p": 0.0034982508745627187,
+        "pearson_candidate_set_ge2_fraction_vs_decision_divergence_rate": 0.8505259729957925,
+        "pearson_decision_divergence_rate_vs_mean_abs_delta_anwg": 0.717938922573549,
+        "pearson_decision_divergence_rate_vs_request_change_rate": 0.9068824836293321,
+        "pearson_priority_rank_disagreement_fraction_vs_decision_divergence_rate": 0.6945043122654919,
+        "status": "STRONG_GENERALIZATION"
+      },
+      "historical_execution_commit": null,
+      "limitation": "Weak/design-dependent transfer; frozen historical summaries, no complete historical execution reconstruction in this package. Observed nulls do not establish equivalence.",
+      "public_input": null,
+      "public_scope": "FROZEN_EVIDENCE_OR_LIMITATION_ONLY",
+      "source_input_hashes": [
+        "cf04ddb40621baa2b52941347fdc81a7baefbf86bdfea38eec94104b2ad01864",
+        "a1214ab395823143a31d29152a8870a6b123231584a08d6e0698cb906be480ce"
+      ],
+      "statistical_unit": "45 fresh workload seeds total; subgroup n as recorded (interaction five)"
+    },
+    {
+      "claim_id": "heldout_prefill",
+      "frozen_summary": {
+        "active_vs_inactive_divergence_permutation_p": 0.14992503748125938,
+        "by_cell": [
+          {
+            "cell_id": "hg_prefill_active",
+            "decision_divergence": {
+              "ci_excludes_zero": true,
+              "ci_high": 0.012210296648016001,
+              "ci_low": 0.0008999850475063795,
+              "mean": 0.00567813009340611
+            },
+            "mean_abs_delta_anwg": {
+              "ci_excludes_zero": false,
+              "ci_high": 9.992007221626409e-17,
+              "ci_low": 0.0,
+              "mean": 3.3306690738754695e-17
+            },
+            "n_instances": 5,
+            "pressure_ge_threshold_mean": 0.20956281098710555,
+            "request_change": {
+              "ci_excludes_zero": true,
+              "ci_high": 0.42430555555555555,
+              "ci_low": 0.04236111111111111,
+              "mean": 0.21388888888888888
+            }
+          },
+          {
+            "cell_id": "hg_prefill_inactive",
+            "decision_divergence": {
+              "ci_excludes_zero": false,
+              "ci_high": 0.0,
+              "ci_low": 0.0,
+              "mean": 0.0
+            },
+            "mean_abs_delta_anwg": {
+              "ci_excludes_zero": false,
+              "ci_high": 0.0,
+              "ci_low": 0.0,
+              "mean": 0.0
+            },
+            "n_instances": 5,
+            "pressure_ge_threshold_mean": 0.0,
+            "request_change": {
+              "ci_excludes_zero": false,
+              "ci_high": 0.0,
+              "ci_low": 0.0,
+              "mean": 0.0
+            }
+          }
+        ],
+        "status": "PARTIAL_GENERALIZATION"
+      },
+      "historical_execution_commit": null,
+      "limitation": "Weak/design-dependent transfer; frozen historical summaries, no complete historical execution reconstruction in this package. Observed nulls do not establish equivalence.",
+      "public_input": null,
+      "public_scope": "FROZEN_EVIDENCE_OR_LIMITATION_ONLY",
+      "source_input_hashes": [
+        "cf04ddb40621baa2b52941347fdc81a7baefbf86bdfea38eec94104b2ad01864",
+        "a1214ab395823143a31d29152a8870a6b123231584a08d6e0698cb906be480ce"
+      ],
+      "statistical_unit": "45 fresh workload seeds total; subgroup n as recorded (interaction five)"
+    },
+    {
+      "claim_id": "heldout_kv_guard",
+      "frozen_summary": {
+        "by_pressure": [
+          {
+            "abs_delta_anwg": {
+              "ci_excludes_zero": false,
+              "ci_high": 0.0,
+              "ci_low": 0.0,
+              "mean": 0.0
+            },
+            "delta_anwg": {
+              "ci_excludes_zero": false,
+              "ci_high": 0.0,
+              "ci_low": 0.0,
+              "mean": 0.0
+            },
+            "kv_pressure_index": 0,
+            "n_instances": 5
+          },
+          {
+            "abs_delta_anwg": {
+              "ci_excludes_zero": false,
+              "ci_high": 0.0,
+              "ci_low": 0.0,
+              "mean": 0.0
+            },
+            "delta_anwg": {
+              "ci_excludes_zero": false,
+              "ci_high": 0.0,
+              "ci_low": 0.0,
+              "mean": 0.0
+            },
+            "kv_pressure_index": 1,
+            "n_instances": 5
+          },
+          {
+            "abs_delta_anwg": {
+              "ci_excludes_zero": true,
+              "ci_high": 0.009740716543369159,
+              "ci_low": 0.0020926575613128156,
+              "mean": 0.0054083640738177815
+            },
+            "delta_anwg": {
+              "ci_excludes_zero": true,
+              "ci_high": -0.002092657561312795,
+              "ci_low": -0.009740716543369159,
+              "mean": -0.0054083640738177615
+            },
+            "kv_pressure_index": 2,
+            "n_instances": 5
+          }
+        ],
+        "kv_guard_corrected_activation": true,
+        "low_vs_higher_pressure_abs_delta_permutation_p": 0.20689655172413793,
+        "pearson_pressure_index_vs_abs_delta_anwg": 0.6132117086121924,
+        "seed_same_sign_count": 5,
+        "seed_total": 15,
+        "status": "PARTIAL_GENERALIZATION"
+      },
+      "historical_execution_commit": null,
+      "limitation": "Weak/design-dependent transfer; frozen historical summaries, no complete historical execution reconstruction in this package. Observed nulls do not establish equivalence.",
+      "public_input": null,
+      "public_scope": "FROZEN_EVIDENCE_OR_LIMITATION_ONLY",
+      "source_input_hashes": [
+        "cf04ddb40621baa2b52941347fdc81a7baefbf86bdfea38eec94104b2ad01864",
+        "a1214ab395823143a31d29152a8870a6b123231584a08d6e0698cb906be480ce"
+      ],
+      "statistical_unit": "45 fresh workload seeds total; subgroup n as recorded (interaction five)"
+    },
+    {
+      "claim_id": "heldout_priority_fairness",
+      "frozen_summary": {
+        "fairness_opportunity_shift": {
+          "candidate_set_ge2_delta_vs_high_priority_cell": -0.12907979736739458,
+          "promotion_opportunity_fraction": 0.043077774842826475,
+          "rank_disagreement_delta_vs_high_priority_cell": -0.054018558294646524
+        },
+        "interaction": {
+          "ci_excludes_zero": false,
+          "ci_high": 0.007109004739336533,
+          "ci_low": -0.01262376237623759,
+          "mean": -0.0018382525456336562
+        },
+        "n_instances": 5,
+        "seed_same_sign_count": 1,
+        "seed_total": 5,
+        "status": "PARTIAL_GENERALIZATION"
+      },
+      "historical_execution_commit": null,
+      "limitation": "Weak/design-dependent transfer; frozen historical summaries, no complete historical execution reconstruction in this package. Observed nulls do not establish equivalence.",
+      "public_input": null,
+      "public_scope": "FROZEN_EVIDENCE_OR_LIMITATION_ONLY",
+      "source_input_hashes": [
+        "cf04ddb40621baa2b52941347fdc81a7baefbf86bdfea38eec94104b2ad01864",
+        "a1214ab395823143a31d29152a8870a6b123231584a08d6e0698cb906be480ce"
+      ],
+      "statistical_unit": "45 fresh workload seeds total; subgroup n as recorded (interaction five)"
+    },
+    {
+      "claim_id": "public_correlations",
+      "historical_execution_commit": null,
+      "limitation": "Conditional percentile bootstrap sensitivity under within-source window exchangeability. Three deliberately selected windows per source do not justify calibrated population coverage, production generalization, or new significance claims.",
+      "public_input": "data/diagnostics/public_replay.json",
+      "public_scope": "LEVEL_1_RECONSTRUCTION",
+      "source_input_hashes": [
+        "cda82dc8e4fb682b25d2b438b629e0d2158d6e3c73df9e7f9363b4dacf70fa2b",
+        "d6232cfeb5b344453cc7ff6cada8271ae21aec689ebbe0cb3e4194de801c2caf",
+        "d186a3f9026510e5fde795b7262c039a002cdbbcba9c34c7d96abea390e20f98",
+        "be6e266074e740cc57621cb386866ba4b306b2d2f75cff126b7791c6b6d6ba40",
+        "a98ce5f29cf4b42611e45776bb2cd678e601399aa40dc6eb6092b1a1a0d4248e",
+        "1704ba5f524f1aa6f0850d1516ea6d0d0eb2aeb051bc837ecdb7de0e6f118ba1",
+        "88fab5f7878da27a35fd181ba9dc496a069c689d65e5ffe3a547545239b54f8f",
+        "096815328890931090ca6a9df57c6f39df13fb22aaf2eec474cea7ccbd59e5cb",
+        "eb19e78b4f3b891e9ef629f1aa2e554ed53908e36b21874a856385b930e5228e",
+        "80647a9070ebd4060244f977f7774b9888183af180331af5d01ac97966713cb8",
+        "21c82c3f2e21ab0745ecdb91a42376a910530dc5108d4bea902d3f4718116477",
+        "752440f1098a58aaff8fc2fd0b35cfa2e2558153f2111dc4cd4b6fae1ef7a047",
+        "4f423f7f9e082b34735f7b95113f2ad595c869dbb1a26208bddad0f582750a4e",
+        "b41fc5388c5b23fef57d7e91391b7c0ab83bfbfb80d374d762dc9d383d7173f9",
+        "fca37a04be7f2a74883c6b2f725d69b448d9fc9eeb593e7f4fad628740b9052e",
+        "ad516a1ae4f140f8c9e31b4fec319a3d34e1ca6c2bca98d76aabadddbbd9a8b8",
+        "0ddfebfab356f4fffe035e3b8602dcff21f2f6ab2e65ce4eb6724559f84e122a",
+        "4d87ae10aa9e9dd3da94215b87a06b8286cf816690d2856ea45092afc2fc80c4",
+        "b53fa1deb25e9306f40d1c1dbdd9882abf09648e29a850038ac044423a5798e3",
+        "2ff3c36d8882255f9d7b861172246021506ec68eb3493114231ebf8f12dc8873",
+        "1bb8a29e721f9d7d223f2614abe978a7093733b8149e4045c3587d09e0c26ef6",
+        "32bf232dc3e2fc39bb1a03a865cc5e3c70bef082ddaba0f7f8a4d925db8662b1",
+        "dda8dd411e99fdd9a2fd0b5a1fa289e2602b3462f5deac84e085908c22d3dd8e",
+        "cd87004e1e2e16a5861742a5aff633e585effd0d653bc728e3991903163ca25e",
+        "72ad1b7920dbfbb27a7e612042b710663e06c1da17cfbebca0cccc4885f505b2",
+        "d4d2c17dc8c4698faac11b30ab2c617e57148687b00d3ebfc99964ede0758649",
+        "f6ac7f089825d5657eb0d8fc7df4339731280795ec03ae35a3750e98119e1bb3",
+        "bc5b8d8b54be3e45f2fea747edf0e63b2a5a5c3f109b8f2e886f1f8e489684ea",
+        "4d6a869a13bedf72b92bafff2e0036a4c9e14a65c2a483a985bdd03f6e8b5b4f",
+        "989bb6b5baad3b2e48d850d7a0e419af490151d97e7b2a5357676d41c79bc1e4",
+        "3e2e93013f769e4a8d4fc1b5f78217ad5d6ee64b26843ff2da2dd0a43a52f295",
+        "63b8531ff256d14ec39809b83b8dee231e2581d8b7088a616d06ec7c18d97f51",
+        "101ff2c54915d44cc4c1bac9b661f3c56bd4a7d146b22c3cbd68995f7af6332b",
+        "ca65ebbd2310f076bcb3d0c78a8d0879297e8087365b1af084cd537030635b48",
+        "e840fd58be5af06a236aea2199fbf9a639d09834ff63dd4e0f9020b99afe7604",
+        "33395b501b3503ab20630240b666ab93dc87903790a80f22fbff5cc5abfc1ba9",
+        "3b7eaa7d72805238c989cd312fc503d635d799c7975c08ea15b4f93457fbcc57",
+        "02ca12918ea74232917204cd580fa2558925569917b3531dc0ba1c48043f83af",
+        "8a79a836eeaa2e74f346094470d78e6b93d6f524b78e1c08aec45b3e5609a107",
+        "8f5c7860c56dee2ceadd5473b1e34cbf52497b4eb11e32d85099a8c5064d6055",
+        "ac834f4cad3bc8949ca7367bd64bc5f3f1069b20e5994ffde82283c5bbd68e43",
+        "a197e8c70c444611095087b0cf0596bf34d35e20c3996f800ad9193a17f8d55b",
+        "4913a2e1790fa5b3d9318a6a2214f5e93776932f66f632cd71a26fe5b1c4cc40",
+        "95ed3c5e6c16e5c7e9641adaa61e49e9a00e0705afbfe0f5b63f0d41a0d79dcf",
+        "29f803ea2cebdb8862a13ea7114aa1e7a7ae98f8bff840ebf0c99a980db5e621",
+        "1dfce88b15f5a7ad438065e370a3402e9965bcb008cc8c9aac9675e7122d9351",
+        "2d7e92fa9a17dd8d4e9cacf053112dd294b6ad2495d28c9f7f44416d3ad6b1c2",
+        "e7765dda256586d0c8e276f7f535bdce74440fc4a2344aebfad80419c2a8199e",
+        "66eb1be87eac6b56b4ae6468daa93a20c007d781bc7ab2db79db3d7ec54ff4fd",
+        "48774c3805d8027facd5c5e13aea9f8e49395a7d10b33e07dfba8cc35ac39dff",
+        "50502c76f65f2a40c1cb652e0610f9baeaa496140cd069a800d6ec2057c8ebbe",
+        "d6481d7a271e0982b8cf1d31b62c7f57dfefc4ae9fa795b35042ffbf8949a53b",
+        "b6cc3845d1af92db0efb6466f0e3749f8ffe8d1e56cf7e8ae99728410daec0bd",
+        "96df08b10dd667772fcaca3f7ec02b5ada29c80fe83dcb934eb918586bb7d7ec",
+        "15a0fcdc5961358adfb151ab94879f0a8bb3eb14eaca6f50c5a37b9586909b32",
+        "ceee861a1d506e240e183c082a3cdd75e80431653a9c018c2f5c7be671830172",
+        "e0640a280c2c0f493b36cf443087ed7f78c44acc74bffef2a65fc0d98ef0cdd3",
+        "e6ad19c31f5779c1c6bae1f0f47fac0e00eab1d1e6706de3096f214dddef9744",
+        "b3018b3e5f2ad9992e3a080f8950bdf412855f2f545d9371ffe17affd4cbd4d8",
+        "1ebbe175de147fa5916e4f274f5003d0668ec22c2ee48ecc669ce7353dcb2fdd",
+        "b86652cc5c12558d266353e058a332eb2bedec009169987479e9af607470d627",
+        "41ae825e929a3151cfcae260db544be3ccae1281c24a93f9174bb129a9d7e453",
+        "7654e7891ddf87e55e9e7f0af8d090f1caa696730970b0d916463520f86d7361",
+        "65a62d19da381992d96a7d11d3de19476c5db8b67f082c51d5c17c86bc95b815",
+        "0bcbb0a21150c08774fc60c088872e2b034f2795258851ee68df18028f9f0857",
+        "e59d08ea448a0df124ac75db5025c07fd4b285a5bb8864f519f436c37ef49777",
+        "d3cda0a2fc8e9cd1f00b62beabc99de22bc32043faee5532c88f5c33af24a419",
+        "14a4f920da7a6b7840a46d9ddf36a37a58e921217dec47f05ed8be0d60757a35",
+        "87fece1eb64154a881c4ddf12bc316d3ed68599bb102aeeb8fd76cf8e6e7ae53",
+        "bc1bbff283f2f1b968e6c27e3b654914655fa180fdaf2fcb99092993a2a4afba",
+        "4134177629dce239d3da9410144a984e7095b66543cfa791b545cbd6eabc94c7",
+        "528743af7aab75114b10b331389631d3bbcf60bb9d5b8a90366f85a1e2ccc656"
+      ],
+      "statistical_unit": "upstream source window; all three rates and both diagnostic pairs retained together"
+    },
+    {
+      "claim_id": "prospective_actionable_H1",
+      "frozen_summary": {
+        "bootstrap_b": 2000,
+        "delta_r_1x": 0.054504116021541066,
+        "delta_r_95ci": [
+          -0.019730857160741362,
+          0.18389660134613608
+        ],
+        "delta_r_ci_excludes_zero": false,
+        "n_windows": 140,
+        "primary_test_result": "INCONCLUSIVE_CI_INCLUDES_ZERO",
+        "r_actionable_1x": 0.12846341386768137,
+        "r_structural_1x": 0.0739592978461403
+      },
+      "historical_execution_commit": null,
+      "limitation": "Interval includes zero; no superiority claim or new significance test.",
+      "public_input": null,
+      "public_scope": "FROZEN_EVIDENCE_OR_LIMITATION_ONLY",
+      "source_input_hashes": [
+        "cd176d3fb11c410e425ac7a08d4ff2145218aaafb2ae02fb0dd1cbcab86265f6",
+        "a90d3427bc2698823cfad3d923d7719ff1891b16214fc49008e2c15426a789f5"
+      ],
+      "statistical_unit": "140 windows, three selected pair tasks per window"
+    },
+    {
+      "claim_id": "metric_categories",
+      "historical_execution_commit": null,
+      "limitation": "Raw-file hashes are verified inputs, not proof of executed source. Exporter repository_sha/simulator_sha fallback is an export-time identifier, not execution attestation. Numerical classification, not significance; historical KV interpretation remains exploratory.",
+      "public_input": "data/outcomes/metrics.csv",
+      "public_scope": "LEVEL_1_RECONSTRUCTION",
+      "source_input_hashes": [
+        "da9b5f34798fe1fdb5870fb353505d0f9823158484b5a8475669afdb99d12c45",
+        "d63f41d821847ca4e0db71bce6489af62ae98d35bd054d1ca2fae3a1c9d1238f",
+        "bba626f6eda353a7e333c53eda6a75eda4db009bdf91b6d3cd5f94f0148ebb5a",
+        "e21922e48fc6de4eb5cbb0d65172796926d1ba2e1109ed4807467a1f17cd79ea",
+        "b96a4cfc018fdfaec3990d05ca70f5c526c3696e40755af2ff5b054346f093b9",
+        "3268c8f2a112462d7391f14674af925fb5d727ffbf541eda41acdedaa025925a",
+        "81a634b3d3971c068b085c9c725fc30c34761aed95dda6be4e25d1b1757ba080",
+        "c2aa4f8ad518dce6edc12a17d2b1da433ea47600f9864f24136ffe1da8af0db1",
+        "63537d552e08c91d2b69d34ac7c6fa5e679584a37d2ef77b00bfd4e968dc77b5",
+        "ace67a286723c50c9f315af977e686f349f1fc235aae08d52ebf7e36ddc46602",
+        "f235289e06117ff3ac7b49dc1a604bcdeed69ecd4bdee2a183734006579849a0",
+        "f8bb878c73923263405c93cbe72078a9440f2d9227acfbfd940b9e8874cdcd80",
+        "1d7503e500d6966ed0b3ca7d789f034657510fa824c9ac5c3e32043c718f6e8b",
+        "21e3a251daf12f0e1ea49e412fac54d8c0ac93dcb9c18168f75934aefa02c737",
+        "0795e98dfb4601269ef8d7edd37b967683f15cd25db93c4c0dc6a25300ef8af3",
+        "ce7565c7087e94aba1c1fdcda91dc7fc4ddebd69ffa25656ef0d284a7d461682",
+        "408119018c158b5a5a6b00d0dc40515987f26ab4feb2643f91d044b38930c5d4",
+        "59897cc932773683b3f17aea2f1f78dad008d8e2d1aa1bce9f6d701fe94862ef",
+        "0e39845151084858fb9f2a2764d9669ac8465140dc9b06fb265ad83b54df7874",
+        "72a87782346d173141a1d92b9f35c7efcf73f2eb1b0770acbfb13f8ff91c069c",
+        "3686dc4808c39099cd00a2f559de63bb4eb9cfe2a7e9587678da236758a55295",
+        "1ae77906369d61d74784e2ef13ae2ce6c788c6aed33f218eeffe031ebc396d9e",
+        "09cb45d4cd9c2edce95c43a00bc88f906f2a4de230d2a5b7ab244fe300a94125",
+        "23bb029e70a3589598d9b6b21d295f87623024426db03e53617ace059c092927",
+        "b874d09ca0b2ecb024976b77489ab39fd92ee5fc148c0b294c4ec20749f96684",
+        "90129a17e8f44ce08542a89234cf3fb2480e37888f7e5aacd6245f8bc0b15527",
+        "19caefd148054f96aeef8aef085260e1f386b79c448773e8183f26b04a3278bd",
+        "bac3df129b14837c52808172113066c0eaad2df5722c2d213a04531081fba230",
+        "91b3e66f302a1cd8572c2baeb1a1e38e4f0f4f5a4f2771c0410972e4ee3c0307",
+        "6cc5658b0f65b3d7052c8bc6c992b77b977f6034942f47fd16524b640d87b004",
+        "669f826e1527e5c06797de462519af866f12a13b59b69eb65d3252e53c9566a4",
+        "7d805eea11a6afe1846caeb6ebd6cf29eebbcddf4459d0d7535dcc70c61397df",
+        "458221a8308dd996d5b05c5c0529967c2392b7530cbf4f1a4ac434f33ce078fa",
+        "ad0d55861de0bf57ea632b957876158330c6347a8e8877de7e9b261d255768da",
+        "35df090034b9a8fae92308ae79356ea92e04f87b16b7eb480f179b43a443a7c9",
+        "0a5e17d4a34920c0ea40725bb4380b899dccc3a4dc3f1a762ffc8b92b500da50",
+        "a9718f9942fdc4edf8feae883acc06fea76b9156cbd9711af9cd775bea26e9b9",
+        "a25ea5c7182a6051e262dcbf7074d3d6dd9e4cafd42a2a15bfdadf96f29ebd4c",
+        "25d5b8b8610c0c1f77a92d97945dde6766e9498809f4b919c425fbaedc2fbb3d",
+        "8771608be93ea4cd20004d9d2c0c7e882b949860659b5fd2987ae00844f0ed7c",
+        "34006862456f592b568684a0846bcac3acbb68635c6de0d9d4a349d12077dab6",
+        "2997d88c9735f62206b0efa0d4af6e048d2af9de769ef9093aeac5e618d3700f",
+        "106c4c46b1dc5c65e63ff5c984e9b4d8be382970083cb5461f4cf2c2d76c91fb",
+        "2391192a9f1f1f23ea66a7a54d12824f7f834c030823a0b1530fd6f58fda196a",
+        "418b1f15c9072dc5e4abba3b70c734ed118b3ea56b15ce3b61eda2bce286f71e",
+        "d3b658d1629e4b4c3176290884a48223671521c82f64fffd8177958008233f58",
+        "311d0a789bfe5f06bdec1e6dfc82910349418f4da3a6f3cd14e26e28c1b54327",
+        "0d306be3b789cfc706514d744cd8f1f464602882b13bed0144e26a484150f2d9",
+        "54d61a5c1de0ce05fbf6ffcaf950fdedbe2b17dece35078b1245515019851b25",
+        "ebe1a08b88a5af997be43407410e92a0f8fcb454a6267b1fa8bbc5035624956d",
+        "9b01749181236590511f11c0a2d14c4a6a46c5d15af1dfcd8d52b0aac33edb0b",
+        "6823736dbd076c2a55d4e8b76c41234685e12a28f12b2c58f397835d069a506a",
+        "4300ba58e2ab78fbf2976eb153dafd2c0df2a6f71664dc331ee683bbe0cd38f7",
+        "07413f6d88cdf0419e29c210526f3e0f841e67660fe665ca5eba72f9c78d0f54",
+        "e6cf2c75852f09fae677f69f5716acff15745bdfef6322e491765f03e5a4653e",
+        "e559a5c73d2c487f189a0f21b0763304e842bdc8fc736258d3963a82c22cfe54",
+        "bd4086e75954541055a3c8dde649e6c9d2ca9085392b77ebcbfb25f2c98bbed9",
+        "ed0c6ac260f8139eba6c6ba445c1c73da4497ba802c2e0d8455c4a8bd383fe6f",
+        "38705201192f1e71d4a1e9b43ef3853677e972725369caf0503cd9d3256cd5a2",
+        "8b9c2cc26a6ba8d8e34ee4eee973580700b6dbabee2ed361218cf6c34b57e2c0",
+        "4c07684c385ee7420919dbc91963cd4a9e6f0e98ebd7679d215efbd9c978eed0",
+        "0e5bbba6b1b1ef5c713686fc5f3b138c23fa4b6d5810b8cb98682d5c786c6e82",
+        "faa611d1b9b3fddd97b36770ad7365aa3ac9a47492ded8ef14e79c1706276ed4",
+        "6b90cb0c31fd8b8805ad257e938d0bfd27ac5cad5e207edb90aebad114e42888",
+        "557ac633a2b191a0a65a7cc2bd62522082a125f42f62d863a40ec87189229eec",
+        "beee9a4468f00854a799dc1293d3170d8138e1571672576617ff6e0bce419adc",
+        "73f17502f41387d7151b5a17ff55b825f5f0330c271879c543c1854b96100689",
+        "b2c5afd2303facc9e4554805e6dae0a1081be10a153d877b21298a3c59d26acc",
+        "25c40165d67c0f2c16a1bb5cefbcd60ce71e4cdbe5ecfb6f99396d0ced99393b",
+        "6516f5c028a80898a484ed91204d7c4e9023c4554aa0af44a64f7fc5b45d5368",
+        "44982db0a33790877523563c568b1aef35ce8da8fd1d81dcecb776d055179387",
+        "bec566cf81218a344d391527756c9b6ca2a33e815dea189d47a8f7acf8a728ed",
+        "2dd1e20f3e411ca77876cd994dac246503e52cf19990af11fe32603b511923f6",
+        "738b0db1c22349248501d5b9a0b2938dd5760f9ef20805a79688c95a63612922",
+        "ad5a89389c316116089e80757f3e0d2e015682644bcfd3a7a171e48fa2ba4b98",
+        "adc23d38afdf03d2f8b1fa596d9a73b0fc1ee57e1969f7d3f6b1d536f7e17c8b",
+        "65feb1050537e89d9c6f54487e103a6fbe23b00c083e796ac4df08b5ab1dbb3f",
+        "f0a27ba5e4f39ab6f843cd002a7dab23f7ff25a5d417f159fd3a73f48d155753",
+        "6bffa5cbd9bdedaf0db126bfe1509945dea3dd531846fdf65aa9430b129bfe50",
+        "20a5611655258a5a14e181d8e4d6bcd76f495c324da1425cdca76da3b3624bba",
+        "7d186a053cf1eaf62d4ded71ad6759305fcee50963b67841258cfd4e45fef2c5",
+        "867c4a3ac0ed707644b35eb57f419917667b0fb6810721affa813d19fc0e282b",
+        "744eb1e6829c99f6cc987ad89de15370f44e2e7a731b1eec1a6387aeca850875",
+        "f0cbed2a49d33e14f5ef45e2e1eaa4226f9acf6fb8e34c32ee84be972be1938a",
+        "54373102f9be362ae72fa09e8ed1764aa69cd28aa47f02fa0bf5081388bbc2e9",
+        "1bb49d894510093b4b20e7ec23654684a7fb07704f6a39d92c2a201a67fcb866",
+        "3a29b90b76367178ecf40762666e9a4d55b1efdcb552ac93f880f7a78f8d8ea0",
+        "f64f63fba79b3c98c93d9216e88fd4fe9c49a8e818a82616ff48fc0896b0a462",
+        "8fe5c675f0f5464cb0f39f63902f65a4080f66d756a7b8163405662807049f9e",
+        "032c1ce59980e04496452b7f8b4028f532d1ff9c0e659efd6636c423ab6fae7e",
+        "3b6a6f638f4ddfb2535776c9c39f873ce0bbee977575b65b3ce1c16082d166a7",
+        "6b97e73f5abd5c8f002de31109dbf0e17cfb953a393b23a29300cf135a6c5446",
+        "923737c9003b0831df65c0d586cba26f0d59cd842da1f3b40595a455bddbe7ed",
+        "1811954b23dd3f7124274c88b91a2805f134d746c550415ecce1a9bb13e4e997",
+        "6bc2cdb8b6a47edde96b52614b22ec07abb9fee4773e187878b0eacf1dbc5ddd",
+        "30b87b14ac4866b0f2ffcb90eeae5c9c45cece958e8a657f9fd5b114df42f125",
+        "fa93f4019d2512b3bb2e30edc0c3d121574b7e02b787b349ea9b6668d3495bfa",
+        "bb97fe4013d2f7bab187645e37c45aec29f68336cd4a2b8b881b2043ca75e016",
+        "28c03852cdca85519c6ca2b45bcc656bda124988fe55bb78e51b91e320fbb250",
+        "932da14dc63625d653df1acc93997419015b7d6f88b1e8d9edbb0d6c1e4a4dc7",
+        "5e4a395f4df42bea5bbfb2cf3d869a0d8492c4ef43b284b87329f532e5f4e81e",
+        "7c9fd2dc2c246b3e763cf5fcb8b404e9d0941bae6ea74abf0dba44dfae75284e",
+        "f37aeb9efdfc20395106893e7baa0166b98ef41fab6ca0979aa8d0f68ce0f667",
+        "dc6ba8c1e4823e3c80a7c56488afa682482f6acadd19b8124c87ece8f72c86f1",
+        "e3cb3ddf811c0e81dad33f1588203e6510d1db0f1305b3569285ff8aecdf9fd3",
+        "4c88c891007a63459d0d3e46d950bc5ecb856203bf5c698136443d39d7cbc59f",
+        "89f83a535e1ccb9d316ff493b6c4a915bc975f9d61e7cd989df8e895799ef8a8",
+        "b38879f8a61e43ae50b511f5b6954a0da1f92bc7586b124c183b1eb82a66e8c4",
+        "eb19e78b4f3b891e9ef629f1aa2e554ed53908e36b21874a856385b930e5228e",
+        "80647a9070ebd4060244f977f7774b9888183af180331af5d01ac97966713cb8",
+        "21c82c3f2e21ab0745ecdb91a42376a910530dc5108d4bea902d3f4718116477",
+        "752440f1098a58aaff8fc2fd0b35cfa2e2558153f2111dc4cd4b6fae1ef7a047",
+        "4f423f7f9e082b34735f7b95113f2ad595c869dbb1a26208bddad0f582750a4e",
+        "b41fc5388c5b23fef57d7e91391b7c0ab83bfbfb80d374d762dc9d383d7173f9",
+        "fca37a04be7f2a74883c6b2f725d69b448d9fc9eeb593e7f4fad628740b9052e",
+        "ad516a1ae4f140f8c9e31b4fec319a3d34e1ca6c2bca98d76aabadddbbd9a8b8",
+        "0ddfebfab356f4fffe035e3b8602dcff21f2f6ab2e65ce4eb6724559f84e122a",
+        "4d87ae10aa9e9dd3da94215b87a06b8286cf816690d2856ea45092afc2fc80c4",
+        "b53fa1deb25e9306f40d1c1dbdd9882abf09648e29a850038ac044423a5798e3",
+        "2ff3c36d8882255f9d7b861172246021506ec68eb3493114231ebf8f12dc8873",
+        "1bb8a29e721f9d7d223f2614abe978a7093733b8149e4045c3587d09e0c26ef6",
+        "32bf232dc3e2fc39bb1a03a865cc5e3c70bef082ddaba0f7f8a4d925db8662b1",
+        "dda8dd411e99fdd9a2fd0b5a1fa289e2602b3462f5deac84e085908c22d3dd8e",
+        "cd87004e1e2e16a5861742a5aff633e585effd0d653bc728e3991903163ca25e",
+        "72ad1b7920dbfbb27a7e612042b710663e06c1da17cfbebca0cccc4885f505b2",
+        "d4d2c17dc8c4698faac11b30ab2c617e57148687b00d3ebfc99964ede0758649",
+        "f6ac7f089825d5657eb0d8fc7df4339731280795ec03ae35a3750e98119e1bb3",
+        "bc5b8d8b54be3e45f2fea747edf0e63b2a5a5c3f109b8f2e886f1f8e489684ea",
+        "4d6a869a13bedf72b92bafff2e0036a4c9e14a65c2a483a985bdd03f6e8b5b4f",
+        "989bb6b5baad3b2e48d850d7a0e419af490151d97e7b2a5357676d41c79bc1e4",
+        "3e2e93013f769e4a8d4fc1b5f78217ad5d6ee64b26843ff2da2dd0a43a52f295",
+        "63b8531ff256d14ec39809b83b8dee231e2581d8b7088a616d06ec7c18d97f51",
+        "101ff2c54915d44cc4c1bac9b661f3c56bd4a7d146b22c3cbd68995f7af6332b",
+        "ca65ebbd2310f076bcb3d0c78a8d0879297e8087365b1af084cd537030635b48",
+        "e840fd58be5af06a236aea2199fbf9a639d09834ff63dd4e0f9020b99afe7604",
+        "33395b501b3503ab20630240b666ab93dc87903790a80f22fbff5cc5abfc1ba9",
+        "3b7eaa7d72805238c989cd312fc503d635d799c7975c08ea15b4f93457fbcc57",
+        "02ca12918ea74232917204cd580fa2558925569917b3531dc0ba1c48043f83af",
+        "8a79a836eeaa2e74f346094470d78e6b93d6f524b78e1c08aec45b3e5609a107",
+        "8f5c7860c56dee2ceadd5473b1e34cbf52497b4eb11e32d85099a8c5064d6055",
+        "ac834f4cad3bc8949ca7367bd64bc5f3f1069b20e5994ffde82283c5bbd68e43",
+        "a197e8c70c444611095087b0cf0596bf34d35e20c3996f800ad9193a17f8d55b",
+        "4913a2e1790fa5b3d9318a6a2214f5e93776932f66f632cd71a26fe5b1c4cc40",
+        "95ed3c5e6c16e5c7e9641adaa61e49e9a00e0705afbfe0f5b63f0d41a0d79dcf",
+        "29f803ea2cebdb8862a13ea7114aa1e7a7ae98f8bff840ebf0c99a980db5e621",
+        "1dfce88b15f5a7ad438065e370a3402e9965bcb008cc8c9aac9675e7122d9351",
+        "2d7e92fa9a17dd8d4e9cacf053112dd294b6ad2495d28c9f7f44416d3ad6b1c2",
+        "e7765dda256586d0c8e276f7f535bdce74440fc4a2344aebfad80419c2a8199e",
+        "66eb1be87eac6b56b4ae6468daa93a20c007d781bc7ab2db79db3d7ec54ff4fd",
+        "48774c3805d8027facd5c5e13aea9f8e49395a7d10b33e07dfba8cc35ac39dff",
+        "50502c76f65f2a40c1cb652e0610f9baeaa496140cd069a800d6ec2057c8ebbe",
+        "d6481d7a271e0982b8cf1d31b62c7f57dfefc4ae9fa795b35042ffbf8949a53b",
+        "b6cc3845d1af92db0efb6466f0e3749f8ffe8d1e56cf7e8ae99728410daec0bd",
+        "96df08b10dd667772fcaca3f7ec02b5ada29c80fe83dcb934eb918586bb7d7ec",
+        "15a0fcdc5961358adfb151ab94879f0a8bb3eb14eaca6f50c5a37b9586909b32",
+        "ceee861a1d506e240e183c082a3cdd75e80431653a9c018c2f5c7be671830172",
+        "e0640a280c2c0f493b36cf443087ed7f78c44acc74bffef2a65fc0d98ef0cdd3",
+        "e6ad19c31f5779c1c6bae1f0f47fac0e00eab1d1e6706de3096f214dddef9744",
+        "b3018b3e5f2ad9992e3a080f8950bdf412855f2f545d9371ffe17affd4cbd4d8",
+        "1ebbe175de147fa5916e4f274f5003d0668ec22c2ee48ecc669ce7353dcb2fdd",
+        "b86652cc5c12558d266353e058a332eb2bedec009169987479e9af607470d627",
+        "41ae825e929a3151cfcae260db544be3ccae1281c24a93f9174bb129a9d7e453",
+        "7654e7891ddf87e55e9e7f0af8d090f1caa696730970b0d916463520f86d7361",
+        "65a62d19da381992d96a7d11d3de19476c5db8b67f082c51d5c17c86bc95b815",
+        "0bcbb0a21150c08774fc60c088872e2b034f2795258851ee68df18028f9f0857",
+        "e59d08ea448a0df124ac75db5025c07fd4b285a5bb8864f519f436c37ef49777",
+        "d3cda0a2fc8e9cd1f00b62beabc99de22bc32043faee5532c88f5c33af24a419",
+        "14a4f920da7a6b7840a46d9ddf36a37a58e921217dec47f05ed8be0d60757a35",
+        "87fece1eb64154a881c4ddf12bc316d3ed68599bb102aeeb8fd76cf8e6e7ae53",
+        "bc1bbff283f2f1b968e6c27e3b654914655fa180fdaf2fcb99092993a2a4afba",
+        "4134177629dce239d3da9410144a984e7095b66543cfa791b545cbd6eabc94c7"
+      ],
+      "statistical_unit": "3940 matched cells; numerical categories, not independent trials"
+    },
+    {
+      "claim_id": "predictive_AUROC",
+      "frozen_summary": {
+        "divergence_AUROC": 1.0,
+        "independent_test_groups_each": 1,
+        "opportunity_AUROC": 1.0
+      },
+      "historical_execution_commit": null,
+      "limitation": "One group cannot support generalization or useful group-level uncertainty; effect task with divergence has no overlapping workload IDs.",
+      "public_input": null,
+      "public_scope": "FROZEN_EVIDENCE_OR_LIMITATION_ONLY",
+      "source_input_hashes": [
+        "322f34ec301ca074918b2c30064afb1adc784c9ec40bb7c9e9d7d5aaee100772",
+        "6da4106577a9f10ecd5a0877a08d54b4eddc9351195989f7a9792982ff37b1c9"
+      ],
+      "statistical_unit": "one independent test group for each AUROC task"
+    },
+    {
+      "claim_id": "compatibility_ten_flags",
+      "historical_execution_commit": null,
+      "limitation": "Pinned isolated contracts are not full historical-state validation. Later pinned dynamic-fidelity inventory explicitly does not execute these five reserve candidates; INCONCLUSIVE remains.",
+      "public_input": "data/diagnostics/kv_compatibility.json",
+      "public_scope": "FROZEN_EVIDENCE_OR_LIMITATION_ONLY",
+      "source_input_hashes": [
+        "9bf03028cdcd4fa1ed6bbbaab7f96a322ba07f7aae084ae564efb7db51254ff7",
+        "06bfeb633614f4bde522422d81c63de94228612f5487e01a0d5c7ea340588975",
+        "33c04b57811cbee31a768511c4e96d546a7a01ed1299c80f822b6aed052f018d"
+      ],
+      "statistical_unit": "ten base/donor KV interventions"
+    },
+    {
+      "claim_id": "scheduler_order",
+      "historical_execution_commit": null,
+      "limitation": "Do not extend to every historical execution or native policy.",
+      "public_input": null,
+      "public_scope": "FROZEN_EVIDENCE_OR_LIMITATION_ONLY",
+      "source_input_hashes": [
+        "06bfeb633614f4bde522422d81c63de94228612f5487e01a0d5c7ea340588975"
+      ],
+      "statistical_unit": "pinned reconstructed policy functions"
+    },
+    {
+      "claim_id": "real_vllm",
+      "finding": "No valid confirmatory treatment estimate",
+      "historical_execution_commit": null,
+      "limitation": "Original branch evidence pinned in Stage1; no new real-system run authorized.",
+      "public_input": null,
+      "public_scope": "FROZEN_EVIDENCE_OR_LIMITATION_ONLY",
+      "source_input_hashes": [
+        "717051104039a5b0f0ae7140ecf3eec67a7d803ef6b2f00114094c21151f9806"
+      ],
+      "statistical_unit": "engineering attempts; no eligible confirmatory unit"
+    },
+    {
+      "claim_id": "overlap_Azure",
+      "finding": "Source-record reuse verified privately; no claim of independent source datasets. Raw identities excluded.",
+      "historical_execution_commit": null,
+      "limitation": "BurstGPT mapping unresolved; shared records do not imply identical computed outcome tables.",
+      "public_input": null,
+      "public_scope": "FROZEN_EVIDENCE_OR_LIMITATION_ONLY",
+      "source_input_hashes": [
+        "14fa20581debbbae81c83b1b902da807f4b3c06dfcca4fde561e577c017c413e"
+      ],
+      "statistical_unit": "unique upstream source records, deduplicated across rates"
+    },
+    {
+      "claim_id": "overlap_BurstGPT",
+      "finding": "Source-record reuse verified privately; no claim of independent source datasets. Raw identities excluded.",
+      "historical_execution_commit": null,
+      "limitation": "Filtered release bytes were not recovered, so whole-file byte identity is not verified. Logical mapping is supported only for the inspected selected payloads and this documented filter; no independent datasets claim. Session/model/elapsed fields are not used to establish payload matches.",
+      "public_input": null,
+      "public_scope": "FROZEN_EVIDENCE_OR_LIMITATION_ONLY",
+      "source_input_hashes": [
+        "b504be605a8ed9a0d692c7dc1eb42aa77faba03e79b3289f95f490f446ab1a2b",
+        "d6232cfeb5b344453cc7ff6cada8271ae21aec689ebbe0cb3e4194de801c2caf",
+        "88ccbd16596e9fd2cb80e090dbbfb75b71f9254430a60fd787d608d6cca39252",
+        "a90d3427bc2698823cfad3d923d7719ff1891b16214fc49008e2c15426a789f5",
+        "e358a7efd8d35b5978e35488008b92752434722a78c157e8695848dd3bba75bd",
+        "9e3b8cd3183afabd243e47c9eef3a863d64663ba9ce2689c0defea17a308228d",
+        "46fc9480ef0b748ecb2b51d512ff08c196b031782cbe6f78e28044d768e86d5a"
+      ],
+      "statistical_unit": "unique filtered source-record ordinals mapped to original source rows; rate duplicates removed"
+    }
+  ],
+  "source_commit": "cf2200de16b6f6c0aabeaebc5a73de97f01feac2"
+}

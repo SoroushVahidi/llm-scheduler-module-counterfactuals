@@ -1,0 +1,112 @@
+[
+  {
+    "base": "admission_control",
+    "classification": "INVALID",
+    "classification_scope": "native donor module semantics, not reconstructed reserve-alias executability",
+    "donor": "scorpio_style_slo_guard",
+    "evidence": "Pinned Scorpio native filter reads predicted output/decode pressure and laxity; reserve alias does not. Historical Scorpio value is a no-op before fix.",
+    "historical_interface_flag": false,
+    "module": "kv_guard",
+    "required_validation": "If claiming native semantics: specify and implement intended donor boundary, verify cloned state and mutation isolation, then obtain paired comparable-version outcomes.",
+    "use": "Exclude from validated-compatibility claims; retain explicitly exploratory/historical results."
+  },
+  {
+    "base": "edf",
+    "classification": "INVALID",
+    "classification_scope": "native donor module semantics, not reconstructed reserve-alias executability",
+    "donor": "scorpio_style_slo_guard",
+    "evidence": "Pinned Scorpio native filter reads predicted output/decode pressure and laxity; reserve alias does not. Historical Scorpio value is a no-op before fix.",
+    "historical_interface_flag": false,
+    "module": "kv_guard",
+    "required_validation": "If claiming native semantics: specify and implement intended donor boundary, verify cloned state and mutation isolation, then obtain paired comparable-version outcomes.",
+    "use": "Exclude from validated-compatibility claims; retain explicitly exploratory/historical results."
+  },
+  {
+    "base": "estimated_service_time_first",
+    "classification": "INVALID",
+    "classification_scope": "native donor module semantics, not reconstructed reserve-alias executability",
+    "donor": "scorpio_style_slo_guard",
+    "evidence": "Pinned Scorpio native filter reads predicted output/decode pressure and laxity; reserve alias does not. Historical Scorpio value is a no-op before fix.",
+    "historical_interface_flag": false,
+    "module": "kv_guard",
+    "required_validation": "If claiming native semantics: specify and implement intended donor boundary, verify cloned state and mutation isolation, then obtain paired comparable-version outcomes.",
+    "use": "Exclude from validated-compatibility claims; retain explicitly exploratory/historical results."
+  },
+  {
+    "base": "slo_slack_score",
+    "classification": "INVALID",
+    "classification_scope": "native donor module semantics, not reconstructed reserve-alias executability",
+    "donor": "scorpio_style_slo_guard",
+    "evidence": "Pinned Scorpio native filter reads predicted output/decode pressure and laxity; reserve alias does not. Historical Scorpio value is a no-op before fix.",
+    "historical_interface_flag": false,
+    "module": "kv_guard",
+    "required_validation": "If claiming native semantics: specify and implement intended donor boundary, verify cloned state and mutation isolation, then obtain paired comparable-version outcomes.",
+    "use": "Exclude from validated-compatibility claims; retain explicitly exploratory/historical results."
+  },
+  {
+    "base": "weighted_shortest_processing",
+    "classification": "INVALID",
+    "classification_scope": "native donor module semantics, not reconstructed reserve-alias executability",
+    "donor": "scorpio_style_slo_guard",
+    "evidence": "Pinned Scorpio native filter reads predicted output/decode pressure and laxity; reserve alias does not. Historical Scorpio value is a no-op before fix.",
+    "historical_interface_flag": false,
+    "module": "kv_guard",
+    "required_validation": "If claiming native semantics: specify and implement intended donor boundary, verify cloned state and mutation isolation, then obtain paired comparable-version outcomes.",
+    "use": "Exclude from validated-compatibility claims; retain explicitly exploratory/historical results."
+  },
+  {
+    "base": "admission_control",
+    "classification": "INCONCLUSIVE",
+    "classification_scope": "native donor module semantics, not reconstructed reserve-alias executability",
+    "donor": "kv_constrained_online",
+    "evidence": "Pinned reserve threshold and round-robin invocation pass isolated contracts, but donor ranking and state history may differ; complete historical state/output boundary evidence is absent.",
+    "historical_interface_flag": false,
+    "module": "kv_guard",
+    "required_validation": "Recover historical execution and observable-state samples; test state completeness, base reconstruction, and isolation against pinned native donor and reused controls.",
+    "use": "Exclude from validated-compatibility claims; retain explicitly exploratory/historical results."
+  },
+  {
+    "base": "edf",
+    "classification": "INCONCLUSIVE",
+    "classification_scope": "native donor module semantics, not reconstructed reserve-alias executability",
+    "donor": "kv_constrained_online",
+    "evidence": "Pinned reserve threshold and round-robin invocation pass isolated contracts, but donor ranking and state history may differ; complete historical state/output boundary evidence is absent.",
+    "historical_interface_flag": false,
+    "module": "kv_guard",
+    "required_validation": "Recover historical execution and observable-state samples; test state completeness, base reconstruction, and isolation against pinned native donor and reused controls.",
+    "use": "Exclude from validated-compatibility claims; retain explicitly exploratory/historical results."
+  },
+  {
+    "base": "estimated_service_time_first",
+    "classification": "INCONCLUSIVE",
+    "classification_scope": "native donor module semantics, not reconstructed reserve-alias executability",
+    "donor": "kv_constrained_online",
+    "evidence": "Pinned reserve threshold and round-robin invocation pass isolated contracts, but donor ranking and state history may differ; complete historical state/output boundary evidence is absent.",
+    "historical_interface_flag": false,
+    "module": "kv_guard",
+    "required_validation": "Recover historical execution and observable-state samples; test state completeness, base reconstruction, and isolation against pinned native donor and reused controls.",
+    "use": "Exclude from validated-compatibility claims; retain explicitly exploratory/historical results."
+  },
+  {
+    "base": "slo_slack_score",
+    "classification": "INCONCLUSIVE",
+    "classification_scope": "native donor module semantics, not reconstructed reserve-alias executability",
+    "donor": "kv_constrained_online",
+    "evidence": "Pinned reserve threshold and round-robin invocation pass isolated contracts, but donor ranking and state history may differ; complete historical state/output boundary evidence is absent.",
+    "historical_interface_flag": false,
+    "module": "kv_guard",
+    "required_validation": "Recover historical execution and observable-state samples; test state completeness, base reconstruction, and isolation against pinned native donor and reused controls.",
+    "use": "Exclude from validated-compatibility claims; retain explicitly exploratory/historical results."
+  },
+  {
+    "base": "weighted_shortest_processing",
+    "classification": "INCONCLUSIVE",
+    "classification_scope": "native donor module semantics, not reconstructed reserve-alias executability",
+    "donor": "kv_constrained_online",
+    "evidence": "Pinned reserve threshold and round-robin invocation pass isolated contracts, but donor ranking and state history may differ; complete historical state/output boundary evidence is absent.",
+    "historical_interface_flag": false,
+    "module": "kv_guard",
+    "required_validation": "Recover historical execution and observable-state samples; test state completeness, base reconstruction, and isolation against pinned native donor and reused controls.",
+    "use": "Exclude from validated-compatibility claims; retain explicitly exploratory/historical results."
+  }
+]

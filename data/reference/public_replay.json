@@ -1,0 +1,126 @@
+{
+  "bootstrap": {
+    "B": 10000,
+    "algorithm": "random.Random + SHA256-derived seed; resample three whole windows within each fixed source",
+    "centering": "source means recomputed inside each bootstrap draw",
+    "undefined": "omit undefined correlation draws and report count"
+  },
+  "by_rate": {
+    "0.5": {
+      "n_windows": 21,
+      "prefill_pressure_action_r": 0.9867783520846085,
+      "priority_r": -0.29510205088072144
+    },
+    "1.0": {
+      "n_windows": 21,
+      "prefill_pressure_action_r": 0.9269050973330129,
+      "priority_r": -0.23428972901030118
+    },
+    "2.0": {
+      "n_windows": 21,
+      "prefill_pressure_action_r": 0.8573193407466818,
+      "priority_r": -0.20494908395977976
+    }
+  },
+  "by_source": {
+    "azure_llm_2023_code": {
+      "n_window_rate_instances": 9,
+      "n_windows": 3,
+      "priority_r": 0.7826985322436737
+    },
+    "azure_llm_2023_conversation": {
+      "n_window_rate_instances": 9,
+      "n_windows": 3,
+      "priority_r": 0.329849615033361
+    },
+    "azure_llm_2024_code": {
+      "n_window_rate_instances": 9,
+      "n_windows": 3,
+      "priority_r": 0.17881198608608823
+    },
+    "azure_llm_2024_conversation": {
+      "n_window_rate_instances": 9,
+      "n_windows": 3,
+      "priority_r": 0.9360500031022673
+    },
+    "burstgpt_v2_without_fails_1": {
+      "n_window_rate_instances": 9,
+      "n_windows": 3,
+      "priority_r": 0.9968130691855968
+    },
+    "mooncake_fast25_conversation": {
+      "n_window_rate_instances": 9,
+      "n_windows": 3,
+      "priority_r": 0.4377378366637668
+    },
+    "mooncake_fast25_toolagent": {
+      "n_window_rate_instances": 9,
+      "n_windows": 3,
+      "priority_r": -0.21389814625605752
+    }
+  },
+  "denominator_provenance": "Stored diagnostic ratios: inspected source divides action/queue/pressure counts by max(n_decisions,1), request changes by 72 input requests. Historic per-window decision counts are not serialized in these audits; no event-weighted or event-count inference is reconstructed. Source inspection is not execution attestation. Request changes include completion-time or SLO-status changes and unmatched completions.",
+  "diagnostic_pairs": {
+    "prefill": "admission_control <- adaptive_chunked_prefill (b74cc96d31f0)",
+    "priority": "admission_control <- scorpio_style_slo_guard (2b1aa29467bf)"
+  },
+  "estimand": "Pearson correlation across the fixed equal-weight window-rate design; not event-weighted and not correlation of averaged windows",
+  "interaction": "all 63 observed interactions zero; no equivalence CI or significance claim",
+  "interval_interpretation": "Conditional percentile bootstrap sensitivity under within-source window exchangeability. Three deliberately selected windows per source do not justify calibrated population coverage, production generalization, or new significance claims.",
+  "label": "POST_HOC_STAGE2A2",
+  "population": {
+    "distinct_source_records": 1512,
+    "rates": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "replay_request_appearances": 4536,
+    "requests_per_instance": 72,
+    "source_strata": 7,
+    "source_windows": 21,
+    "window_rate_instances": 63,
+    "windows_per_source": 3
+  },
+  "selection": "early/middle/late deterministic windows, not probability samples",
+  "statistical_unit": "upstream source window; all three rates and both diagnostic pairs retained together",
+  "statistics": {
+    "prefill_action_request": {
+      "conditional_percentile_range95": [
+        0.31895325317235207,
+        0.8879810181665194
+      ],
+      "estimate": 0.6386079773124349,
+      "seed": 15799393110965808532,
+      "undefined_draws": 0
+    },
+    "prefill_pressure_action": {
+      "conditional_percentile_range95": [
+        0.6278410950992073,
+        0.989182952994151
+      ],
+      "estimate": 0.8979921409304154,
+      "seed": 4498169487087804690,
+      "undefined_draws": 0
+    },
+    "priority_pooled": {
+      "conditional_percentile_range95": [
+        -0.37182556384132726,
+        -0.11194145428299222
+      ],
+      "estimate": -0.240948081815142,
+      "seed": 7145265818209731858,
+      "undefined_draws": 0
+    },
+    "priority_source_centered": {
+      "conditional_percentile_range95": [
+        -0.01519722090002029,
+        0.36612672053175094
+      ],
+      "estimate": 0.14326877684908929,
+      "seed": 8765991368482495885,
+      "undefined_draws": 0
+    }
+  },
+  "status": "RESOLVED_WITH_LIMITATIONS"
+}

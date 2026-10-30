@@ -1,0 +1,122 @@
+[
+  {
+    "base_reward": 0.3208955224,
+    "both_reward": 0.3805970149,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r0",
+    "first_reward": 0.3358208955,
+    "interaction": -0.1666666667,
+    "pairwise_id": "fdbca4434f9e",
+    "second_reward": 0.5323383085,
+    "seed": 2707845,
+    "workload_instance_id": "pdo_v1_pdo_p2_joint_prio_fair_r0"
+  },
+  {
+    "base_reward": 0.50456621,
+    "both_reward": 0.5365296804,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r1",
+    "first_reward": 0.5068493151,
+    "interaction": -0.0707762557,
+    "pairwise_id": "fdbca4434f9e",
+    "second_reward": 0.6050228311,
+    "seed": 2707846,
+    "workload_instance_id": "pdo_v1_pdo_p2_joint_prio_fair_r1"
+  },
+  {
+    "base_reward": 0.6270783848,
+    "both_reward": 0.6033254157,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r2",
+    "first_reward": 0.5795724466,
+    "interaction": 0.0617577197,
+    "pairwise_id": "fdbca4434f9e",
+    "second_reward": 0.5890736342,
+    "seed": 2707847,
+    "workload_instance_id": "pdo_v1_pdo_p2_joint_prio_fair_r2"
+  },
+  {
+    "base_reward": 0.6239554318,
+    "both_reward": 0.5515320334,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r3",
+    "first_reward": 0.5348189415,
+    "interaction": -0.1058495822,
+    "pairwise_id": "fdbca4434f9e",
+    "second_reward": 0.7465181058,
+    "seed": 2707848,
+    "workload_instance_id": "pdo_v1_pdo_p2_joint_prio_fair_r3"
+  },
+  {
+    "base_reward": 0.1918158568,
+    "both_reward": 0.2506393862,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r4",
+    "first_reward": 0.1764705882,
+    "interaction": -0.1355498721,
+    "pairwise_id": "fdbca4434f9e",
+    "second_reward": 0.4015345269,
+    "seed": 2707849,
+    "workload_instance_id": "pdo_v1_pdo_p2_joint_prio_fair_r4"
+  },
+  {
+    "base_reward": 0.5878220141,
+    "both_reward": 0.6112412178,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r5",
+    "first_reward": 0.6112412178,
+    "interaction": -0.0819672131,
+    "pairwise_id": "fdbca4434f9e",
+    "second_reward": 0.6697892272,
+    "seed": 2707850,
+    "workload_instance_id": "pdo_v1_pdo_p2_joint_prio_fair_r5"
+  },
+  {
+    "base_reward": 0.3788235294,
+    "both_reward": 0.4094117647,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r6",
+    "first_reward": 0.3411764706,
+    "interaction": -0.0235294118,
+    "pairwise_id": "fdbca4434f9e",
+    "second_reward": 0.4705882353,
+    "seed": 2707851,
+    "workload_instance_id": "pdo_v1_pdo_p2_joint_prio_fair_r6"
+  },
+  {
+    "base_reward": 0.7553191489,
+    "both_reward": 0.795212766,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r7",
+    "first_reward": 0.7553191489,
+    "interaction": -0.0132978723,
+    "pairwise_id": "fdbca4434f9e",
+    "second_reward": 0.8085106383,
+    "seed": 2707852,
+    "workload_instance_id": "pdo_v1_pdo_p2_joint_prio_fair_r7"
+  },
+  {
+    "base_reward": 0.5210918114,
+    "both_reward": 0.5037220844,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r8",
+    "first_reward": 0.4640198511,
+    "interaction": -0.1315136476,
+    "pairwise_id": "fdbca4434f9e",
+    "second_reward": 0.6923076923,
+    "seed": 2707853,
+    "workload_instance_id": "pdo_v1_pdo_p2_joint_prio_fair_r8"
+  },
+  {
+    "base_reward": 0.3411214953,
+    "both_reward": 0.4252336449,
+    "cell_id": "pdo_p2_joint_prio_fair",
+    "config_id": "pdo_v1_pdo_p2_joint_prio_fair_r9",
+    "first_reward": 0.3504672897,
+    "interaction": -0.1121495327,
+    "pairwise_id": "fdbca4434f9e",
+    "second_reward": 0.5280373832,
+    "seed": 2707854,
+    "workload_instance_id": "pdo_v1_pdo_p2_joint_prio_fair_r9"
+  }
+]

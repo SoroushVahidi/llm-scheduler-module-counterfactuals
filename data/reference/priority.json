@@ -1,0 +1,28 @@
+{
+  "interaction": {
+    "ci_high": -0.03554349554834032,
+    "ci_low": -0.11697876044534859,
+    "mean_interaction": -0.0779542334527775,
+    "n_instances": 10
+  },
+  "p0": {
+    "cell_id": "pdo_p0_pressure_no_opportunity",
+    "ci_high": 0.0,
+    "ci_low": 0.0,
+    "decision_divergence_ci_high": 0.0,
+    "decision_divergence_ci_low": 0.0,
+    "decision_divergence_mean": 0.0,
+    "mean_delta_anwg": 0.0,
+    "n_instances": 10
+  },
+  "p1": {
+    "cell_id": "pdo_p1_generic_opportunity",
+    "ci_high": 0.03452423084315275,
+    "ci_low": 0.003647350297787347,
+    "decision_divergence_ci_high": 0.0153801850933361,
+    "decision_divergence_ci_low": 0.009364029903996783,
+    "decision_divergence_mean": 0.012318347320417535,
+    "mean_delta_anwg": 0.018580972223664005,
+    "n_instances": 10
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "figure": "fig6_interactions",
+  "pairs": [
+    {
+      "additive_prediction": 0.09944979378946874,
+      "campaign": "priority_decision_opportunity_confirmatory_v1",
+      "delta_a": -0.019673323985971686,
+      "delta_a_label": "\u0394(Priority)",
+      "delta_ab": 0.02149556033669125,
+      "delta_ab_label": "\u0394(Both)",
+      "delta_b": 0.11912311777544042,
+      "delta_b_label": "\u0394(Fairness)",
+      "id": "priority_x_fairness",
+      "interaction": -0.0779542334527775,
+      "interaction_ci": [
+        -0.11697876044534859,
+        -0.03554349554834032
+      ],
+      "interpretation": "antagonistic_nonadditive",
+      "label": "Priority \u00d7 fairness",
+      "n_instances": 10,
+      "n_seeds": 10,
+      "replication_marker": {
+        "campaign": "gate1_corrective_3module_v2",
+        "ci_high": -0.014,
+        "ci_low": -0.098,
+        "mean_interaction": -0.0516,
+        "n_seeds": 5,
+        "n_seeds_same_sign": 5,
+        "stratum": "PRC"
+      },
+      "same_sign_seeds": 9,
+      "stratum": "PRC"
+    },
+    {
+      "additive_prediction": -0.07300553022735666,
+      "campaign": "prefill_decision_opportunity_confirmatory_v1",
+      "delta_a": -0.02885058415306409,
+      "delta_a_label": "\u0394(Prefill)",
+      "delta_ab": -0.04548887365670021,
+      "delta_ab_label": "\u0394(Both)",
+      "delta_b": -0.044154946074292566,
+      "delta_b_label": "\u0394(Fairness)",
+      "id": "prefill_x_fairness",
+      "interaction": 0.02751665657065645,
+      "interaction_ci": [
+        0.014383931648318816,
+        0.0407213542799366
+      ],
+      "interpretation": "subadditive_degradation",
+      "label": "Prefill \u00d7 fairness",
+      "n_instances": 10,
+      "n_seeds": 10,
+      "replication_marker": null,
+      "same_sign_seeds": 9,
+      "stratum": "PRC"
+    }
+  ]
+}

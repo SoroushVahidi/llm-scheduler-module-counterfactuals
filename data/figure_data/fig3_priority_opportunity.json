@@ -1,0 +1,74 @@
+{
+  "campaign": "priority_decision_opportunity_confirmatory_v1",
+  "figure": "fig3_priority_opportunity",
+  "n_instances_per_cell": 10,
+  "n_seeds_per_cell": 10,
+  "opportunity_diagnostics": {
+    "metrics": [
+      {
+        "id": "candidate_set_ge2",
+        "label": "Candidate-set \u22652",
+        "p0_max": 0.0,
+        "p0_mean": 0.0,
+        "p0_min": 0.0,
+        "p1_max": 0.75485336637753,
+        "p1_mean": 0.3519178293803816,
+        "p1_min": 0.1239406779661017,
+        "uncertainty": "seed_min_max"
+      },
+      {
+        "id": "rank_disagreement",
+        "label": "Rank disagreement",
+        "p0_max": 0.0,
+        "p0_mean": 0.0,
+        "p0_min": 0.0,
+        "p1_max": 0.6282527881040892,
+        "p1_mean": 0.27237390582441356,
+        "p1_min": 0.0480225988700565,
+        "uncertainty": "seed_min_max"
+      },
+      {
+        "id": "top_choice_disagreement",
+        "label": "Top-choice disagreement",
+        "p0_max": 0.0,
+        "p0_mean": 0.0,
+        "p0_min": 0.0,
+        "p1_max": 0.5220983064849236,
+        "p1_mean": 0.22150044965247367,
+        "p1_min": 0.03742937853107345,
+        "uncertainty": "seed_min_max"
+      },
+      {
+        "id": "decision_divergence",
+        "label": "Decision divergence",
+        "p0_ci_high": 0.0,
+        "p0_ci_low": 0.0,
+        "p0_mean": 0.0,
+        "p1_ci_high": 0.0153801850933361,
+        "p1_ci_low": 0.009364029903996783,
+        "p1_mean": 0.012318347320417535,
+        "uncertainty": "bootstrap_95ci"
+      }
+    ]
+  },
+  "performance": {
+    "label": "Mean |\u0394ANWG|",
+    "metric": "mean_abs_delta_anwg",
+    "p0_ci_high": 0.0,
+    "p0_ci_low": 0.0,
+    "p0_mean": 0.0,
+    "p1_ci_high": 0.07647356854422395,
+    "p1_ci_low": 0.030422240165055958,
+    "p1_mean": 0.05182065117526409,
+    "permutation_p_abs": 0.0004997501249375312,
+    "permutation_p_divergence": 0.0004997501249375312,
+    "signed_ci_p1": [
+      0.003647350297787347,
+      0.03452423084315275
+    ],
+    "signed_mean_delta_anwg_p1": 0.018580972223664005,
+    "uncertainty": "bootstrap_95ci"
+  },
+  "statistical_unit": "workload_instance",
+  "stratum": "PRC"
+}

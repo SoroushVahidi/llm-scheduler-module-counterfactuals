@@ -1,0 +1,45 @@
+{
+  "campaign": "metric_sensitivity_v1",
+  "families": [
+    {
+      "detection_sensitive": 561,
+      "id": "priority",
+      "invariant": 2408,
+      "label": "Priority",
+      "matched_cells": 3209,
+      "sign_sensitive": 240
+    },
+    {
+      "detection_sensitive": 24,
+      "id": "prefill",
+      "invariant": 380,
+      "label": "Prefill",
+      "matched_cells": 412,
+      "sign_sensitive": 8
+    },
+    {
+      "detection_sensitive": 48,
+      "id": "kv_guard",
+      "invariant": 150,
+      "label": "KV guard",
+      "matched_cells": 198,
+      "sign_sensitive": 0
+    },
+    {
+      "detection_sensitive": 22,
+      "id": "fairness_aging",
+      "invariant": 90,
+      "label": "Fairness",
+      "matched_cells": 121,
+      "sign_sensitive": 9
+    }
+  ],
+  "figure": "fig9_metric_sensitivity",
+  "overall": {
+    "detection_sensitive": 655,
+    "invariant": 3028,
+    "sign_sensitive": 257
+  },
+  "stratum": "DIAGNOSTIC",
+  "total_matched_cells": 3940
+}

@@ -1,0 +1,19 @@
+Project-Generated Outcome Projections
+Copyright (c) 2026 Soroush Vahidi
+
+The eligible project-generated numerical data in data/ and factual provenance
+metadata in provenance/ are licensed under Creative Commons Attribution 4.0
+International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+Legal terms: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribute Soroush Vahidi, "Module Counterfactuals for Attributing LLM Serving
+Scheduler Effects", research release v0.1.0, and retain THIRD_PARTY_NOTICES.md.
+Indicate changes. No journal publication status, endorsement or archive DOI is implied.
+
+These projections contain simulated outcomes, grouped counts and diagnostic
+ratios; they omit raw or reconstructive third-party trace payloads. This license
+covers only rights the project holds. It does not relicense Azure, BurstGPT,
+Mooncake or any other upstream material. Upstream attribution is retained even
+where the released observations are new project-generated simulator outcomes.
+Code is separately licensed under LICENSE. The author approved publication of
+these selected research outputs; raw third-party trace rights are not expanded.

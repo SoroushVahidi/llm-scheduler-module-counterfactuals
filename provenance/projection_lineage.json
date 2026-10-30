@@ -1,0 +1,138 @@
+{
+  "analysis_execution_commit": "See function-specific origins; historical simulator execution not generally attested",
+  "inputs": [
+    {
+      "source_category": "A",
+      "source_id": "project_mit",
+      "source_sha256": "7286933e7e07d579ef902ab64bcb9d83067b23876dd98f37638ae4c2fec6468f",
+      "transformation": "Unmodified MIT notice"
+    },
+    {
+      "source_category": "B",
+      "source_id": "priority_outcomes",
+      "source_sha256": "9b5168cfb1fbcac66a157baac457866dcd894d40dd4c6830004bf0c232df5e15",
+      "transformation": "config_id,workload_instance_id,cell_id,seed,intervention_id,base_policy,donor_policy,module_type,delta_anwg,reward_base,reward_intervention"
+    },
+    {
+      "source_category": "B",
+      "source_id": "priority_four_arm",
+      "source_sha256": "3b2e871fbbc8e3ba8107975054ccbbc054e2dce93084e2ee7445add55bdfdcdc",
+      "transformation": "config_id,workload_instance_id,cell_id,seed,pairwise_id,base_reward,first_reward,second_reward,both_reward,interaction"
+    },
+    {
+      "source_category": "B",
+      "source_id": "priority_diagnostics",
+      "source_sha256": "fef6ce94243517fb5b98ad2ffeee53050c888468dddc60db1b0b33d3aaac8353",
+      "transformation": "config_id,cell_id,seed,intervention_id,decision_divergence_rate,order_divergence_rate,keys_differ_rate,queue_ge2_fraction,prefill_action_divergence_fraction,prefill_candidate_filter_disagreement_fraction,pressure_ge_threshold_fraction,n_decisions,n_action_differ,fraction_requests_completion_time_changed,median_abs_completion_time_diff,n_requests_outcome_differ"
+    },
+    {
+      "source_category": "B",
+      "source_id": "priority_reference",
+      "source_sha256": "f9b77a9acfcf14f92af2aa39f2d3d7012153509bf78c6b1c0af17ce45a4be8ce",
+      "transformation": "Cell summaries and interaction point estimates/CIs; drop historical zero bootstrap p-values and operational metadata"
+    },
+    {
+      "source_category": "B",
+      "source_id": "prefill_outcomes",
+      "source_sha256": "69945613090f9bd2f5e2687036beb73576e06eded9548af796e44aedbbd24b4b",
+      "transformation": "config_id,workload_instance_id,cell_id,seed,intervention_id,base_policy,donor_policy,module_type,delta_anwg,reward_base,reward_intervention"
+    },
+    {
+      "source_category": "B",
+      "source_id": "prefill_four_arm",
+      "source_sha256": "16d57e40d020720773a7d0089b69dfda8b4594fc37097f98cbeda437f44b2339",
+      "transformation": "config_id,workload_instance_id,cell_id,seed,pairwise_id,base_reward,first_reward,second_reward,both_reward,interaction"
+    },
+    {
+      "source_category": "B",
+      "source_id": "prefill_diagnostics",
+      "source_sha256": "5cd66d8f22579a054bdc665353ff62bf07ef1eb7a60fe5bbd77d8a2b69bf6cb7",
+      "transformation": "config_id,cell_id,seed,intervention_id,decision_divergence_rate,order_divergence_rate,keys_differ_rate,queue_ge2_fraction,prefill_action_divergence_fraction,prefill_candidate_filter_disagreement_fraction,pressure_ge_threshold_fraction,n_decisions,n_action_differ,fraction_requests_completion_time_changed,median_abs_completion_time_diff,n_requests_outcome_differ"
+    },
+    {
+      "source_category": "B",
+      "source_id": "prefill_reference",
+      "source_sha256": "55c967cebf1c4da98bca38d845f7053c9bcd03dc2ce50a58b97cd99dfdf3d72e",
+      "transformation": "Cell summaries and interaction point estimates/CIs; drop historical zero bootstrap p-values and operational metadata"
+    },
+    {
+      "source_category": "B",
+      "source_id": "stage2a_reanalysis",
+      "source_sha256": "4dc0170d8c0def1ee954547808a1dec2277470bcbb86b70c3da110a571ce5c27",
+      "transformation": "Only erasure grouped counts/seeds/source names and numerical reference summaries; omit source row ranges/window payload hashes"
+    },
+    {
+      "source_category": "B",
+      "source_id": "kv_outcomes",
+      "source_sha256": "7ebe2d42b9d235d4ac9444121a18b7ae86ff6c6e119f53cf44ab0ad295c03f2e",
+      "transformation": "config_id,intervention_id,base_policy,donor_policy,module_type,regime,n_elevated_axes,heldout_stream_index,heldout_stream_seed,reward_base,reward_v1_corrected,gain_v1_corrected"
+    },
+    {
+      "source_category": "B",
+      "source_id": "kv_classifications",
+      "source_sha256": "72367c993e3ff32e1dc2f9f9e2f06a0f2570ea24887662e3c280932e84d76f32",
+      "transformation": "All ten compatibility classifications and interpretation restrictions"
+    },
+    {
+      "source_category": "B",
+      "source_id": "replay_diagnostics",
+      "source_sha256": "cda82dc8e4fb682b25d2b438b629e0d2158d6e3c73df9e7f9363b4dacf70fa2b",
+      "transformation": "63 ratio observations: retain source/window/rate grouping, omit source row ranges and raw source hashes; preserve reference statistics and scope"
+    },
+    {
+      "source_category": "B",
+      "source_id": "metric_outcomes",
+      "source_sha256": "d63f41d821847ca4e0db71bce6489af62ae98d35bd054d1ca2fae3a1c9d1238f",
+      "transformation": "Whitelist group IDs, model endpoints, benefit-oriented differences and labels; omit private raw paths and export-time implementation labels"
+    },
+    {
+      "source_category": "B",
+      "source_id": "controlled_statistics",
+      "source_sha256": "52b233cf338cde7d08fe2af5550363b50c8bc1af20d892b7217b0334c6f3a497",
+      "transformation": "Only verified tail counts/FDR sensitivity, bootstrap configuration, canonical cell means and interaction means"
+    },
+    {
+      "source_category": "B",
+      "source_id": "fig3_priority_opportunity",
+      "source_sha256": "6644ff5c003328719d0d82035da8b66965c839b551368ba8d6a1a8378a97024f",
+      "transformation": "Frozen figure anchors; recursively remove source paths and historic bootstrap p/q fields, retaining plotted estimates and intervals"
+    },
+    {
+      "source_category": "B",
+      "source_id": "fig4_priority_forest",
+      "source_sha256": "bb0cfd492ce7ced67a0975d61b803638d230421918de8e4384bd007d71de362b",
+      "transformation": "Frozen figure anchors; recursively remove source paths and historic bootstrap p/q fields, retaining plotted estimates and intervals"
+    },
+    {
+      "source_category": "B",
+      "source_id": "fig5_prefill_chain",
+      "source_sha256": "f582d907f50e828aff9b4025711eb2ad7d84a4046d9eb35b15170f0b00a2f8f3",
+      "transformation": "Frozen figure anchors; recursively remove source paths and historic bootstrap p/q fields, retaining plotted estimates and intervals"
+    },
+    {
+      "source_category": "B",
+      "source_id": "fig6_interactions",
+      "source_sha256": "761023288d2d86f7f0b114d2597f6de9ec171cc4d26d5b0b1e1e33783115df3c",
+      "transformation": "Frozen figure anchors; recursively remove source paths and historic bootstrap p/q fields, retaining plotted estimates and intervals"
+    },
+    {
+      "source_category": "B",
+      "source_id": "fig9_metric_sensitivity",
+      "source_sha256": "4a72ca2285bd87208176da106c417a9c7d5e40a1be01c56feebe72c741801e78",
+      "transformation": "Frozen figure anchors; recursively remove source paths and historic bootstrap p/q fields, retaining plotted estimates and intervals"
+    },
+    {
+      "source_category": "A",
+      "source_id": "computing_stage2a_reanalysis",
+      "source_sha256": "b32a1796d23b5909f4a69974cc3041af57d7d21d9267d70335aad0b2853cfc62",
+      "transformation": "Extract only functions: stable_seed, interval, estimands, draw_windows, erasure_bootstrap, kv_summary"
+    },
+    {
+      "source_category": "A",
+      "source_id": "computing_stage2a2_analysis",
+      "source_sha256": "625b55d2c4cd2f9b1246a5d45f6240f47b70642d13c5617ba9f9d46665c5c47e",
+      "transformation": "Extract only functions: seed, classify, corr, calculate, draw_blocks"
+    }
+  ],
+  "source_commit": "cf2200de16b6f6c0aabeaebc5a73de97f01feac2"
+}
