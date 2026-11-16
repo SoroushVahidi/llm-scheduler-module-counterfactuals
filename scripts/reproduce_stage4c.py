@@ -9,7 +9,9 @@ from pilot_analyses import instrumented_ablation, diagnostic_protocol
 from pilot_verify_pilot import verify
 
 def load(name): return json.loads((ROOT/name).read_text())
-def rows(name): return list(csv.DictReader((ROOT/'data/stage4c'/name).open()))
+def rows(name):
+ with (ROOT/'data/stage4c'/name).open() as stream:
+  return list(csv.DictReader(stream))
 def near(a,b,tol=1e-10):
  if not math.isclose(a,b,rel_tol=0,abs_tol=tol):raise AssertionError((a,b))
 def bounds(v,seed=424243):

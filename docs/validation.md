@@ -15,6 +15,35 @@ claim matrices and tags are retained unchanged. Updated documentation is not a
 new scientific release, and its validation must separately establish that code,
 data, statistics and tests still match v0.2.0.
 
+## Validate the evolving checkout
+
+On the documentation/integrity branch, use the additional offline guard:
+
+```bash
+python scripts/check_repository.py
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python -m unittest discover -s tests -v
+```
+
+This guard checks the current file inventory, relative documentation links,
+claim-matrix targets, permissions, and sensitive-content patterns. It verifies
+released code, data, tests and reference values against the **unchanged** frozen
+manifest, allowing only the explicitly listed documentation edits and the
+checksum-pinned CSV resource-management repair. New files must be explicitly
+reviewed and listed. Files force-added from ignored output directories are also
+checked when Git metadata is available.
+
+The repair closes CSV input streams on both success and failure; calculations
+and saved observations are unchanged. The extra tests exercise that behavior
+and reject missing observations, altered references, bad links, unreviewed files,
+symlinks and credential-shaped text. Checks run locally; no CI service or new
+runtime dependency is required. Scans are bounded safeguards, not a guarantee
+against every possible disclosure.
+
+The [November 16 integrity review](integrity_review.md) records the independent
+coverage review, isolated reproduction and known limitations. The original
+`verify_manifest.py` remains the verifier for the exact v0.2.0 release; it is
+expected to reject edited documentation and the repaired adapter on this branch.
+
 ## Recorded v0.2.0 validation
 
 The following describes validation performed for the published release, including

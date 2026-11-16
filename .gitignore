@@ -1,0 +1,5 @@
+# Local environment, interpreter caches and documented reconstruction outputs.
+/.venv/
+__pycache__/
+*.py[cod]
+/output/

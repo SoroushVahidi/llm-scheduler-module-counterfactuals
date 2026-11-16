@@ -27,6 +27,9 @@ manuscript or development checkout is needed to run the public analyses.
 | [Provenance index](../provenance/README.md) | Source hashes, claim registers and immutable release manifests. |
 | [Exclusions](exclusions.md) | Restricted inputs, unavailable evidence and redistribution boundaries. |
 
+An [independent integrity review](integrity_review.md) distinguishes the frozen
+release checks from safeguards for the evolving checkout.
+
 ## Version history and citation
 
 - [v0.2.0 release notes](RELEASE_v0.2.0.md) and [extension scope](stage4c_scope.md)
