@@ -1,5 +1,13 @@
 # Coverage and remaining gaps
 
+This page records the **October 30, 2026 v0.2.0 release-time assessment**.
+The C11 wording issue below concerns the manuscript snapshot reviewed then.
+The later manuscript distinguishes the denominators explicitly; see the
+[dated clarification](denominator_correction.md#later-manuscript-clarification).
+The original coverage classifications, counts and matrix remain unchanged.
+
+## Published assessment
+
 The fixed denominator is the same 48 principal empirical claim families used in the Stage4C audit. Repeated prose counts once. R requires calculation from included saved observations/counts with a documented command; frozen answers, assertions, inaccessible hashes and partially supported families receive zero credit. This measures saved-output reconstruction, not paper pages, raw data, original executions or scientific validity.
 
 - v0.1.0: **14/48 (29.17%)**.
