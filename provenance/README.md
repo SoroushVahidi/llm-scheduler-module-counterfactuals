@@ -4,4 +4,4 @@
 
 `recovered_sources.json` records field allowlists and exact source hashes. `prospective_raw_hashes.json` and `trajectory_source_hashes.json` describe saved artifacts outside Git; no execution or containing commit is invented. `stage4c_sources.json` preserves earlier receipt qualifications. Source hashes do not reconstruct excluded raw payloads or establish serving-engine pairing.
 
-`content_manifest.json` checks every package file except itself. `public_file_audit.csv` records the disposition and license of every shipped file; fingerprints are in the content manifest to avoid recursive hashes.
+`content_manifest.json` checks every file in the published v0.2.0 package except itself. `public_file_audit.csv` records the disposition and license of every file shipped in that release; fingerprints are in the content manifest to avoid recursive hashes. These are immutable release records, not manifests for later documentation revisions. Use the [version-specific validation instructions](../docs/validation.md#choose-the-version-being-checked).

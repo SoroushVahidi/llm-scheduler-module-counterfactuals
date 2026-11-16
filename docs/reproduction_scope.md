@@ -1,4 +1,26 @@
-# Supported reproduction levels and missing inputs
+# Experimental designs and reproduction scope
+
+## What each design establishes
+
+| Design or evidence type | Question answered | Interpretation boundary |
+|---|---|---|
+| Cloned-state comparison | Does a different module recommendation survive fixed downstream logic as a different admitted-request set at the same base-visited state? | Local recommendation survival; not the consequences of a diverging trajectory or full-state equality. |
+| Paired complete trajectories | What request-level and aggregate differences follow persistent substitution over matched workload runs? | States can diverge after intervention; this is a different estimand from local erasure. |
+| Reconstructed discrete-event simulation | How do modeled scheduler compositions behave under the declared workload and implementation? | Model-conditional evidence; simulated timing is not measured GPU latency. |
+| Saved-output reconstruction | Can the released observations reproduce the named arithmetic, inference and figure values? | The public package's primary function; it does not recreate original execution. |
+| Native-vLLM deterministic input pairing | Did both serving arms receive matching logical requests and input vectors? | Separate from this release's saved-analysis coverage; input equality does not establish instrumentation neutrality or native intervention validity. |
+
+The observation contract separates opportunity, recommendation, executed action,
+matched-request outcomes and aggregates. Equally instrumented ablation recovered
+the same diagnoses in seven constructed cases; the pilot supports this contract,
+not superiority over that comparator. Its saved fixtures and oracle are public.
+
+Later native pairing work and pending instrumentation-neutrality studies are
+separate from the historical real-engine projections included here. Those
+projections cannot establish native scheduler performance or causal validity,
+and native module-substitution effects remain unestablished by this release.
+
+## Supported reconstruction and missing inputs
 
 | Level | Meaning | This package |
 |---|---|---|

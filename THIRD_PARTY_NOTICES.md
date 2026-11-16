@@ -1,6 +1,6 @@
 # Third-party attribution and exclusions
 
-No third-party source code, publisher assets or raw traces are bundled. NumPy and Matplotlib are installed as dependencies under their upstream terms; their code is not relicensed by this package. Code/data licenses here apply only to the project's own contributions.
+No third-party source code, publisher assets or raw traces are bundled. NumPy, Matplotlib and pandas are installed as dependencies under their upstream terms; their code is not relicensed by this package. Code/data licenses here apply only to the project's own contributions.
 
 | Upstream workload | Attribution and authoritative source | Recorded version; status |
 |---|---|---|
