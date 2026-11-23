@@ -1,4 +1,28 @@
-# Module Counterfactuals for Attributing LLM Serving Scheduler Effects
+# Module Counterfactuals for Attributing LLM-Serving Scheduler Effects
+
+**In plain words.** An LLM-serving scheduler is built from modules: admission, batching, preemption and so on. Swapping one module can change what it *recommends* without changing overall throughput, or leave the average unchanged while individual requests get faster or slower. This repository defines an **observation contract** that records, for each module, its opportunity to act, its recommendation, whether the action survived downstream logic, and the request-level and aggregate outcomes. It ships the analysis code, saved simulation outcomes and a validation suite so the reported findings can be rebuilt from the packaged files, with no GPU or network needed.
+
+## Paper
+
+- **Preprint:** S. Vahidi. *Module Counterfactuals for Attributing LLM Serving Scheduler Effects.* Research Square, 2026. [doi:10.21203/rs.3.rs-11569472/v1](https://doi.org/10.21203/rs.3.rs-11569472/v1). Not yet peer-reviewed.
+
+```bibtex
+@misc{vahidi2026modulecf,
+  author = {Vahidi, Soroush},
+  title  = {Module Counterfactuals for Attributing {LLM} Serving Scheduler Effects},
+  year   = {2026},
+  note   = {Research Square preprint},
+  doi    = {10.21203/rs.3.rs-11569472/v1}
+}
+```
+
+To cite the code, use the software release via [CITATION.cff](CITATION.cff) (release [v0.2.0](https://github.com/SoroushVahidi/llm-scheduler-module-counterfactuals/releases/tag/v0.2.0)). Related public data: [module-intervention-credit](https://huggingface.co/datasets/SoroushVahidi/module-intervention-credit) (single- and pairwise-module substitution counterfactuals, published from the llm-serving-heuristic-evolution program).
+
+Related: [llm-serving-heuristic-evolution](https://github.com/SoroushVahidi/llm-serving-heuristic-evolution) (preprint [doi:10.2139/ssrn.7584825](https://doi.org/10.2139/ssrn.7584825)) · [llm-serving-scheduler-robustness-benchmark](https://github.com/SoroushVahidi/llm-serving-scheduler-robustness-benchmark).
+
+---
+
+> The detailed documentation below is kept from the previous README, with only small factual updates.
 
 How can a scheduler module change its recommendations without changing overall
 performance—and how can an unchanged aggregate conceal effects on individual
